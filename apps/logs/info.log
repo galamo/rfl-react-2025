@@ -1,0 +1,232 @@
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:14:41"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:14:41"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:15:02"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:15:02"}
+{"level":"info","message":"[Start 2025-09-20T19:15:15.726Z]=>/ dec66e67-837a-4b25-8d6a-9870f054c320","timestamp":"2025-09-20 19:15:15"}
+{"level":"info","message":"[Start 2025-09-20T19:15:15.726Z]=>/ dec66e67-837a-4b25-8d6a-9870f054c320","timestamp":"2025-09-20 19:15:15"}
+{"level":"error","message":"ENOENT: no such file or directory, stat '/app/dist/public/index.html' reqeustId: dec66e67-837a-4b25-8d6a-9870f054c320","timestamp":"2025-09-20 19:15:15"}
+{"level":"error","message":"ENOENT: no such file or directory, stat '/app/dist/public/index.html' reqeustId: dec66e67-837a-4b25-8d6a-9870f054c320","timestamp":"2025-09-20 19:15:15"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:15.751Z]=>/ :: duration: 25ms  dec66e67-837a-4b25-8d6a-9870f054c320","timestamp":"2025-09-20 19:15:15"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:15.751Z]=>/ :: duration: 25ms  dec66e67-837a-4b25-8d6a-9870f054c320","timestamp":"2025-09-20 19:15:15"}
+{"level":"info","message":"[Start 2025-09-20T19:15:18.998Z]=>/hc 89d5f04f-68bf-4f16-85de-a45517b72649","timestamp":"2025-09-20 19:15:18"}
+{"level":"info","message":"[Start 2025-09-20T19:15:18.998Z]=>/hc 89d5f04f-68bf-4f16-85de-a45517b72649","timestamp":"2025-09-20 19:15:18"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:19.026Z]=>/hc :: duration: 28ms  89d5f04f-68bf-4f16-85de-a45517b72649","timestamp":"2025-09-20 19:15:19"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:19.026Z]=>/hc :: duration: 28ms  89d5f04f-68bf-4f16-85de-a45517b72649","timestamp":"2025-09-20 19:15:19"}
+{"level":"info","message":"[Start 2025-09-20T19:15:19.094Z]=>/favicon.ico 3bc30deb-7853-405c-bd52-fc4d4c76eee3","timestamp":"2025-09-20 19:15:19"}
+{"level":"info","message":"[Start 2025-09-20T19:15:19.094Z]=>/favicon.ico 3bc30deb-7853-405c-bd52-fc4d4c76eee3","timestamp":"2025-09-20 19:15:19"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:19"}
+{"level":"error","message":"UNAUTH reqeustId: 3bc30deb-7853-405c-bd52-fc4d4c76eee3","timestamp":"2025-09-20 19:15:19"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:19.098Z]=>/favicon.ico :: duration: 4ms  3bc30deb-7853-405c-bd52-fc4d4c76eee3","timestamp":"2025-09-20 19:15:19"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:19"}
+{"level":"error","message":"UNAUTH reqeustId: 3bc30deb-7853-405c-bd52-fc4d4c76eee3","timestamp":"2025-09-20 19:15:19"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:19.098Z]=>/favicon.ico :: duration: 4ms  3bc30deb-7853-405c-bd52-fc4d4c76eee3","timestamp":"2025-09-20 19:15:19"}
+{"level":"info","message":"[Start 2025-09-20T19:15:30.888Z]=>/hc 6efeb3c9-f2ea-415a-bcca-151967e37d2c","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Start 2025-09-20T19:15:30.888Z]=>/hc 6efeb3c9-f2ea-415a-bcca-151967e37d2c","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:30.908Z]=>/hc :: duration: 20ms  6efeb3c9-f2ea-415a-bcca-151967e37d2c","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:30.908Z]=>/hc :: duration: 20ms  6efeb3c9-f2ea-415a-bcca-151967e37d2c","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Start 2025-09-20T19:15:30.936Z]=>/favicon.ico a8044773-4321-491b-8bf3-b2e844399b09","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Start 2025-09-20T19:15:30.936Z]=>/favicon.ico a8044773-4321-491b-8bf3-b2e844399b09","timestamp":"2025-09-20 19:15:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:30"}
+{"level":"error","message":"UNAUTH reqeustId: a8044773-4321-491b-8bf3-b2e844399b09","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:30.938Z]=>/favicon.ico :: duration: 2ms  a8044773-4321-491b-8bf3-b2e844399b09","timestamp":"2025-09-20 19:15:30"}
+{"level":"error","message":"UNAUTH reqeustId: a8044773-4321-491b-8bf3-b2e844399b09","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:30.938Z]=>/favicon.ico :: duration: 2ms  a8044773-4321-491b-8bf3-b2e844399b09","timestamp":"2025-09-20 19:15:30"}
+{"level":"info","message":"[Start 2025-09-20T19:15:31.862Z]=>/hc 1e971b24-eafe-458e-8d51-b33e4c8b523d","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Start 2025-09-20T19:15:31.862Z]=>/hc 1e971b24-eafe-458e-8d51-b33e4c8b523d","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:31.882Z]=>/hc :: duration: 20ms  1e971b24-eafe-458e-8d51-b33e4c8b523d","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:31.882Z]=>/hc :: duration: 20ms  1e971b24-eafe-458e-8d51-b33e4c8b523d","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Start 2025-09-20T19:15:31.909Z]=>/favicon.ico a75d4f16-4ed2-4b8a-824d-b75f757de94c","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Start 2025-09-20T19:15:31.909Z]=>/favicon.ico a75d4f16-4ed2-4b8a-824d-b75f757de94c","timestamp":"2025-09-20 19:15:31"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:31"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:31"}
+{"level":"error","message":"UNAUTH reqeustId: a75d4f16-4ed2-4b8a-824d-b75f757de94c","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:31.911Z]=>/favicon.ico :: duration: 2ms  a75d4f16-4ed2-4b8a-824d-b75f757de94c","timestamp":"2025-09-20 19:15:31"}
+{"level":"error","message":"UNAUTH reqeustId: a75d4f16-4ed2-4b8a-824d-b75f757de94c","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:31.911Z]=>/favicon.ico :: duration: 2ms  a75d4f16-4ed2-4b8a-824d-b75f757de94c","timestamp":"2025-09-20 19:15:31"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.018Z]=>/hc 8f7813d2-2a64-4616-8c5e-4856a5c136eb","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.018Z]=>/hc 8f7813d2-2a64-4616-8c5e-4856a5c136eb","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.042Z]=>/hc :: duration: 24ms  8f7813d2-2a64-4616-8c5e-4856a5c136eb","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.042Z]=>/hc :: duration: 24ms  8f7813d2-2a64-4616-8c5e-4856a5c136eb","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.075Z]=>/favicon.ico 75ab4980-1298-4c1c-8ce0-c4862a9bf21f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.075Z]=>/favicon.ico 75ab4980-1298-4c1c-8ce0-c4862a9bf21f","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"UNAUTH reqeustId: 75ab4980-1298-4c1c-8ce0-c4862a9bf21f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.081Z]=>/favicon.ico :: duration: 6ms  75ab4980-1298-4c1c-8ce0-c4862a9bf21f","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"UNAUTH reqeustId: 75ab4980-1298-4c1c-8ce0-c4862a9bf21f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.081Z]=>/favicon.ico :: duration: 6ms  75ab4980-1298-4c1c-8ce0-c4862a9bf21f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.176Z]=>/hc 6258a975-56d5-4450-b61f-ab4a57a3d281","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.176Z]=>/hc 6258a975-56d5-4450-b61f-ab4a57a3d281","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.208Z]=>/hc :: duration: 32ms  6258a975-56d5-4450-b61f-ab4a57a3d281","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.208Z]=>/hc :: duration: 32ms  6258a975-56d5-4450-b61f-ab4a57a3d281","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.248Z]=>/favicon.ico acf957c6-3492-4cfa-8eb0-0133db7a805f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.248Z]=>/favicon.ico acf957c6-3492-4cfa-8eb0-0133db7a805f","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"UNAUTH reqeustId: acf957c6-3492-4cfa-8eb0-0133db7a805f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.250Z]=>/favicon.ico :: duration: 2ms  acf957c6-3492-4cfa-8eb0-0133db7a805f","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"UNAUTH reqeustId: acf957c6-3492-4cfa-8eb0-0133db7a805f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.250Z]=>/favicon.ico :: duration: 2ms  acf957c6-3492-4cfa-8eb0-0133db7a805f","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.466Z]=>/hc 743d104f-fe2b-4f34-a912-718e6edce193","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.466Z]=>/hc 743d104f-fe2b-4f34-a912-718e6edce193","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.487Z]=>/hc :: duration: 21ms  743d104f-fe2b-4f34-a912-718e6edce193","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.487Z]=>/hc :: duration: 21ms  743d104f-fe2b-4f34-a912-718e6edce193","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.520Z]=>/favicon.ico b94f708c-5b1f-465a-81de-5c4997e2ca72","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:32.520Z]=>/favicon.ico b94f708c-5b1f-465a-81de-5c4997e2ca72","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"UNAUTH reqeustId: b94f708c-5b1f-465a-81de-5c4997e2ca72","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.523Z]=>/favicon.ico :: duration: 3ms  b94f708c-5b1f-465a-81de-5c4997e2ca72","timestamp":"2025-09-20 19:15:32"}
+{"level":"error","message":"UNAUTH reqeustId: b94f708c-5b1f-465a-81de-5c4997e2ca72","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:32.523Z]=>/favicon.ico :: duration: 3ms  b94f708c-5b1f-465a-81de-5c4997e2ca72","timestamp":"2025-09-20 19:15:32"}
+{"level":"info","message":"[Start 2025-09-20T19:15:42.962Z]=>/hc fb3a7ccd-a1d0-4776-8647-6ad6e91001ff","timestamp":"2025-09-20 19:15:42"}
+{"level":"info","message":"[Start 2025-09-20T19:15:42.962Z]=>/hc fb3a7ccd-a1d0-4776-8647-6ad6e91001ff","timestamp":"2025-09-20 19:15:42"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:42.982Z]=>/hc :: duration: 20ms  fb3a7ccd-a1d0-4776-8647-6ad6e91001ff","timestamp":"2025-09-20 19:15:42"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:42.982Z]=>/hc :: duration: 20ms  fb3a7ccd-a1d0-4776-8647-6ad6e91001ff","timestamp":"2025-09-20 19:15:42"}
+{"level":"info","message":"[Start 2025-09-20T19:15:43.012Z]=>/favicon.ico dbb4aed2-8044-43b1-85fe-6550ffec3d81","timestamp":"2025-09-20 19:15:43"}
+{"level":"info","message":"[Start 2025-09-20T19:15:43.012Z]=>/favicon.ico dbb4aed2-8044-43b1-85fe-6550ffec3d81","timestamp":"2025-09-20 19:15:43"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:43"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:15:43"}
+{"level":"error","message":"UNAUTH reqeustId: dbb4aed2-8044-43b1-85fe-6550ffec3d81","timestamp":"2025-09-20 19:15:43"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:43.019Z]=>/favicon.ico :: duration: 7ms  dbb4aed2-8044-43b1-85fe-6550ffec3d81","timestamp":"2025-09-20 19:15:43"}
+{"level":"error","message":"UNAUTH reqeustId: dbb4aed2-8044-43b1-85fe-6550ffec3d81","timestamp":"2025-09-20 19:15:43"}
+{"level":"info","message":"[Finish 2025-09-20T19:15:43.019Z]=>/favicon.ico :: duration: 7ms  dbb4aed2-8044-43b1-85fe-6550ffec3d81","timestamp":"2025-09-20 19:15:43"}
+{"level":"info","message":"[Start 2025-09-20T19:16:14.131Z]=>/.well-known/appspecific/com.chrome.devtools.json f6132073-2180-48bc-92c4-e1a0b4e04836","timestamp":"2025-09-20 19:16:14"}
+{"level":"info","message":"[Start 2025-09-20T19:16:14.131Z]=>/.well-known/appspecific/com.chrome.devtools.json f6132073-2180-48bc-92c4-e1a0b4e04836","timestamp":"2025-09-20 19:16:14"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:16:14"}
+{"level":"error","message":"UNAUTH reqeustId: f6132073-2180-48bc-92c4-e1a0b4e04836","timestamp":"2025-09-20 19:16:14"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:14.139Z]=>/.well-known/appspecific/com.chrome.devtools.json :: duration: 8ms  f6132073-2180-48bc-92c4-e1a0b4e04836","timestamp":"2025-09-20 19:16:14"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:16:14"}
+{"level":"error","message":"UNAUTH reqeustId: f6132073-2180-48bc-92c4-e1a0b4e04836","timestamp":"2025-09-20 19:16:14"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:14.139Z]=>/.well-known/appspecific/com.chrome.devtools.json :: duration: 8ms  f6132073-2180-48bc-92c4-e1a0b4e04836","timestamp":"2025-09-20 19:16:14"}
+{"level":"info","message":"[Start 2025-09-20T19:16:16.275Z]=>/hc 6667fe2a-a85b-4645-a386-75b5c9e0d3c7","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Start 2025-09-20T19:16:16.275Z]=>/hc 6667fe2a-a85b-4645-a386-75b5c9e0d3c7","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:16.313Z]=>/hc :: duration: 38ms  6667fe2a-a85b-4645-a386-75b5c9e0d3c7","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:16.313Z]=>/hc :: duration: 38ms  6667fe2a-a85b-4645-a386-75b5c9e0d3c7","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Start 2025-09-20T19:16:16.327Z]=>/.well-known/appspecific/com.chrome.devtools.json f21398c9-4dde-4140-80c5-228b5b4d5700","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Start 2025-09-20T19:16:16.327Z]=>/.well-known/appspecific/com.chrome.devtools.json f21398c9-4dde-4140-80c5-228b5b4d5700","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"UNAUTH reqeustId: f21398c9-4dde-4140-80c5-228b5b4d5700","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:16.329Z]=>/.well-known/appspecific/com.chrome.devtools.json :: duration: 2ms  f21398c9-4dde-4140-80c5-228b5b4d5700","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"UNAUTH reqeustId: f21398c9-4dde-4140-80c5-228b5b4d5700","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:16.329Z]=>/.well-known/appspecific/com.chrome.devtools.json :: duration: 2ms  f21398c9-4dde-4140-80c5-228b5b4d5700","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Start 2025-09-20T19:16:16.366Z]=>/favicon.ico 5f6c2214-60fb-4006-980f-66d68d19333c","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Start 2025-09-20T19:16:16.366Z]=>/favicon.ico 5f6c2214-60fb-4006-980f-66d68d19333c","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"UNAUTH reqeustId: 5f6c2214-60fb-4006-980f-66d68d19333c","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:16.386Z]=>/favicon.ico :: duration: 20ms  5f6c2214-60fb-4006-980f-66d68d19333c","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:16:16"}
+{"level":"error","message":"UNAUTH reqeustId: 5f6c2214-60fb-4006-980f-66d68d19333c","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"[Finish 2025-09-20T19:16:16.386Z]=>/favicon.ico :: duration: 20ms  5f6c2214-60fb-4006-980f-66d68d19333c","timestamp":"2025-09-20 19:16:16"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:20:41"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:20:41"}
+{"level":"info","message":"[Start 2025-09-20T19:21:04.592Z]=>/ d8b945c7-7477-4bb4-b28c-1b4579637c7b","timestamp":"2025-09-20 19:21:04"}
+{"level":"info","message":"[Start 2025-09-20T19:21:04.592Z]=>/ d8b945c7-7477-4bb4-b28c-1b4579637c7b","timestamp":"2025-09-20 19:21:04"}
+{"level":"error","message":"ENOENT: no such file or directory, stat '/app/dist/public/index.html' reqeustId: d8b945c7-7477-4bb4-b28c-1b4579637c7b","timestamp":"2025-09-20 19:21:04"}
+{"level":"error","message":"ENOENT: no such file or directory, stat '/app/dist/public/index.html' reqeustId: d8b945c7-7477-4bb4-b28c-1b4579637c7b","timestamp":"2025-09-20 19:21:04"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:04.616Z]=>/ :: duration: 24ms  d8b945c7-7477-4bb4-b28c-1b4579637c7b","timestamp":"2025-09-20 19:21:04"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:04.616Z]=>/ :: duration: 24ms  d8b945c7-7477-4bb4-b28c-1b4579637c7b","timestamp":"2025-09-20 19:21:04"}
+{"level":"info","message":"[Start 2025-09-20T19:21:05.808Z]=>/hc f89fb0e9-e506-491f-9617-73b7e235f724","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Start 2025-09-20T19:21:05.808Z]=>/hc f89fb0e9-e506-491f-9617-73b7e235f724","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:05.862Z]=>/hc :: duration: 54ms  f89fb0e9-e506-491f-9617-73b7e235f724","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:05.862Z]=>/hc :: duration: 54ms  f89fb0e9-e506-491f-9617-73b7e235f724","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Start 2025-09-20T19:21:05.909Z]=>/favicon.ico 807184d4-f3cc-45b6-85b0-7c3fd99949f0","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Start 2025-09-20T19:21:05.909Z]=>/favicon.ico 807184d4-f3cc-45b6-85b0-7c3fd99949f0","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:05.910Z]=>/favicon.ico :: duration: 1ms  807184d4-f3cc-45b6-85b0-7c3fd99949f0","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:05.910Z]=>/favicon.ico :: duration: 1ms  807184d4-f3cc-45b6-85b0-7c3fd99949f0","timestamp":"2025-09-20 19:21:05"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.764Z]=>/hc 97a10362-75c7-4afa-8123-06933fa10d3c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.764Z]=>/hc 97a10362-75c7-4afa-8123-06933fa10d3c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.783Z]=>/hc :: duration: 19ms  97a10362-75c7-4afa-8123-06933fa10d3c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.783Z]=>/hc :: duration: 19ms  97a10362-75c7-4afa-8123-06933fa10d3c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.820Z]=>/favicon.ico 05e40a56-a223-4052-987d-aa956cbc355c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.820Z]=>/favicon.ico 05e40a56-a223-4052-987d-aa956cbc355c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.825Z]=>/favicon.ico :: duration: 5ms  05e40a56-a223-4052-987d-aa956cbc355c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.825Z]=>/favicon.ico :: duration: 5ms  05e40a56-a223-4052-987d-aa956cbc355c","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.849Z]=>/hc 0d8de65a-1c51-43ad-9610-ade3b6e36608","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.849Z]=>/hc 0d8de65a-1c51-43ad-9610-ade3b6e36608","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.860Z]=>/hc :: duration: 11ms  0d8de65a-1c51-43ad-9610-ade3b6e36608","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.860Z]=>/hc :: duration: 11ms  0d8de65a-1c51-43ad-9610-ade3b6e36608","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.891Z]=>/favicon.ico 311299b6-7751-47ac-8187-c7fffbbccc84","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.891Z]=>/favicon.ico 311299b6-7751-47ac-8187-c7fffbbccc84","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.893Z]=>/favicon.ico :: duration: 2ms  311299b6-7751-47ac-8187-c7fffbbccc84","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:09.893Z]=>/favicon.ico :: duration: 2ms  311299b6-7751-47ac-8187-c7fffbbccc84","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.998Z]=>/hc d090c161-ddfe-4e29-b0bf-9aaa2d7181f6","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Start 2025-09-20T19:21:09.998Z]=>/hc d090c161-ddfe-4e29-b0bf-9aaa2d7181f6","timestamp":"2025-09-20 19:21:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:10.018Z]=>/hc :: duration: 20ms  d090c161-ddfe-4e29-b0bf-9aaa2d7181f6","timestamp":"2025-09-20 19:21:10"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:10.018Z]=>/hc :: duration: 20ms  d090c161-ddfe-4e29-b0bf-9aaa2d7181f6","timestamp":"2025-09-20 19:21:10"}
+{"level":"info","message":"[Start 2025-09-20T19:21:10.059Z]=>/favicon.ico 567b31b7-da22-433c-ac2d-ad8243e0e9f2","timestamp":"2025-09-20 19:21:10"}
+{"level":"info","message":"[Start 2025-09-20T19:21:10.059Z]=>/favicon.ico 567b31b7-da22-433c-ac2d-ad8243e0e9f2","timestamp":"2025-09-20 19:21:10"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:10.061Z]=>/favicon.ico :: duration: 2ms  567b31b7-da22-433c-ac2d-ad8243e0e9f2","timestamp":"2025-09-20 19:21:10"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:10.061Z]=>/favicon.ico :: duration: 2ms  567b31b7-da22-433c-ac2d-ad8243e0e9f2","timestamp":"2025-09-20 19:21:10"}
+{"level":"info","message":"[Start 2025-09-20T19:21:22.495Z]=>/api/playground/ 50743246-5eff-41f3-a1f2-fab782d2fcb0","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Start 2025-09-20T19:21:22.495Z]=>/api/playground/ 50743246-5eff-41f3-a1f2-fab782d2fcb0","timestamp":"2025-09-20 19:21:22"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:21:22"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:21:22"}
+{"level":"error","message":"UNAUTH reqeustId: 50743246-5eff-41f3-a1f2-fab782d2fcb0","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:22.505Z]=>/api/playground/ :: duration: 10ms  50743246-5eff-41f3-a1f2-fab782d2fcb0","timestamp":"2025-09-20 19:21:22"}
+{"level":"error","message":"UNAUTH reqeustId: 50743246-5eff-41f3-a1f2-fab782d2fcb0","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:22.505Z]=>/api/playground/ :: duration: 10ms  50743246-5eff-41f3-a1f2-fab782d2fcb0","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Start 2025-09-20T19:21:22.542Z]=>/favicon.ico 69bac7cc-572e-464c-b91f-3c491afc0622","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Start 2025-09-20T19:21:22.542Z]=>/favicon.ico 69bac7cc-572e-464c-b91f-3c491afc0622","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:22.546Z]=>/favicon.ico :: duration: 4ms  69bac7cc-572e-464c-b91f-3c491afc0622","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:22.546Z]=>/favicon.ico :: duration: 4ms  69bac7cc-572e-464c-b91f-3c491afc0622","timestamp":"2025-09-20 19:21:22"}
+{"level":"info","message":"[Start 2025-09-20T19:21:28.641Z]=>/api/playground/countries-rfl 3ebd75ea-bb75-4b98-a258-2293ebd0f074","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Start 2025-09-20T19:21:28.641Z]=>/api/playground/countries-rfl 3ebd75ea-bb75-4b98-a258-2293ebd0f074","timestamp":"2025-09-20 19:21:28"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:21:28"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 19:21:28"}
+{"level":"error","message":"UNAUTH reqeustId: 3ebd75ea-bb75-4b98-a258-2293ebd0f074","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:28.651Z]=>/api/playground/countries-rfl :: duration: 10ms  3ebd75ea-bb75-4b98-a258-2293ebd0f074","timestamp":"2025-09-20 19:21:28"}
+{"level":"error","message":"UNAUTH reqeustId: 3ebd75ea-bb75-4b98-a258-2293ebd0f074","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:28.651Z]=>/api/playground/countries-rfl :: duration: 10ms  3ebd75ea-bb75-4b98-a258-2293ebd0f074","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Start 2025-09-20T19:21:28.678Z]=>/favicon.ico 5f1becf8-3cf4-4672-b35e-5fc4805a9f5b","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Start 2025-09-20T19:21:28.678Z]=>/favicon.ico 5f1becf8-3cf4-4672-b35e-5fc4805a9f5b","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:28.683Z]=>/favicon.ico :: duration: 5ms  5f1becf8-3cf4-4672-b35e-5fc4805a9f5b","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:28.683Z]=>/favicon.ico :: duration: 5ms  5f1becf8-3cf4-4672-b35e-5fc4805a9f5b","timestamp":"2025-09-20 19:21:28"}
+{"level":"info","message":"[Start 2025-09-20T19:21:31.762Z]=>/api/data/countries-rfl 21e74777-9fb4-467e-afeb-3f98d4f5e4d7","timestamp":"2025-09-20 19:21:31"}
+{"level":"info","message":"[Start 2025-09-20T19:21:31.762Z]=>/api/data/countries-rfl 21e74777-9fb4-467e-afeb-3f98d4f5e4d7","timestamp":"2025-09-20 19:21:31"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:31.795Z]=>/api/data/countries-rfl :: duration: 33ms  21e74777-9fb4-467e-afeb-3f98d4f5e4d7","timestamp":"2025-09-20 19:21:31"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:31.795Z]=>/api/data/countries-rfl :: duration: 33ms  21e74777-9fb4-467e-afeb-3f98d4f5e4d7","timestamp":"2025-09-20 19:21:31"}
+{"level":"info","message":"[Start 2025-09-20T19:21:32.177Z]=>/favicon.ico dbf293f8-bb80-4c90-a63e-ac52356ab93a","timestamp":"2025-09-20 19:21:32"}
+{"level":"info","message":"[Start 2025-09-20T19:21:32.177Z]=>/favicon.ico dbf293f8-bb80-4c90-a63e-ac52356ab93a","timestamp":"2025-09-20 19:21:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:32.183Z]=>/favicon.ico :: duration: 6ms  dbf293f8-bb80-4c90-a63e-ac52356ab93a","timestamp":"2025-09-20 19:21:32"}
+{"level":"info","message":"[Finish 2025-09-20T19:21:32.183Z]=>/favicon.ico :: duration: 6ms  dbf293f8-bb80-4c90-a63e-ac52356ab93a","timestamp":"2025-09-20 19:21:32"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:36:28"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:36:28"}
+{"level":"info","message":"[Start 2025-09-20T19:36:56.941Z]=>/api/expenses/dates?from=2025-07-20+19:36:57&to=2025-09-20+19:36:57 77d7d7b1-0180-41a6-b517-4c3ff7961641","timestamp":"2025-09-20 19:36:56"}
+{"level":"info","message":"[Start 2025-09-20T19:36:56.941Z]=>/api/expenses/dates?from=2025-07-20+19:36:57&to=2025-09-20+19:36:57 77d7d7b1-0180-41a6-b517-4c3ff7961641","timestamp":"2025-09-20 19:36:56"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:56.983Z]=>/api/expenses/dates?from=2025-07-20+19:36:57&to=2025-09-20+19:36:57 :: duration: 42ms  77d7d7b1-0180-41a6-b517-4c3ff7961641","timestamp":"2025-09-20 19:36:56"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:56.983Z]=>/api/expenses/dates?from=2025-07-20+19:36:57&to=2025-09-20+19:36:57 :: duration: 42ms  77d7d7b1-0180-41a6-b517-4c3ff7961641","timestamp":"2025-09-20 19:36:56"}
+{"level":"info","message":"[Start 2025-09-20T19:36:56.998Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 1f8187a1-0b6a-48db-b1db-1af82a46da80","timestamp":"2025-09-20 19:36:56"}
+{"level":"info","message":"[Start 2025-09-20T19:36:56.998Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 1f8187a1-0b6a-48db-b1db-1af82a46da80","timestamp":"2025-09-20 19:36:56"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.010Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 :: duration: 12ms  1f8187a1-0b6a-48db-b1db-1af82a46da80","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.010Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 :: duration: 12ms  1f8187a1-0b6a-48db-b1db-1af82a46da80","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.017Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 fdaf6ebb-8ccb-46bc-b71a-1f29942b8526","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.017Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 fdaf6ebb-8ccb-46bc-b71a-1f29942b8526","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.021Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 :: duration: 4ms  fdaf6ebb-8ccb-46bc-b71a-1f29942b8526","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.021Z]=>/api/expenses/dates?from=2024-11-20+20:36:57&to=2025-01-20+20:36:57 :: duration: 4ms  fdaf6ebb-8ccb-46bc-b71a-1f29942b8526","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.026Z]=>/api/expenses/expenses 0702d2f8-0967-4d31-a917-d0c4900bae97","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.026Z]=>/api/expenses/expenses 0702d2f8-0967-4d31-a917-d0c4900bae97","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.039Z]=>/api/expenses/expenses :: duration: 13ms  0702d2f8-0967-4d31-a917-d0c4900bae97","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.039Z]=>/api/expenses/expenses :: duration: 13ms  0702d2f8-0967-4d31-a917-d0c4900bae97","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.046Z]=>/auth/login 27deab08-f7b5-4ce3-a773-73b6acd8d102","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.046Z]=>/auth/login 27deab08-f7b5-4ce3-a773-73b6acd8d102","timestamp":"2025-09-20 19:36:57"}
+{"level":"error","message":"BAD_REQUEST reqeustId: 27deab08-f7b5-4ce3-a773-73b6acd8d102","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.054Z]=>/auth/login :: duration: 8ms  27deab08-f7b5-4ce3-a773-73b6acd8d102","timestamp":"2025-09-20 19:36:57"}
+{"level":"error","message":"BAD_REQUEST reqeustId: 27deab08-f7b5-4ce3-a773-73b6acd8d102","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.054Z]=>/auth/login :: duration: 8ms  27deab08-f7b5-4ce3-a773-73b6acd8d102","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.057Z]=>/auth/login 1d8627ff-46d4-4779-b3e3-00f942dbd99e","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.057Z]=>/auth/login 1d8627ff-46d4-4779-b3e3-00f942dbd99e","timestamp":"2025-09-20 19:36:57"}
+{"level":"error","message":"UNAUTH reqeustId: 1d8627ff-46d4-4779-b3e3-00f942dbd99e","timestamp":"2025-09-20 19:36:57"}
+{"level":"error","message":"UNAUTH reqeustId: 1d8627ff-46d4-4779-b3e3-00f942dbd99e","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.087Z]=>/auth/login :: duration: 30ms  1d8627ff-46d4-4779-b3e3-00f942dbd99e","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.087Z]=>/auth/login :: duration: 30ms  1d8627ff-46d4-4779-b3e3-00f942dbd99e","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.101Z]=>/auth/login ea5744b1-a330-4e0f-ab68-030482d4aa8d","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.101Z]=>/auth/login ea5744b1-a330-4e0f-ab68-030482d4aa8d","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.142Z]=>/auth/login :: duration: 41ms  ea5744b1-a330-4e0f-ab68-030482d4aa8d","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.142Z]=>/auth/login :: duration: 41ms  ea5744b1-a330-4e0f-ab68-030482d4aa8d","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.164Z]=>/api/user/details dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:36:57.164Z]=>/api/user/details dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.176Z]=>/api/user/details :: duration: 12ms  dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Finish 2025-09-20T19:36:57.176Z]=>/api/user/details :: duration: 12ms  dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}

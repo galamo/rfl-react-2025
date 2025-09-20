@@ -1,0 +1,88 @@
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-14 18:36:25"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-14 18:36:25"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-14 18:36:26"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-14 18:36:26"}
+{"level":"info","message":"[Start 2025-09-14T15:36:39.522Z]=>/ d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"info","message":"[Start 2025-09-14T15:36:39.522Z]=>/ d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"error","message":"ENOENT: no such file or directory, stat '/Users/galamouy/lectures/node/nodejs_115/Lesson_10/api_1/dist/public/index.html' reqeustId: d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"error","message":"ENOENT: no such file or directory, stat '/Users/galamouy/lectures/node/nodejs_115/Lesson_10/api_1/dist/public/index.html' reqeustId: d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"info","message":"[Finish 2025-09-14T15:36:39.543Z]=>/ :: duration: 21ms  d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"info","message":"[Finish 2025-09-14T15:36:39.543Z]=>/ :: duration: 21ms  d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-14 18:37:36"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-14 18:37:36"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.244Z]=>/ aeaa420c-8c08-4105-a974-1311b41b74f3","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.244Z]=>/ aeaa420c-8c08-4105-a974-1311b41b74f3","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.253Z]=>/ :: duration: 9ms  aeaa420c-8c08-4105-a974-1311b41b74f3","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.253Z]=>/ :: duration: 9ms  aeaa420c-8c08-4105-a974-1311b41b74f3","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.272Z]=>/assets/index-yee8rpoy.js 57601fa8-7683-4526-bf35-a8cd429d78f2","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.272Z]=>/assets/index-yee8rpoy.js 57601fa8-7683-4526-bf35-a8cd429d78f2","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.273Z]=>/assets/index-D6QdzTEC.css c64731f7-5d9d-4df0-a39b-9ed50a3958eb","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.273Z]=>/assets/index-D6QdzTEC.css c64731f7-5d9d-4df0-a39b-9ed50a3958eb","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.276Z]=>/assets/index-D6QdzTEC.css :: duration: 3ms  c64731f7-5d9d-4df0-a39b-9ed50a3958eb","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.276Z]=>/assets/index-D6QdzTEC.css :: duration: 3ms  c64731f7-5d9d-4df0-a39b-9ed50a3958eb","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.314Z]=>/assets/index-yee8rpoy.js :: duration: 42ms  57601fa8-7683-4526-bf35-a8cd429d78f2","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.314Z]=>/assets/index-yee8rpoy.js :: duration: 42ms  57601fa8-7683-4526-bf35-a8cd429d78f2","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.389Z]=>/api/user/details 10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.389Z]=>/api/user/details 10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-14 18:37:42"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-14 18:37:42"}
+{"level":"error","message":"UNAUTH reqeustId: 10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.393Z]=>/api/user/details :: duration: 4ms  10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"error","message":"UNAUTH reqeustId: 10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.393Z]=>/api/user/details :: duration: 4ms  10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.406Z]=>/assets/favicon-csIxjeK3.svg 767a908e-eafc-4901-a458-a54cc53041e7","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:42.406Z]=>/assets/favicon-csIxjeK3.svg 767a908e-eafc-4901-a458-a54cc53041e7","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.408Z]=>/assets/favicon-csIxjeK3.svg :: duration: 2ms  767a908e-eafc-4901-a458-a54cc53041e7","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:42.408Z]=>/assets/favicon-csIxjeK3.svg :: duration: 2ms  767a908e-eafc-4901-a458-a54cc53041e7","timestamp":"2025-09-14 18:37:42"}
+{"level":"info","message":"[Start 2025-09-14T15:37:58.219Z]=>/assets/favicon-csIxjeK3.svg ce21945a-7a77-4344-b248-341a1ca3ed88","timestamp":"2025-09-14 18:37:58"}
+{"level":"info","message":"[Start 2025-09-14T15:37:58.219Z]=>/assets/favicon-csIxjeK3.svg ce21945a-7a77-4344-b248-341a1ca3ed88","timestamp":"2025-09-14 18:37:58"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:58.225Z]=>/assets/favicon-csIxjeK3.svg :: duration: 6ms  ce21945a-7a77-4344-b248-341a1ca3ed88","timestamp":"2025-09-14 18:37:58"}
+{"level":"info","message":"[Finish 2025-09-14T15:37:58.225Z]=>/assets/favicon-csIxjeK3.svg :: duration: 6ms  ce21945a-7a77-4344-b248-341a1ca3ed88","timestamp":"2025-09-14 18:37:58"}
+{"level":"info","message":"[Start 2025-09-14T15:38:01.929Z]=>/auth/login 955556b2-7737-48e1-bee3-7f7dbeb962fb","timestamp":"2025-09-14 18:38:01"}
+{"level":"info","message":"[Start 2025-09-14T15:38:01.929Z]=>/auth/login 955556b2-7737-48e1-bee3-7f7dbeb962fb","timestamp":"2025-09-14 18:38:01"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:02.043Z]=>/auth/login :: duration: 114ms  955556b2-7737-48e1-bee3-7f7dbeb962fb","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:02.043Z]=>/auth/login :: duration: 114ms  955556b2-7737-48e1-bee3-7f7dbeb962fb","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Start 2025-09-14T15:38:02.072Z]=>/api/expenses/dates?from=2025-05-25+09:08:04&to=2026-08-22+12:39:23 5540da9f-687f-4cfa-aa4d-f00baf493ac3","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Start 2025-09-14T15:38:02.072Z]=>/api/expenses/dates?from=2025-05-25+09:08:04&to=2026-08-22+12:39:23 5540da9f-687f-4cfa-aa4d-f00baf493ac3","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Start 2025-09-14T15:38:02.077Z]=>/api/user/details aade998e-55f9-43a9-91d5-9b904dcd1137","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Start 2025-09-14T15:38:02.077Z]=>/api/user/details aade998e-55f9-43a9-91d5-9b904dcd1137","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:02.111Z]=>/api/user/details :: duration: 34ms  aade998e-55f9-43a9-91d5-9b904dcd1137","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:02.111Z]=>/api/user/details :: duration: 34ms  aade998e-55f9-43a9-91d5-9b904dcd1137","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:02.113Z]=>/api/expenses/dates?from=2025-05-25+09:08:04&to=2026-08-22+12:39:23 :: duration: 41ms  5540da9f-687f-4cfa-aa4d-f00baf493ac3","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:02.113Z]=>/api/expenses/dates?from=2025-05-25+09:08:04&to=2026-08-22+12:39:23 :: duration: 41ms  5540da9f-687f-4cfa-aa4d-f00baf493ac3","timestamp":"2025-09-14 18:38:02"}
+{"level":"info","message":"[Start 2025-09-14T15:38:41.849Z]=>/user 6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"info","message":"[Start 2025-09-14T15:38:41.849Z]=>/user 6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-14 18:38:41"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-14 18:38:41"}
+{"level":"error","message":"UNAUTH reqeustId: 6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:41.850Z]=>/user :: duration: 1ms  6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"error","message":"UNAUTH reqeustId: 6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:41.850Z]=>/user :: duration: 1ms  6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.136Z]=>/ c484ff33-afb1-4b50-b4a3-964cde74fa69","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.136Z]=>/ c484ff33-afb1-4b50-b4a3-964cde74fa69","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.140Z]=>/ :: duration: 4ms  c484ff33-afb1-4b50-b4a3-964cde74fa69","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.140Z]=>/ :: duration: 4ms  c484ff33-afb1-4b50-b4a3-964cde74fa69","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.189Z]=>/assets/index-yee8rpoy.js 8490a46d-3e97-4f0f-aec7-c78015699606","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.189Z]=>/assets/index-yee8rpoy.js 8490a46d-3e97-4f0f-aec7-c78015699606","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.192Z]=>/assets/index-D6QdzTEC.css dc2f79bc-8967-47a5-b729-0bb85b09b042","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.192Z]=>/assets/index-D6QdzTEC.css dc2f79bc-8967-47a5-b729-0bb85b09b042","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.193Z]=>/assets/index-yee8rpoy.js :: duration: 4ms  8490a46d-3e97-4f0f-aec7-c78015699606","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.196Z]=>/assets/index-D6QdzTEC.css :: duration: 4ms  dc2f79bc-8967-47a5-b729-0bb85b09b042","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.193Z]=>/assets/index-yee8rpoy.js :: duration: 4ms  8490a46d-3e97-4f0f-aec7-c78015699606","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.196Z]=>/assets/index-D6QdzTEC.css :: duration: 4ms  dc2f79bc-8967-47a5-b729-0bb85b09b042","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.242Z]=>/api/user/details 0f4837d8-c4b1-48fb-b326-9f4dac31826e","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.242Z]=>/api/user/details 0f4837d8-c4b1-48fb-b326-9f4dac31826e","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.259Z]=>/dates?from=2025-07-14&to=2025-09-14 35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.259Z]=>/dates?from=2025-07-14&to=2025-09-14 35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
+{"level":"error","message":"Token is not valid!","timestamp":"2025-09-14 18:38:44"}
+{"level":"error","message":"Token is not valid!","timestamp":"2025-09-14 18:38:44"}
+{"level":"error","message":"UNAUTH reqeustId: 35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.265Z]=>/dates?from=2025-07-14&to=2025-09-14 :: duration: 6ms  35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
+{"level":"error","message":"UNAUTH reqeustId: 35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.265Z]=>/dates?from=2025-07-14&to=2025-09-14 :: duration: 6ms  35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.309Z]=>/api/user/details :: duration: 67ms  0f4837d8-c4b1-48fb-b326-9f4dac31826e","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.309Z]=>/api/user/details :: duration: 67ms  0f4837d8-c4b1-48fb-b326-9f4dac31826e","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.821Z]=>/assets/favicon-csIxjeK3.svg dd331f96-015d-4c2d-a571-5de3d7f72edf","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Start 2025-09-14T15:38:44.821Z]=>/assets/favicon-csIxjeK3.svg dd331f96-015d-4c2d-a571-5de3d7f72edf","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.824Z]=>/assets/favicon-csIxjeK3.svg :: duration: 3ms  dd331f96-015d-4c2d-a571-5de3d7f72edf","timestamp":"2025-09-14 18:38:44"}
+{"level":"info","message":"[Finish 2025-09-14T15:38:44.824Z]=>/assets/favicon-csIxjeK3.svg :: duration: 3ms  dd331f96-015d-4c2d-a571-5de3d7f72edf","timestamp":"2025-09-14 18:38:44"}

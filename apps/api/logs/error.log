@@ -1,0 +1,7 @@
+{"level":"error","message":"ENOENT: no such file or directory, stat '/Users/galamouy/lectures/node/nodejs_115/Lesson_10/api_1/dist/public/index.html' reqeustId: d78211dc-ce15-44da-8cf3-b47e240d25bb","timestamp":"2025-09-14 18:36:39"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-14 18:37:42"}
+{"level":"error","message":"UNAUTH reqeustId: 10e6c3d6-45ea-4b10-bbde-078a19f3df08","timestamp":"2025-09-14 18:37:42"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-14 18:38:41"}
+{"level":"error","message":"UNAUTH reqeustId: 6e4a35e4-2518-422c-b97f-2648e7b8d34f","timestamp":"2025-09-14 18:38:41"}
+{"level":"error","message":"Token is not valid!","timestamp":"2025-09-14 18:38:44"}
+{"level":"error","message":"UNAUTH reqeustId: 35b277be-65d7-49e1-ba17-1749cb46bc06","timestamp":"2025-09-14 18:38:44"}
