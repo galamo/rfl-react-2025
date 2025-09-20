@@ -230,3 +230,557 @@
 {"level":"info","message":"[Start 2025-09-20T19:36:57.164Z]=>/api/user/details dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}
 {"level":"info","message":"[Finish 2025-09-20T19:36:57.176Z]=>/api/user/details :: duration: 12ms  dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}
 {"level":"info","message":"[Finish 2025-09-20T19:36:57.176Z]=>/api/user/details :: duration: 12ms  dec5c66a-a4b2-4733-b7e3-292e25e10e31","timestamp":"2025-09-20 19:36:57"}
+{"level":"info","message":"[Start 2025-09-20T19:44:09.805Z]=>/api/data/countries-rfl 0786edf5-25ae-47e4-8417-3264782e8fc2","timestamp":"2025-09-20 19:44:09"}
+{"level":"info","message":"[Start 2025-09-20T19:44:09.805Z]=>/api/data/countries-rfl 0786edf5-25ae-47e4-8417-3264782e8fc2","timestamp":"2025-09-20 19:44:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:44:09.838Z]=>/api/data/countries-rfl :: duration: 33ms  0786edf5-25ae-47e4-8417-3264782e8fc2","timestamp":"2025-09-20 19:44:09"}
+{"level":"info","message":"[Finish 2025-09-20T19:44:09.838Z]=>/api/data/countries-rfl :: duration: 33ms  0786edf5-25ae-47e4-8417-3264782e8fc2","timestamp":"2025-09-20 19:44:09"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:58:43"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 19:58:43"}
+{"level":"info","message":"[Start 2025-09-20T19:59:06.397Z]=>/hc 0ec5feae-6717-4c27-b66f-3df1e44e3260","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Start 2025-09-20T19:59:06.397Z]=>/hc 0ec5feae-6717-4c27-b66f-3df1e44e3260","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:06.464Z]=>/hc :: duration: 67ms  0ec5feae-6717-4c27-b66f-3df1e44e3260","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:06.464Z]=>/hc :: duration: 67ms  0ec5feae-6717-4c27-b66f-3df1e44e3260","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Start 2025-09-20T19:59:06.827Z]=>/favicon.ico fd88dc99-19ec-4c10-a8db-db5763e97473","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Start 2025-09-20T19:59:06.827Z]=>/favicon.ico fd88dc99-19ec-4c10-a8db-db5763e97473","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:06.837Z]=>/favicon.ico :: duration: 10ms  fd88dc99-19ec-4c10-a8db-db5763e97473","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:06.837Z]=>/favicon.ico :: duration: 10ms  fd88dc99-19ec-4c10-a8db-db5763e97473","timestamp":"2025-09-20 19:59:06"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.144Z]=>/api-docs/ 64f85352-8052-4669-9e3e-b130707f9309","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.144Z]=>/api-docs/ 64f85352-8052-4669-9e3e-b130707f9309","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.151Z]=>/api-docs/ :: duration: 7ms  64f85352-8052-4669-9e3e-b130707f9309","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.151Z]=>/api-docs/ :: duration: 7ms  64f85352-8052-4669-9e3e-b130707f9309","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.180Z]=>/api-docs/swagger-ui.css ceebc6b6-fc2a-4da5-b11a-a8a1f281207d","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.180Z]=>/api-docs/swagger-ui.css ceebc6b6-fc2a-4da5-b11a-a8a1f281207d","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.184Z]=>/api-docs/swagger-ui-standalone-preset.js 567f10a6-ede9-4167-81f0-b0eb6f7d5d1e","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.184Z]=>/api-docs/swagger-ui-standalone-preset.js 567f10a6-ede9-4167-81f0-b0eb6f7d5d1e","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.195Z]=>/api-docs/swagger-ui-init.js d8212518-a5f1-435a-9193-7319cff9fdd1","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.196Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  d8212518-a5f1-435a-9193-7319cff9fdd1","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.195Z]=>/api-docs/swagger-ui-init.js d8212518-a5f1-435a-9193-7319cff9fdd1","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.196Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  d8212518-a5f1-435a-9193-7319cff9fdd1","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.198Z]=>/api-docs/swagger-ui-bundle.js b8d64a43-7fdb-4148-a1cb-27208b29f5db","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:12.198Z]=>/api-docs/swagger-ui-bundle.js b8d64a43-7fdb-4148-a1cb-27208b29f5db","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.206Z]=>/api-docs/swagger-ui.css :: duration: 26ms  ceebc6b6-fc2a-4da5-b11a-a8a1f281207d","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.206Z]=>/api-docs/swagger-ui.css :: duration: 26ms  ceebc6b6-fc2a-4da5-b11a-a8a1f281207d","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.213Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 29ms  567f10a6-ede9-4167-81f0-b0eb6f7d5d1e","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.213Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 29ms  567f10a6-ede9-4167-81f0-b0eb6f7d5d1e","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.234Z]=>/api-docs/swagger-ui-bundle.js :: duration: 36ms  b8d64a43-7fdb-4148-a1cb-27208b29f5db","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:12.234Z]=>/api-docs/swagger-ui-bundle.js :: duration: 36ms  b8d64a43-7fdb-4148-a1cb-27208b29f5db","timestamp":"2025-09-20 19:59:12"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.028Z]=>/api-docs/ d37b8472-471d-4f5e-bf8e-eeb1728354bc","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.028Z]=>/api-docs/ d37b8472-471d-4f5e-bf8e-eeb1728354bc","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.043Z]=>/api-docs/ :: duration: 15ms  d37b8472-471d-4f5e-bf8e-eeb1728354bc","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.043Z]=>/api-docs/ :: duration: 15ms  d37b8472-471d-4f5e-bf8e-eeb1728354bc","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.056Z]=>/api-docs/swagger-ui.css 4633d47d-eb90-458c-887d-5c24ed70cdc8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.056Z]=>/api-docs/swagger-ui.css 4633d47d-eb90-458c-887d-5c24ed70cdc8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.063Z]=>/api-docs/swagger-ui-standalone-preset.js bb3c859d-0fd1-49b0-89f5-f8e18ccc59b5","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.065Z]=>/api-docs/swagger-ui-bundle.js 0970fe38-a438-49ec-8581-fc8cf4ea8693","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.066Z]=>/api-docs/swagger-ui-init.js 04b22f46-c106-4ad2-acf0-430b5a2e39e8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.067Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  04b22f46-c106-4ad2-acf0-430b5a2e39e8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.063Z]=>/api-docs/swagger-ui-standalone-preset.js bb3c859d-0fd1-49b0-89f5-f8e18ccc59b5","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.065Z]=>/api-docs/swagger-ui-bundle.js 0970fe38-a438-49ec-8581-fc8cf4ea8693","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.066Z]=>/api-docs/swagger-ui-init.js 04b22f46-c106-4ad2-acf0-430b5a2e39e8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.067Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  04b22f46-c106-4ad2-acf0-430b5a2e39e8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.068Z]=>/api-docs/swagger-ui.css :: duration: 12ms  4633d47d-eb90-458c-887d-5c24ed70cdc8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.069Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 6ms  bb3c859d-0fd1-49b0-89f5-f8e18ccc59b5","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.069Z]=>/api-docs/swagger-ui-bundle.js :: duration: 4ms  0970fe38-a438-49ec-8581-fc8cf4ea8693","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.068Z]=>/api-docs/swagger-ui.css :: duration: 12ms  4633d47d-eb90-458c-887d-5c24ed70cdc8","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.069Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 6ms  bb3c859d-0fd1-49b0-89f5-f8e18ccc59b5","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.069Z]=>/api-docs/swagger-ui-bundle.js :: duration: 4ms  0970fe38-a438-49ec-8581-fc8cf4ea8693","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.173Z]=>/api-docs/favicon-32x32.png de631733-32fe-498b-b5de-c33b8b7f6fec","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:17.173Z]=>/api-docs/favicon-32x32.png de631733-32fe-498b-b5de-c33b8b7f6fec","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.177Z]=>/api-docs/favicon-32x32.png :: duration: 4ms  de631733-32fe-498b-b5de-c33b8b7f6fec","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:17.177Z]=>/api-docs/favicon-32x32.png :: duration: 4ms  de631733-32fe-498b-b5de-c33b8b7f6fec","timestamp":"2025-09-20 19:59:17"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.854Z]=>/api-docs/ 0e66a9dc-12ac-4a6a-ae5c-05b5e9d7efe0","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.854Z]=>/api-docs/ 0e66a9dc-12ac-4a6a-ae5c-05b5e9d7efe0","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.861Z]=>/api-docs/ :: duration: 7ms  0e66a9dc-12ac-4a6a-ae5c-05b5e9d7efe0","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.861Z]=>/api-docs/ :: duration: 7ms  0e66a9dc-12ac-4a6a-ae5c-05b5e9d7efe0","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.907Z]=>/api-docs/swagger-ui.css 132c9251-0608-4dae-834e-897bd31cbc4a","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.907Z]=>/api-docs/swagger-ui.css 132c9251-0608-4dae-834e-897bd31cbc4a","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.909Z]=>/api-docs/swagger-ui-bundle.js 70c3b941-8bd7-447f-b108-de118ae9609d","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.909Z]=>/api-docs/swagger-ui-bundle.js 70c3b941-8bd7-447f-b108-de118ae9609d","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.912Z]=>/api-docs/swagger-ui.css :: duration: 5ms  132c9251-0608-4dae-834e-897bd31cbc4a","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.912Z]=>/api-docs/swagger-ui.css :: duration: 5ms  132c9251-0608-4dae-834e-897bd31cbc4a","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.913Z]=>/api-docs/swagger-ui-bundle.js :: duration: 4ms  70c3b941-8bd7-447f-b108-de118ae9609d","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.913Z]=>/api-docs/swagger-ui-bundle.js :: duration: 4ms  70c3b941-8bd7-447f-b108-de118ae9609d","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.927Z]=>/api-docs/swagger-ui-standalone-preset.js ad7f5c13-fb53-46d6-b165-2f401d9a3f37","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.927Z]=>/api-docs/swagger-ui-standalone-preset.js ad7f5c13-fb53-46d6-b165-2f401d9a3f37","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.930Z]=>/api-docs/swagger-ui-init.js 9a42f29b-d031-42d0-9e22-536ec5f310a3","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.932Z]=>/api-docs/swagger-ui-init.js :: duration: 2ms  9a42f29b-d031-42d0-9e22-536ec5f310a3","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.930Z]=>/api-docs/swagger-ui-init.js 9a42f29b-d031-42d0-9e22-536ec5f310a3","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.932Z]=>/api-docs/swagger-ui-init.js :: duration: 2ms  9a42f29b-d031-42d0-9e22-536ec5f310a3","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.934Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 7ms  ad7f5c13-fb53-46d6-b165-2f401d9a3f37","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.934Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 7ms  ad7f5c13-fb53-46d6-b165-2f401d9a3f37","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.961Z]=>/api-docs/favicon-32x32.png 281692c6-3d1e-496f-87a7-5bceb2ba30af","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:28.961Z]=>/api-docs/favicon-32x32.png 281692c6-3d1e-496f-87a7-5bceb2ba30af","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.962Z]=>/api-docs/favicon-32x32.png :: duration: 1ms  281692c6-3d1e-496f-87a7-5bceb2ba30af","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:28.962Z]=>/api-docs/favicon-32x32.png :: duration: 1ms  281692c6-3d1e-496f-87a7-5bceb2ba30af","timestamp":"2025-09-20 19:59:28"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.266Z]=>/api-docs/ 80cd2fa6-d82a-49d9-aba3-f8f951779d38","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.266Z]=>/api-docs/ 80cd2fa6-d82a-49d9-aba3-f8f951779d38","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.271Z]=>/api-docs/ :: duration: 5ms  80cd2fa6-d82a-49d9-aba3-f8f951779d38","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.271Z]=>/api-docs/ :: duration: 5ms  80cd2fa6-d82a-49d9-aba3-f8f951779d38","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.285Z]=>/api-docs/swagger-ui.css fc38e6b6-9c01-4064-9c28-084bceb77dea","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.285Z]=>/api-docs/swagger-ui.css fc38e6b6-9c01-4064-9c28-084bceb77dea","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.297Z]=>/api-docs/swagger-ui.css :: duration: 12ms  fc38e6b6-9c01-4064-9c28-084bceb77dea","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.297Z]=>/api-docs/swagger-ui.css :: duration: 12ms  fc38e6b6-9c01-4064-9c28-084bceb77dea","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.301Z]=>/api-docs/swagger-ui-bundle.js 5b8c6446-88a5-44f3-9223-74f621362701","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.301Z]=>/api-docs/swagger-ui-bundle.js 5b8c6446-88a5-44f3-9223-74f621362701","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.305Z]=>/api-docs/swagger-ui-standalone-preset.js 3602d93b-edf8-47e8-bf90-58ec1ddb55b2","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.306Z]=>/api-docs/swagger-ui-bundle.js :: duration: 5ms  5b8c6446-88a5-44f3-9223-74f621362701","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.305Z]=>/api-docs/swagger-ui-standalone-preset.js 3602d93b-edf8-47e8-bf90-58ec1ddb55b2","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.306Z]=>/api-docs/swagger-ui-bundle.js :: duration: 5ms  5b8c6446-88a5-44f3-9223-74f621362701","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.307Z]=>/api-docs/swagger-ui-init.js 272a8fc3-f8b8-4b7d-8741-aedd29990bee","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.307Z]=>/api-docs/swagger-ui-init.js :: duration: 0ms  272a8fc3-f8b8-4b7d-8741-aedd29990bee","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.308Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 3ms  3602d93b-edf8-47e8-bf90-58ec1ddb55b2","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.307Z]=>/api-docs/swagger-ui-init.js 272a8fc3-f8b8-4b7d-8741-aedd29990bee","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.307Z]=>/api-docs/swagger-ui-init.js :: duration: 0ms  272a8fc3-f8b8-4b7d-8741-aedd29990bee","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.308Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 3ms  3602d93b-edf8-47e8-bf90-58ec1ddb55b2","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.346Z]=>/api-docs/favicon-32x32.png 1dc51403-fdcc-48fa-a441-70e2a1228cbd","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.346Z]=>/api-docs/favicon-32x32.png 1dc51403-fdcc-48fa-a441-70e2a1228cbd","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.348Z]=>/api-docs/favicon-32x32.png :: duration: 2ms  1dc51403-fdcc-48fa-a441-70e2a1228cbd","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.348Z]=>/api-docs/favicon-32x32.png :: duration: 2ms  1dc51403-fdcc-48fa-a441-70e2a1228cbd","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.658Z]=>/api-docs/ f950519d-4a24-4652-b281-dc1d92e9f245","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.658Z]=>/api-docs/ f950519d-4a24-4652-b281-dc1d92e9f245","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.664Z]=>/api-docs/ :: duration: 6ms  f950519d-4a24-4652-b281-dc1d92e9f245","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.664Z]=>/api-docs/ :: duration: 6ms  f950519d-4a24-4652-b281-dc1d92e9f245","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.678Z]=>/api-docs/swagger-ui.css 90ab574e-9d41-4798-b2e5-da028343b824","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.678Z]=>/api-docs/swagger-ui.css 90ab574e-9d41-4798-b2e5-da028343b824","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.684Z]=>/api-docs/swagger-ui-bundle.js 898bb442-9d39-4244-87c3-2e52905adade","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.686Z]=>/api-docs/swagger-ui-standalone-preset.js 3d1ddadf-13db-4c98-9b47-984ad43f9903","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.688Z]=>/api-docs/swagger-ui-init.js 00c70532-9026-4de3-8b98-d2acccf0ebc8","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.691Z]=>/api-docs/swagger-ui-init.js :: duration: 3ms  00c70532-9026-4de3-8b98-d2acccf0ebc8","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.684Z]=>/api-docs/swagger-ui-bundle.js 898bb442-9d39-4244-87c3-2e52905adade","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.686Z]=>/api-docs/swagger-ui-standalone-preset.js 3d1ddadf-13db-4c98-9b47-984ad43f9903","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.688Z]=>/api-docs/swagger-ui-init.js 00c70532-9026-4de3-8b98-d2acccf0ebc8","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.691Z]=>/api-docs/swagger-ui-init.js :: duration: 3ms  00c70532-9026-4de3-8b98-d2acccf0ebc8","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.692Z]=>/api-docs/swagger-ui.css :: duration: 14ms  90ab574e-9d41-4798-b2e5-da028343b824","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.693Z]=>/api-docs/swagger-ui-bundle.js :: duration: 9ms  898bb442-9d39-4244-87c3-2e52905adade","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.694Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 8ms  3d1ddadf-13db-4c98-9b47-984ad43f9903","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.692Z]=>/api-docs/swagger-ui.css :: duration: 14ms  90ab574e-9d41-4798-b2e5-da028343b824","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.693Z]=>/api-docs/swagger-ui-bundle.js :: duration: 9ms  898bb442-9d39-4244-87c3-2e52905adade","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.694Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 8ms  3d1ddadf-13db-4c98-9b47-984ad43f9903","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.733Z]=>/api-docs/favicon-32x32.png fa5d14ee-312c-458e-b8f6-957e5ea6da00","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.733Z]=>/api-docs/favicon-32x32.png fa5d14ee-312c-458e-b8f6-957e5ea6da00","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.736Z]=>/api-docs/favicon-32x32.png :: duration: 3ms  fa5d14ee-312c-458e-b8f6-957e5ea6da00","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.736Z]=>/api-docs/favicon-32x32.png :: duration: 3ms  fa5d14ee-312c-458e-b8f6-957e5ea6da00","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.819Z]=>/api-docs/ 94d7d437-b3e3-4b86-afea-f89a971b7238","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.819Z]=>/api-docs/ 94d7d437-b3e3-4b86-afea-f89a971b7238","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.820Z]=>/api-docs/ :: duration: 1ms  94d7d437-b3e3-4b86-afea-f89a971b7238","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.820Z]=>/api-docs/ :: duration: 1ms  94d7d437-b3e3-4b86-afea-f89a971b7238","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.840Z]=>/api-docs/swagger-ui-standalone-preset.js 135f8774-3818-4b69-96c1-5d38504d21ad","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.840Z]=>/api-docs/swagger-ui-standalone-preset.js 135f8774-3818-4b69-96c1-5d38504d21ad","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.846Z]=>/api-docs/swagger-ui-bundle.js eeecee43-46c4-4b54-9a17-ae29e16c858d","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.847Z]=>/api-docs/swagger-ui-init.js 56e9c42d-9a74-4d52-9733-bd888f60cf0a","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.848Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  56e9c42d-9a74-4d52-9733-bd888f60cf0a","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.850Z]=>/api-docs/swagger-ui.css 146d72b1-4255-476c-8f17-c1af1a5c0ea6","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.846Z]=>/api-docs/swagger-ui-bundle.js eeecee43-46c4-4b54-9a17-ae29e16c858d","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.847Z]=>/api-docs/swagger-ui-init.js 56e9c42d-9a74-4d52-9733-bd888f60cf0a","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.848Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  56e9c42d-9a74-4d52-9733-bd888f60cf0a","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.850Z]=>/api-docs/swagger-ui.css 146d72b1-4255-476c-8f17-c1af1a5c0ea6","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.851Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 11ms  135f8774-3818-4b69-96c1-5d38504d21ad","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.851Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 11ms  135f8774-3818-4b69-96c1-5d38504d21ad","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.852Z]=>/api-docs/swagger-ui-bundle.js :: duration: 6ms  eeecee43-46c4-4b54-9a17-ae29e16c858d","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.852Z]=>/api-docs/swagger-ui.css :: duration: 2ms  146d72b1-4255-476c-8f17-c1af1a5c0ea6","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.852Z]=>/api-docs/swagger-ui-bundle.js :: duration: 6ms  eeecee43-46c4-4b54-9a17-ae29e16c858d","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.852Z]=>/api-docs/swagger-ui.css :: duration: 2ms  146d72b1-4255-476c-8f17-c1af1a5c0ea6","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.899Z]=>/api-docs/favicon-32x32.png a5f2e814-49ad-4e2c-9228-471fe997c3b1","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.899Z]=>/api-docs/favicon-32x32.png a5f2e814-49ad-4e2c-9228-471fe997c3b1","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.902Z]=>/api-docs/favicon-32x32.png :: duration: 3ms  a5f2e814-49ad-4e2c-9228-471fe997c3b1","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.902Z]=>/api-docs/favicon-32x32.png :: duration: 3ms  a5f2e814-49ad-4e2c-9228-471fe997c3b1","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.976Z]=>/api-docs/ fc101376-8c47-4bf7-9a75-75c97c634733","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.976Z]=>/api-docs/ fc101376-8c47-4bf7-9a75-75c97c634733","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.983Z]=>/api-docs/ :: duration: 7ms  fc101376-8c47-4bf7-9a75-75c97c634733","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.983Z]=>/api-docs/ :: duration: 7ms  fc101376-8c47-4bf7-9a75-75c97c634733","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.994Z]=>/api-docs/swagger-ui.css 63ad805d-f629-4814-b75d-261fc84b391e","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.994Z]=>/api-docs/swagger-ui.css 63ad805d-f629-4814-b75d-261fc84b391e","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.996Z]=>/api-docs/swagger-ui-bundle.js 6fe3bc1d-577e-4a91-b5bd-6f603652e036","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Start 2025-09-20T19:59:44.996Z]=>/api-docs/swagger-ui-bundle.js 6fe3bc1d-577e-4a91-b5bd-6f603652e036","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.997Z]=>/api-docs/swagger-ui.css :: duration: 3ms  63ad805d-f629-4814-b75d-261fc84b391e","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.000Z]=>/api-docs/swagger-ui-bundle.js :: duration: 4ms  6fe3bc1d-577e-4a91-b5bd-6f603652e036","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:44.997Z]=>/api-docs/swagger-ui.css :: duration: 3ms  63ad805d-f629-4814-b75d-261fc84b391e","timestamp":"2025-09-20 19:59:44"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.000Z]=>/api-docs/swagger-ui-bundle.js :: duration: 4ms  6fe3bc1d-577e-4a91-b5bd-6f603652e036","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.002Z]=>/api-docs/swagger-ui-standalone-preset.js 96b03fc0-5162-4d43-9e8c-aa242c7c9fe8","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.005Z]=>/api-docs/swagger-ui-init.js 3d2581f2-c9d5-4445-912d-e1c007a37c35","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.014Z]=>/api-docs/swagger-ui-init.js :: duration: 9ms  3d2581f2-c9d5-4445-912d-e1c007a37c35","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.002Z]=>/api-docs/swagger-ui-standalone-preset.js 96b03fc0-5162-4d43-9e8c-aa242c7c9fe8","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.005Z]=>/api-docs/swagger-ui-init.js 3d2581f2-c9d5-4445-912d-e1c007a37c35","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.014Z]=>/api-docs/swagger-ui-init.js :: duration: 9ms  3d2581f2-c9d5-4445-912d-e1c007a37c35","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.024Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 22ms  96b03fc0-5162-4d43-9e8c-aa242c7c9fe8","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.024Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 22ms  96b03fc0-5162-4d43-9e8c-aa242c7c9fe8","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.083Z]=>/api-docs/favicon-32x32.png 4caa3ca7-dc4d-49c4-b4ff-9aa2196e8420","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.083Z]=>/api-docs/favicon-32x32.png 4caa3ca7-dc4d-49c4-b4ff-9aa2196e8420","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.084Z]=>/api-docs/favicon-32x32.png :: duration: 1ms  4caa3ca7-dc4d-49c4-b4ff-9aa2196e8420","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.084Z]=>/api-docs/favicon-32x32.png :: duration: 1ms  4caa3ca7-dc4d-49c4-b4ff-9aa2196e8420","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.135Z]=>/api-docs/ d0033264-50dc-4f7b-9999-84f5e6dd0143","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.135Z]=>/api-docs/ d0033264-50dc-4f7b-9999-84f5e6dd0143","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.137Z]=>/api-docs/ :: duration: 2ms  d0033264-50dc-4f7b-9999-84f5e6dd0143","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.137Z]=>/api-docs/ :: duration: 2ms  d0033264-50dc-4f7b-9999-84f5e6dd0143","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.150Z]=>/api-docs/swagger-ui-standalone-preset.js ec48f039-e02b-47c4-936d-37089729a76e","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.150Z]=>/api-docs/swagger-ui-standalone-preset.js ec48f039-e02b-47c4-936d-37089729a76e","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.152Z]=>/api-docs/swagger-ui.css fb93710f-e3a3-47f8-94be-0de244234d03","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.153Z]=>/api-docs/swagger-ui-init.js 3bfe63d6-ca03-43ba-9041-cd08fc61da46","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.154Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  3bfe63d6-ca03-43ba-9041-cd08fc61da46","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.156Z]=>/api-docs/swagger-ui-bundle.js c4f45140-094d-41a0-84c5-b50faaebf600","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.152Z]=>/api-docs/swagger-ui.css fb93710f-e3a3-47f8-94be-0de244234d03","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.153Z]=>/api-docs/swagger-ui-init.js 3bfe63d6-ca03-43ba-9041-cd08fc61da46","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.154Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  3bfe63d6-ca03-43ba-9041-cd08fc61da46","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.156Z]=>/api-docs/swagger-ui-bundle.js c4f45140-094d-41a0-84c5-b50faaebf600","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.159Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 9ms  ec48f039-e02b-47c4-936d-37089729a76e","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.162Z]=>/api-docs/swagger-ui.css :: duration: 10ms  fb93710f-e3a3-47f8-94be-0de244234d03","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.164Z]=>/api-docs/swagger-ui-bundle.js :: duration: 8ms  c4f45140-094d-41a0-84c5-b50faaebf600","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.159Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 9ms  ec48f039-e02b-47c4-936d-37089729a76e","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.162Z]=>/api-docs/swagger-ui.css :: duration: 10ms  fb93710f-e3a3-47f8-94be-0de244234d03","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.164Z]=>/api-docs/swagger-ui-bundle.js :: duration: 8ms  c4f45140-094d-41a0-84c5-b50faaebf600","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.210Z]=>/api-docs/favicon-32x32.png 441b8d8c-61fc-4d91-8d8e-6665fde06d10","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Start 2025-09-20T19:59:45.210Z]=>/api-docs/favicon-32x32.png 441b8d8c-61fc-4d91-8d8e-6665fde06d10","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.211Z]=>/api-docs/favicon-32x32.png :: duration: 1ms  441b8d8c-61fc-4d91-8d8e-6665fde06d10","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"[Finish 2025-09-20T19:59:45.211Z]=>/api-docs/favicon-32x32.png :: duration: 1ms  441b8d8c-61fc-4d91-8d8e-6665fde06d10","timestamp":"2025-09-20 19:59:45"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 20:04:34"}
+{"level":"info","message":"Api is running on port 3000!!!","timestamp":"2025-09-20 20:04:34"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.490Z]=>/api-docs/ f97a8389-2eb2-45bb-913f-782d9418432c","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.490Z]=>/api-docs/ f97a8389-2eb2-45bb-913f-782d9418432c","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.505Z]=>/api-docs/ :: duration: 15ms  f97a8389-2eb2-45bb-913f-782d9418432c","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.505Z]=>/api-docs/ :: duration: 15ms  f97a8389-2eb2-45bb-913f-782d9418432c","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.573Z]=>/api-docs/swagger-ui.css 25feabbb-28bf-4930-8bf5-df07d4616d23","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.573Z]=>/api-docs/swagger-ui.css 25feabbb-28bf-4930-8bf5-df07d4616d23","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.589Z]=>/api-docs/swagger-ui-bundle.js 5d8009e6-034b-4754-b0dd-1063ff173d4f","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.589Z]=>/api-docs/swagger-ui-bundle.js 5d8009e6-034b-4754-b0dd-1063ff173d4f","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.595Z]=>/api-docs/swagger-ui-standalone-preset.js 67bdfc9d-18ea-41d1-bcb2-06641a2f9fff","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.595Z]=>/api-docs/swagger-ui-standalone-preset.js 67bdfc9d-18ea-41d1-bcb2-06641a2f9fff","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.599Z]=>/api-docs/swagger-ui-init.js 9f0b3289-2d74-4058-ba6b-5179493f2ccf","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.599Z]=>/api-docs/swagger-ui-init.js 9f0b3289-2d74-4058-ba6b-5179493f2ccf","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.602Z]=>/api-docs/swagger-ui-init.js :: duration: 3ms  9f0b3289-2d74-4058-ba6b-5179493f2ccf","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.602Z]=>/api-docs/swagger-ui-init.js :: duration: 3ms  9f0b3289-2d74-4058-ba6b-5179493f2ccf","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.607Z]=>/api-docs/swagger-ui.css :: duration: 34ms  25feabbb-28bf-4930-8bf5-df07d4616d23","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.607Z]=>/api-docs/swagger-ui.css :: duration: 34ms  25feabbb-28bf-4930-8bf5-df07d4616d23","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.616Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 21ms  67bdfc9d-18ea-41d1-bcb2-06641a2f9fff","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.616Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 21ms  67bdfc9d-18ea-41d1-bcb2-06641a2f9fff","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.631Z]=>/api-docs/swagger-ui-bundle.js :: duration: 42ms  5d8009e6-034b-4754-b0dd-1063ff173d4f","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.631Z]=>/api-docs/swagger-ui-bundle.js :: duration: 42ms  5d8009e6-034b-4754-b0dd-1063ff173d4f","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.688Z]=>/api-docs/favicon-32x32.png 938d0761-e7e6-4800-8960-161539dc6e43","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:45.688Z]=>/api-docs/favicon-32x32.png 938d0761-e7e6-4800-8960-161539dc6e43","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.690Z]=>/api-docs/favicon-32x32.png :: duration: 2ms  938d0761-e7e6-4800-8960-161539dc6e43","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:45.690Z]=>/api-docs/favicon-32x32.png :: duration: 2ms  938d0761-e7e6-4800-8960-161539dc6e43","timestamp":"2025-09-20 20:04:45"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.773Z]=>/api-docs/ 64c94c2a-a8f0-4982-bb90-3215f0a79557","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.773Z]=>/api-docs/ 64c94c2a-a8f0-4982-bb90-3215f0a79557","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.775Z]=>/api-docs/ :: duration: 2ms  64c94c2a-a8f0-4982-bb90-3215f0a79557","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.775Z]=>/api-docs/ :: duration: 2ms  64c94c2a-a8f0-4982-bb90-3215f0a79557","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.796Z]=>/api-docs/swagger-ui-bundle.js c2524ce9-0881-45c2-9e6e-f3bcd997dbf2","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.796Z]=>/api-docs/swagger-ui-bundle.js c2524ce9-0881-45c2-9e6e-f3bcd997dbf2","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.798Z]=>/api-docs/swagger-ui-standalone-preset.js 6bad9740-1b3b-4359-b958-db11d321a3c8","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.799Z]=>/api-docs/swagger-ui.css e458a1cd-e5dc-4804-8c74-f32d4619dee7","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.801Z]=>/api-docs/swagger-ui-init.js 855038ee-2b25-414b-9cc1-b128e775a32e","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.802Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  855038ee-2b25-414b-9cc1-b128e775a32e","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.798Z]=>/api-docs/swagger-ui-standalone-preset.js 6bad9740-1b3b-4359-b958-db11d321a3c8","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.799Z]=>/api-docs/swagger-ui.css e458a1cd-e5dc-4804-8c74-f32d4619dee7","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:49.801Z]=>/api-docs/swagger-ui-init.js 855038ee-2b25-414b-9cc1-b128e775a32e","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.802Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  855038ee-2b25-414b-9cc1-b128e775a32e","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.804Z]=>/api-docs/swagger-ui-bundle.js :: duration: 8ms  c2524ce9-0881-45c2-9e6e-f3bcd997dbf2","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.806Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 8ms  6bad9740-1b3b-4359-b958-db11d321a3c8","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.808Z]=>/api-docs/swagger-ui.css :: duration: 9ms  e458a1cd-e5dc-4804-8c74-f32d4619dee7","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.804Z]=>/api-docs/swagger-ui-bundle.js :: duration: 8ms  c2524ce9-0881-45c2-9e6e-f3bcd997dbf2","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.806Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 8ms  6bad9740-1b3b-4359-b958-db11d321a3c8","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:49.808Z]=>/api-docs/swagger-ui.css :: duration: 9ms  e458a1cd-e5dc-4804-8c74-f32d4619dee7","timestamp":"2025-09-20 20:04:49"}
+{"level":"info","message":"[Start 2025-09-20T20:04:58.099Z]=>/api/api/data/countries-delay 13c52d6c-83dc-437c-be49-b90447a368ec","timestamp":"2025-09-20 20:04:58"}
+{"level":"info","message":"[Start 2025-09-20T20:04:58.099Z]=>/api/api/data/countries-delay 13c52d6c-83dc-437c-be49-b90447a368ec","timestamp":"2025-09-20 20:04:58"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:04:58"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:04:58"}
+{"level":"error","message":"UNAUTH reqeustId: 13c52d6c-83dc-437c-be49-b90447a368ec","timestamp":"2025-09-20 20:04:58"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:58.105Z]=>/api/api/data/countries-delay :: duration: 6ms  13c52d6c-83dc-437c-be49-b90447a368ec","timestamp":"2025-09-20 20:04:58"}
+{"level":"error","message":"UNAUTH reqeustId: 13c52d6c-83dc-437c-be49-b90447a368ec","timestamp":"2025-09-20 20:04:58"}
+{"level":"info","message":"[Finish 2025-09-20T20:04:58.105Z]=>/api/api/data/countries-delay :: duration: 6ms  13c52d6c-83dc-437c-be49-b90447a368ec","timestamp":"2025-09-20 20:04:58"}
+{"level":"info","message":"[Start 2025-09-20T20:04:59.997Z]=>/api/api/data/countries-delay d5e61ed8-01a9-4fad-aaf9-813b455fd4aa","timestamp":"2025-09-20 20:04:59"}
+{"level":"info","message":"[Start 2025-09-20T20:04:59.997Z]=>/api/api/data/countries-delay d5e61ed8-01a9-4fad-aaf9-813b455fd4aa","timestamp":"2025-09-20 20:04:59"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: d5e61ed8-01a9-4fad-aaf9-813b455fd4aa","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.006Z]=>/api/api/data/countries-delay :: duration: 9ms  d5e61ed8-01a9-4fad-aaf9-813b455fd4aa","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: d5e61ed8-01a9-4fad-aaf9-813b455fd4aa","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.006Z]=>/api/api/data/countries-delay :: duration: 9ms  d5e61ed8-01a9-4fad-aaf9-813b455fd4aa","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.480Z]=>/api/api/data/countries-delay 189f8826-412a-4ab1-9992-bf41bad80169","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.480Z]=>/api/api/data/countries-delay 189f8826-412a-4ab1-9992-bf41bad80169","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: 189f8826-412a-4ab1-9992-bf41bad80169","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.484Z]=>/api/api/data/countries-delay :: duration: 4ms  189f8826-412a-4ab1-9992-bf41bad80169","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: 189f8826-412a-4ab1-9992-bf41bad80169","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.484Z]=>/api/api/data/countries-delay :: duration: 4ms  189f8826-412a-4ab1-9992-bf41bad80169","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.647Z]=>/api/api/data/countries-delay b05345ea-0f38-4f79-8aa3-46c4fa3765d9","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.647Z]=>/api/api/data/countries-delay b05345ea-0f38-4f79-8aa3-46c4fa3765d9","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: b05345ea-0f38-4f79-8aa3-46c4fa3765d9","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.653Z]=>/api/api/data/countries-delay :: duration: 6ms  b05345ea-0f38-4f79-8aa3-46c4fa3765d9","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: b05345ea-0f38-4f79-8aa3-46c4fa3765d9","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.653Z]=>/api/api/data/countries-delay :: duration: 6ms  b05345ea-0f38-4f79-8aa3-46c4fa3765d9","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.796Z]=>/api/api/data/countries-delay 44203c47-2b1e-4c8f-91bd-5cd26080b90c","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.796Z]=>/api/api/data/countries-delay 44203c47-2b1e-4c8f-91bd-5cd26080b90c","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: 44203c47-2b1e-4c8f-91bd-5cd26080b90c","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.802Z]=>/api/api/data/countries-delay :: duration: 6ms  44203c47-2b1e-4c8f-91bd-5cd26080b90c","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: 44203c47-2b1e-4c8f-91bd-5cd26080b90c","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.802Z]=>/api/api/data/countries-delay :: duration: 6ms  44203c47-2b1e-4c8f-91bd-5cd26080b90c","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.962Z]=>/api/api/data/countries-delay b01ca39c-f05f-441d-bbf5-f989a9544016","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:00.962Z]=>/api/api/data/countries-delay b01ca39c-f05f-441d-bbf5-f989a9544016","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: b01ca39c-f05f-441d-bbf5-f989a9544016","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.968Z]=>/api/api/data/countries-delay :: duration: 6ms  b01ca39c-f05f-441d-bbf5-f989a9544016","timestamp":"2025-09-20 20:05:00"}
+{"level":"error","message":"UNAUTH reqeustId: b01ca39c-f05f-441d-bbf5-f989a9544016","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:00.968Z]=>/api/api/data/countries-delay :: duration: 6ms  b01ca39c-f05f-441d-bbf5-f989a9544016","timestamp":"2025-09-20 20:05:00"}
+{"level":"info","message":"[Start 2025-09-20T20:05:01.107Z]=>/api/api/data/countries-delay f256da95-fc19-4a58-a3f7-e3c7b56184fd","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Start 2025-09-20T20:05:01.107Z]=>/api/api/data/countries-delay f256da95-fc19-4a58-a3f7-e3c7b56184fd","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"UNAUTH reqeustId: f256da95-fc19-4a58-a3f7-e3c7b56184fd","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:01.113Z]=>/api/api/data/countries-delay :: duration: 6ms  f256da95-fc19-4a58-a3f7-e3c7b56184fd","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"UNAUTH reqeustId: f256da95-fc19-4a58-a3f7-e3c7b56184fd","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:01.113Z]=>/api/api/data/countries-delay :: duration: 6ms  f256da95-fc19-4a58-a3f7-e3c7b56184fd","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Start 2025-09-20T20:05:01.251Z]=>/api/api/data/countries-delay 4b06ff27-4ac7-4350-bd22-63300fed32de","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Start 2025-09-20T20:05:01.251Z]=>/api/api/data/countries-delay 4b06ff27-4ac7-4350-bd22-63300fed32de","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"UNAUTH reqeustId: 4b06ff27-4ac7-4350-bd22-63300fed32de","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:01.257Z]=>/api/api/data/countries-delay :: duration: 6ms  4b06ff27-4ac7-4350-bd22-63300fed32de","timestamp":"2025-09-20 20:05:01"}
+{"level":"error","message":"UNAUTH reqeustId: 4b06ff27-4ac7-4350-bd22-63300fed32de","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:01.257Z]=>/api/api/data/countries-delay :: duration: 6ms  4b06ff27-4ac7-4350-bd22-63300fed32de","timestamp":"2025-09-20 20:05:01"}
+{"level":"info","message":"[Start 2025-09-20T20:05:18.770Z]=>/api/api/data/countries-delay 2581f45a-c981-4b84-a152-24830ceb2010","timestamp":"2025-09-20 20:05:18"}
+{"level":"info","message":"[Start 2025-09-20T20:05:18.770Z]=>/api/api/data/countries-delay 2581f45a-c981-4b84-a152-24830ceb2010","timestamp":"2025-09-20 20:05:18"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:18"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:05:18"}
+{"level":"error","message":"UNAUTH reqeustId: 2581f45a-c981-4b84-a152-24830ceb2010","timestamp":"2025-09-20 20:05:18"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:18.780Z]=>/api/api/data/countries-delay :: duration: 11ms  2581f45a-c981-4b84-a152-24830ceb2010","timestamp":"2025-09-20 20:05:18"}
+{"level":"error","message":"UNAUTH reqeustId: 2581f45a-c981-4b84-a152-24830ceb2010","timestamp":"2025-09-20 20:05:18"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:18.780Z]=>/api/api/data/countries-delay :: duration: 11ms  2581f45a-c981-4b84-a152-24830ceb2010","timestamp":"2025-09-20 20:05:18"}
+{"level":"info","message":"[Start 2025-09-20T20:05:19.327Z]=>/favicon.ico 896451db-f718-474b-a464-96050b2265c7","timestamp":"2025-09-20 20:05:19"}
+{"level":"info","message":"[Start 2025-09-20T20:05:19.327Z]=>/favicon.ico 896451db-f718-474b-a464-96050b2265c7","timestamp":"2025-09-20 20:05:19"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:19.332Z]=>/favicon.ico :: duration: 5ms  896451db-f718-474b-a464-96050b2265c7","timestamp":"2025-09-20 20:05:19"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:19.332Z]=>/favicon.ico :: duration: 5ms  896451db-f718-474b-a464-96050b2265c7","timestamp":"2025-09-20 20:05:19"}
+{"level":"info","message":"[Start 2025-09-20T20:05:22.251Z]=>/api/data/countries-delay 5d094887-97de-478a-a01c-77809762efb3","timestamp":"2025-09-20 20:05:22"}
+{"level":"info","message":"[Start 2025-09-20T20:05:22.251Z]=>/api/data/countries-delay 5d094887-97de-478a-a01c-77809762efb3","timestamp":"2025-09-20 20:05:22"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:23.286Z]=>/api/data/countries-delay :: duration: 1035ms  5d094887-97de-478a-a01c-77809762efb3","timestamp":"2025-09-20 20:05:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:23.286Z]=>/api/data/countries-delay :: duration: 1035ms  5d094887-97de-478a-a01c-77809762efb3","timestamp":"2025-09-20 20:05:23"}
+{"level":"info","message":"[Start 2025-09-20T20:05:23.660Z]=>/favicon.ico e5ddd048-e1ee-4ea1-b686-819cfbeec0c7","timestamp":"2025-09-20 20:05:23"}
+{"level":"info","message":"[Start 2025-09-20T20:05:23.660Z]=>/favicon.ico e5ddd048-e1ee-4ea1-b686-819cfbeec0c7","timestamp":"2025-09-20 20:05:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:23.663Z]=>/favicon.ico :: duration: 3ms  e5ddd048-e1ee-4ea1-b686-819cfbeec0c7","timestamp":"2025-09-20 20:05:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:23.663Z]=>/favicon.ico :: duration: 3ms  e5ddd048-e1ee-4ea1-b686-819cfbeec0c7","timestamp":"2025-09-20 20:05:23"}
+{"level":"info","message":"[Start 2025-09-20T20:05:40.403Z]=>/api/data/countries-delay b2698f05-fe2a-4965-aee3-d38b76b1e343","timestamp":"2025-09-20 20:05:40"}
+{"level":"info","message":"[Start 2025-09-20T20:05:40.403Z]=>/api/data/countries-delay b2698f05-fe2a-4965-aee3-d38b76b1e343","timestamp":"2025-09-20 20:05:40"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:41.450Z]=>/api/data/countries-delay :: duration: 1047ms  b2698f05-fe2a-4965-aee3-d38b76b1e343","timestamp":"2025-09-20 20:05:41"}
+{"level":"info","message":"[Finish 2025-09-20T20:05:41.450Z]=>/api/data/countries-delay :: duration: 1047ms  b2698f05-fe2a-4965-aee3-d38b76b1e343","timestamp":"2025-09-20 20:05:41"}
+{"level":"info","message":"[Start 2025-09-20T20:06:00.169Z]=>/api-docs/ a1cab3e8-3db8-4889-8bc7-8f823a24c982","timestamp":"2025-09-20 20:06:00"}
+{"level":"info","message":"[Start 2025-09-20T20:06:00.169Z]=>/api-docs/ a1cab3e8-3db8-4889-8bc7-8f823a24c982","timestamp":"2025-09-20 20:06:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:00.175Z]=>/api-docs/ :: duration: 6ms  a1cab3e8-3db8-4889-8bc7-8f823a24c982","timestamp":"2025-09-20 20:06:00"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:00.175Z]=>/api-docs/ :: duration: 6ms  a1cab3e8-3db8-4889-8bc7-8f823a24c982","timestamp":"2025-09-20 20:06:00"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.708Z]=>/api-docs/ f832e38f-eefc-4454-b0d1-5fd83e69156a","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.708Z]=>/api-docs/ f832e38f-eefc-4454-b0d1-5fd83e69156a","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.719Z]=>/api-docs/ :: duration: 11ms  f832e38f-eefc-4454-b0d1-5fd83e69156a","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.719Z]=>/api-docs/ :: duration: 11ms  f832e38f-eefc-4454-b0d1-5fd83e69156a","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.745Z]=>/api-docs/swagger-ui.css 5b89a0e9-9201-4ec1-b228-3d6a0cf97e9f","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.745Z]=>/api-docs/swagger-ui.css 5b89a0e9-9201-4ec1-b228-3d6a0cf97e9f","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.747Z]=>/api-docs/swagger-ui-standalone-preset.js 4377051d-a31c-4a30-86b2-6f352ee00ba1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.747Z]=>/api-docs/swagger-ui-standalone-preset.js 4377051d-a31c-4a30-86b2-6f352ee00ba1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.750Z]=>/api-docs/swagger-ui.css :: duration: 5ms  5b89a0e9-9201-4ec1-b228-3d6a0cf97e9f","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.753Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 6ms  4377051d-a31c-4a30-86b2-6f352ee00ba1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.754Z]=>/api-docs/swagger-ui-init.js 188d55fa-90b5-41c5-aeff-d81e447b3b3b","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.760Z]=>/api-docs/swagger-ui-init.js :: duration: 6ms  188d55fa-90b5-41c5-aeff-d81e447b3b3b","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.750Z]=>/api-docs/swagger-ui.css :: duration: 5ms  5b89a0e9-9201-4ec1-b228-3d6a0cf97e9f","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.753Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 6ms  4377051d-a31c-4a30-86b2-6f352ee00ba1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.754Z]=>/api-docs/swagger-ui-init.js 188d55fa-90b5-41c5-aeff-d81e447b3b3b","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.760Z]=>/api-docs/swagger-ui-init.js :: duration: 6ms  188d55fa-90b5-41c5-aeff-d81e447b3b3b","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.762Z]=>/api-docs/swagger-ui-bundle.js 7169de14-99bf-4ae6-9ef0-eb25c49cc0c2","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.762Z]=>/api-docs/swagger-ui-bundle.js 7169de14-99bf-4ae6-9ef0-eb25c49cc0c2","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.776Z]=>/api-docs/swagger-ui-bundle.js :: duration: 14ms  7169de14-99bf-4ae6-9ef0-eb25c49cc0c2","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.776Z]=>/api-docs/swagger-ui-bundle.js :: duration: 14ms  7169de14-99bf-4ae6-9ef0-eb25c49cc0c2","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.976Z]=>/api-docs/favicon-32x32.png 39a93fea-0df6-43f6-9784-11cbd101a0c1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:07.976Z]=>/api-docs/favicon-32x32.png 39a93fea-0df6-43f6-9784-11cbd101a0c1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.979Z]=>/api-docs/favicon-32x32.png :: duration: 3ms  39a93fea-0df6-43f6-9784-11cbd101a0c1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:07.979Z]=>/api-docs/favicon-32x32.png :: duration: 3ms  39a93fea-0df6-43f6-9784-11cbd101a0c1","timestamp":"2025-09-20 20:06:07"}
+{"level":"info","message":"[Start 2025-09-20T20:06:18.539Z]=>/api/data/countries-rfl 2f63a70e-18fe-4f98-8b24-ed9ad5f0c498","timestamp":"2025-09-20 20:06:18"}
+{"level":"info","message":"[Start 2025-09-20T20:06:18.539Z]=>/api/data/countries-rfl 2f63a70e-18fe-4f98-8b24-ed9ad5f0c498","timestamp":"2025-09-20 20:06:18"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:18.563Z]=>/api/data/countries-rfl :: duration: 24ms  2f63a70e-18fe-4f98-8b24-ed9ad5f0c498","timestamp":"2025-09-20 20:06:18"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:18.563Z]=>/api/data/countries-rfl :: duration: 24ms  2f63a70e-18fe-4f98-8b24-ed9ad5f0c498","timestamp":"2025-09-20 20:06:18"}
+{"level":"info","message":"[Start 2025-09-20T20:06:53.420Z]=>/api/data/countries-delay 7740d053-473f-41f3-92a5-7c9fe7545b60","timestamp":"2025-09-20 20:06:53"}
+{"level":"info","message":"[Start 2025-09-20T20:06:53.420Z]=>/api/data/countries-delay 7740d053-473f-41f3-92a5-7c9fe7545b60","timestamp":"2025-09-20 20:06:53"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:54.463Z]=>/api/data/countries-delay :: duration: 1043ms  7740d053-473f-41f3-92a5-7c9fe7545b60","timestamp":"2025-09-20 20:06:54"}
+{"level":"info","message":"[Finish 2025-09-20T20:06:54.463Z]=>/api/data/countries-delay :: duration: 1043ms  7740d053-473f-41f3-92a5-7c9fe7545b60","timestamp":"2025-09-20 20:06:54"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.775Z]=>/api-docs/ 78dbf7b3-436e-488d-957f-e6221de52375","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.775Z]=>/api-docs/ 78dbf7b3-436e-488d-957f-e6221de52375","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.784Z]=>/api-docs/ :: duration: 9ms  78dbf7b3-436e-488d-957f-e6221de52375","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.784Z]=>/api-docs/ :: duration: 9ms  78dbf7b3-436e-488d-957f-e6221de52375","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.905Z]=>/api-docs/swagger-ui.css d8e86702-5e7f-4257-bda3-acdad00bbb92","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.905Z]=>/api-docs/swagger-ui.css d8e86702-5e7f-4257-bda3-acdad00bbb92","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.913Z]=>/api-docs/swagger-ui-bundle.js 4c0db702-2e32-49d2-bba4-03e4699762b1","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.913Z]=>/api-docs/swagger-ui-bundle.js 4c0db702-2e32-49d2-bba4-03e4699762b1","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.915Z]=>/api-docs/swagger-ui.css :: duration: 10ms  d8e86702-5e7f-4257-bda3-acdad00bbb92","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.916Z]=>/api-docs/swagger-ui-bundle.js :: duration: 3ms  4c0db702-2e32-49d2-bba4-03e4699762b1","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.915Z]=>/api-docs/swagger-ui.css :: duration: 10ms  d8e86702-5e7f-4257-bda3-acdad00bbb92","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.916Z]=>/api-docs/swagger-ui-bundle.js :: duration: 3ms  4c0db702-2e32-49d2-bba4-03e4699762b1","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.920Z]=>/api-docs/swagger-ui-standalone-preset.js fa4d8ce0-3e92-4885-8923-32b01a8beabf","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.920Z]=>/api-docs/swagger-ui-standalone-preset.js fa4d8ce0-3e92-4885-8923-32b01a8beabf","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.922Z]=>/api-docs/swagger-ui-init.js bce63cf5-6e74-4b5c-96d4-117e79781ab7","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.923Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  bce63cf5-6e74-4b5c-96d4-117e79781ab7","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:01.922Z]=>/api-docs/swagger-ui-init.js bce63cf5-6e74-4b5c-96d4-117e79781ab7","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.923Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  bce63cf5-6e74-4b5c-96d4-117e79781ab7","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.924Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 4ms  fa4d8ce0-3e92-4885-8923-32b01a8beabf","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:01.924Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 4ms  fa4d8ce0-3e92-4885-8923-32b01a8beabf","timestamp":"2025-09-20 20:07:01"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.011Z]=>/api-docs/ 8d0cd7d7-2951-4284-8bb0-62a047349994","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.011Z]=>/api-docs/ 8d0cd7d7-2951-4284-8bb0-62a047349994","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.014Z]=>/api-docs/ :: duration: 3ms  8d0cd7d7-2951-4284-8bb0-62a047349994","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.014Z]=>/api-docs/ :: duration: 3ms  8d0cd7d7-2951-4284-8bb0-62a047349994","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.051Z]=>/api-docs/swagger-ui.css baa196ea-674f-4766-a14e-2e68f058a227","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.051Z]=>/api-docs/swagger-ui.css baa196ea-674f-4766-a14e-2e68f058a227","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.054Z]=>/api-docs/swagger-ui.css :: duration: 3ms  baa196ea-674f-4766-a14e-2e68f058a227","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.054Z]=>/api-docs/swagger-ui.css :: duration: 3ms  baa196ea-674f-4766-a14e-2e68f058a227","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.060Z]=>/api-docs/swagger-ui-bundle.js b68b6fb0-cb26-4f5a-8ce0-d3fea02ad008","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.060Z]=>/api-docs/swagger-ui-bundle.js b68b6fb0-cb26-4f5a-8ce0-d3fea02ad008","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.064Z]=>/api-docs/swagger-ui-standalone-preset.js d68a0cc6-80b5-49f3-b44e-e9f4f0739b83","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.064Z]=>/api-docs/swagger-ui-standalone-preset.js d68a0cc6-80b5-49f3-b44e-e9f4f0739b83","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.066Z]=>/api-docs/swagger-ui-bundle.js :: duration: 6ms  b68b6fb0-cb26-4f5a-8ce0-d3fea02ad008","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.075Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 11ms  d68a0cc6-80b5-49f3-b44e-e9f4f0739b83","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.066Z]=>/api-docs/swagger-ui-bundle.js :: duration: 6ms  b68b6fb0-cb26-4f5a-8ce0-d3fea02ad008","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.075Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 11ms  d68a0cc6-80b5-49f3-b44e-e9f4f0739b83","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.077Z]=>/api-docs/swagger-ui-init.js eb967d4d-8d85-439f-97e0-edfc963da044","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.080Z]=>/api-docs/swagger-ui-init.js :: duration: 3ms  eb967d4d-8d85-439f-97e0-edfc963da044","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:09.077Z]=>/api-docs/swagger-ui-init.js eb967d4d-8d85-439f-97e0-edfc963da044","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:09.080Z]=>/api-docs/swagger-ui-init.js :: duration: 3ms  eb967d4d-8d85-439f-97e0-edfc963da044","timestamp":"2025-09-20 20:07:09"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.742Z]=>/api-docs/ 2dea5b16-2c13-459c-902e-ae57d0d0dd5e","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.742Z]=>/api-docs/ 2dea5b16-2c13-459c-902e-ae57d0d0dd5e","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.747Z]=>/api-docs/ :: duration: 5ms  2dea5b16-2c13-459c-902e-ae57d0d0dd5e","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.747Z]=>/api-docs/ :: duration: 5ms  2dea5b16-2c13-459c-902e-ae57d0d0dd5e","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.769Z]=>/api-docs/swagger-ui.css 680d152e-fb8e-4bb0-bdb5-ff5610dc5463","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.769Z]=>/api-docs/swagger-ui.css 680d152e-fb8e-4bb0-bdb5-ff5610dc5463","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.772Z]=>/api-docs/swagger-ui-bundle.js 75f80632-c4e0-4390-a17a-3fe8e55da746","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.773Z]=>/api-docs/swagger-ui-standalone-preset.js 659c3d1e-c036-4817-919e-f6f2e146baf6","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.772Z]=>/api-docs/swagger-ui-bundle.js 75f80632-c4e0-4390-a17a-3fe8e55da746","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.773Z]=>/api-docs/swagger-ui-standalone-preset.js 659c3d1e-c036-4817-919e-f6f2e146baf6","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.776Z]=>/api-docs/swagger-ui.css :: duration: 7ms  680d152e-fb8e-4bb0-bdb5-ff5610dc5463","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.777Z]=>/api-docs/swagger-ui-bundle.js :: duration: 5ms  75f80632-c4e0-4390-a17a-3fe8e55da746","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.777Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 4ms  659c3d1e-c036-4817-919e-f6f2e146baf6","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.776Z]=>/api-docs/swagger-ui.css :: duration: 7ms  680d152e-fb8e-4bb0-bdb5-ff5610dc5463","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.777Z]=>/api-docs/swagger-ui-bundle.js :: duration: 5ms  75f80632-c4e0-4390-a17a-3fe8e55da746","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.777Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 4ms  659c3d1e-c036-4817-919e-f6f2e146baf6","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.778Z]=>/api-docs/swagger-ui-init.js 81b68526-862f-47a6-984a-fdb94ed82e2b","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.780Z]=>/api-docs/swagger-ui-init.js :: duration: 2ms  81b68526-862f-47a6-984a-fdb94ed82e2b","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:12.778Z]=>/api-docs/swagger-ui-init.js 81b68526-862f-47a6-984a-fdb94ed82e2b","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:12.780Z]=>/api-docs/swagger-ui-init.js :: duration: 2ms  81b68526-862f-47a6-984a-fdb94ed82e2b","timestamp":"2025-09-20 20:07:12"}
+{"level":"info","message":"[Start 2025-09-20T20:07:19.907Z]=>/api/auth/login 85f32094-f65c-4874-9487-afef841b45a2","timestamp":"2025-09-20 20:07:19"}
+{"level":"info","message":"[Start 2025-09-20T20:07:19.907Z]=>/api/auth/login 85f32094-f65c-4874-9487-afef841b45a2","timestamp":"2025-09-20 20:07:19"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:19"}
+{"level":"error","message":"UNAUTH reqeustId: 85f32094-f65c-4874-9487-afef841b45a2","timestamp":"2025-09-20 20:07:19"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:19.922Z]=>/api/auth/login :: duration: 15ms  85f32094-f65c-4874-9487-afef841b45a2","timestamp":"2025-09-20 20:07:19"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:19"}
+{"level":"error","message":"UNAUTH reqeustId: 85f32094-f65c-4874-9487-afef841b45a2","timestamp":"2025-09-20 20:07:19"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:19.922Z]=>/api/auth/login :: duration: 15ms  85f32094-f65c-4874-9487-afef841b45a2","timestamp":"2025-09-20 20:07:19"}
+{"level":"info","message":"[Start 2025-09-20T20:07:23.427Z]=>/api/auth/login 289efbaa-ff96-4287-a7f3-ca8d71102717","timestamp":"2025-09-20 20:07:23"}
+{"level":"info","message":"[Start 2025-09-20T20:07:23.427Z]=>/api/auth/login 289efbaa-ff96-4287-a7f3-ca8d71102717","timestamp":"2025-09-20 20:07:23"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:23"}
+{"level":"error","message":"UNAUTH reqeustId: 289efbaa-ff96-4287-a7f3-ca8d71102717","timestamp":"2025-09-20 20:07:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:23.437Z]=>/api/auth/login :: duration: 10ms  289efbaa-ff96-4287-a7f3-ca8d71102717","timestamp":"2025-09-20 20:07:23"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:23"}
+{"level":"error","message":"UNAUTH reqeustId: 289efbaa-ff96-4287-a7f3-ca8d71102717","timestamp":"2025-09-20 20:07:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:23.437Z]=>/api/auth/login :: duration: 10ms  289efbaa-ff96-4287-a7f3-ca8d71102717","timestamp":"2025-09-20 20:07:23"}
+{"level":"info","message":"[Start 2025-09-20T20:07:29.725Z]=>/api/auth/login 7f851245-31d2-4a2f-a83a-978a58dde1b3","timestamp":"2025-09-20 20:07:29"}
+{"level":"info","message":"[Start 2025-09-20T20:07:29.725Z]=>/api/auth/login 7f851245-31d2-4a2f-a83a-978a58dde1b3","timestamp":"2025-09-20 20:07:29"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:29"}
+{"level":"error","message":"UNAUTH reqeustId: 7f851245-31d2-4a2f-a83a-978a58dde1b3","timestamp":"2025-09-20 20:07:29"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:29.728Z]=>/api/auth/login :: duration: 3ms  7f851245-31d2-4a2f-a83a-978a58dde1b3","timestamp":"2025-09-20 20:07:29"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:29"}
+{"level":"error","message":"UNAUTH reqeustId: 7f851245-31d2-4a2f-a83a-978a58dde1b3","timestamp":"2025-09-20 20:07:29"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:29.728Z]=>/api/auth/login :: duration: 3ms  7f851245-31d2-4a2f-a83a-978a58dde1b3","timestamp":"2025-09-20 20:07:29"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.448Z]=>/api/auth/login f311585e-3be7-4f7d-a31f-991942cf8676","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.448Z]=>/api/auth/login f311585e-3be7-4f7d-a31f-991942cf8676","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: f311585e-3be7-4f7d-a31f-991942cf8676","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.453Z]=>/api/auth/login :: duration: 5ms  f311585e-3be7-4f7d-a31f-991942cf8676","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: f311585e-3be7-4f7d-a31f-991942cf8676","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.453Z]=>/api/auth/login :: duration: 5ms  f311585e-3be7-4f7d-a31f-991942cf8676","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.609Z]=>/api/auth/login bb08c4f5-deda-43f9-a832-73e6a15ee3f1","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.609Z]=>/api/auth/login bb08c4f5-deda-43f9-a832-73e6a15ee3f1","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: bb08c4f5-deda-43f9-a832-73e6a15ee3f1","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.612Z]=>/api/auth/login :: duration: 3ms  bb08c4f5-deda-43f9-a832-73e6a15ee3f1","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: bb08c4f5-deda-43f9-a832-73e6a15ee3f1","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.612Z]=>/api/auth/login :: duration: 3ms  bb08c4f5-deda-43f9-a832-73e6a15ee3f1","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.762Z]=>/api/auth/login 23f2ff85-b6e3-424e-ad1e-c30ff957bcca","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.762Z]=>/api/auth/login 23f2ff85-b6e3-424e-ad1e-c30ff957bcca","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: 23f2ff85-b6e3-424e-ad1e-c30ff957bcca","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.771Z]=>/api/auth/login :: duration: 9ms  23f2ff85-b6e3-424e-ad1e-c30ff957bcca","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: 23f2ff85-b6e3-424e-ad1e-c30ff957bcca","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.771Z]=>/api/auth/login :: duration: 9ms  23f2ff85-b6e3-424e-ad1e-c30ff957bcca","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.926Z]=>/api/auth/login 707e7183-5a15-4a51-b753-27e5a9e538ef","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:30.926Z]=>/api/auth/login 707e7183-5a15-4a51-b753-27e5a9e538ef","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: 707e7183-5a15-4a51-b753-27e5a9e538ef","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.930Z]=>/api/auth/login :: duration: 4ms  707e7183-5a15-4a51-b753-27e5a9e538ef","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:30"}
+{"level":"error","message":"UNAUTH reqeustId: 707e7183-5a15-4a51-b753-27e5a9e538ef","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:30.930Z]=>/api/auth/login :: duration: 4ms  707e7183-5a15-4a51-b753-27e5a9e538ef","timestamp":"2025-09-20 20:07:30"}
+{"level":"info","message":"[Start 2025-09-20T20:07:31.106Z]=>/api/auth/login afdf57d6-765d-4607-86c7-5bc78c31e7f6","timestamp":"2025-09-20 20:07:31"}
+{"level":"info","message":"[Start 2025-09-20T20:07:31.106Z]=>/api/auth/login afdf57d6-765d-4607-86c7-5bc78c31e7f6","timestamp":"2025-09-20 20:07:31"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:31"}
+{"level":"error","message":"UNAUTH reqeustId: afdf57d6-765d-4607-86c7-5bc78c31e7f6","timestamp":"2025-09-20 20:07:31"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:31.111Z]=>/api/auth/login :: duration: 5ms  afdf57d6-765d-4607-86c7-5bc78c31e7f6","timestamp":"2025-09-20 20:07:31"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:31"}
+{"level":"error","message":"UNAUTH reqeustId: afdf57d6-765d-4607-86c7-5bc78c31e7f6","timestamp":"2025-09-20 20:07:31"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:31.111Z]=>/api/auth/login :: duration: 5ms  afdf57d6-765d-4607-86c7-5bc78c31e7f6","timestamp":"2025-09-20 20:07:31"}
+{"level":"info","message":"[Start 2025-09-20T20:07:39.286Z]=>/api/auth/register b1d5dd07-9bee-47b9-b0f5-4f8a036b6e02","timestamp":"2025-09-20 20:07:39"}
+{"level":"info","message":"[Start 2025-09-20T20:07:39.286Z]=>/api/auth/register b1d5dd07-9bee-47b9-b0f5-4f8a036b6e02","timestamp":"2025-09-20 20:07:39"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:39"}
+{"level":"error","message":"UNAUTH reqeustId: b1d5dd07-9bee-47b9-b0f5-4f8a036b6e02","timestamp":"2025-09-20 20:07:39"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:39.294Z]=>/api/auth/register :: duration: 8ms  b1d5dd07-9bee-47b9-b0f5-4f8a036b6e02","timestamp":"2025-09-20 20:07:39"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:07:39"}
+{"level":"error","message":"UNAUTH reqeustId: b1d5dd07-9bee-47b9-b0f5-4f8a036b6e02","timestamp":"2025-09-20 20:07:39"}
+{"level":"info","message":"[Finish 2025-09-20T20:07:39.294Z]=>/api/auth/register :: duration: 8ms  b1d5dd07-9bee-47b9-b0f5-4f8a036b6e02","timestamp":"2025-09-20 20:07:39"}
+{"level":"info","message":"[Start 2025-09-20T20:08:09.244Z]=>/api/auth/register f6483591-1b46-4a3f-8322-4a6db65f580f","timestamp":"2025-09-20 20:08:09"}
+{"level":"info","message":"[Start 2025-09-20T20:08:09.244Z]=>/api/auth/register f6483591-1b46-4a3f-8322-4a6db65f580f","timestamp":"2025-09-20 20:08:09"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:08:09"}
+{"level":"error","message":"UNAUTH reqeustId: f6483591-1b46-4a3f-8322-4a6db65f580f","timestamp":"2025-09-20 20:08:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:08:09.247Z]=>/api/auth/register :: duration: 3ms  f6483591-1b46-4a3f-8322-4a6db65f580f","timestamp":"2025-09-20 20:08:09"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:08:09"}
+{"level":"error","message":"UNAUTH reqeustId: f6483591-1b46-4a3f-8322-4a6db65f580f","timestamp":"2025-09-20 20:08:09"}
+{"level":"info","message":"[Finish 2025-09-20T20:08:09.247Z]=>/api/auth/register :: duration: 3ms  f6483591-1b46-4a3f-8322-4a6db65f580f","timestamp":"2025-09-20 20:08:09"}
+{"level":"info","message":"[Start 2025-09-20T20:08:23.601Z]=>/api/auth/register 12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
+{"level":"info","message":"[Start 2025-09-20T20:08:23.601Z]=>/api/auth/register 12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:08:23"}
+{"level":"error","message":"UNAUTH reqeustId: 12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:08:23.613Z]=>/api/auth/register :: duration: 12ms  12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
+{"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:08:23"}
+{"level":"error","message":"UNAUTH reqeustId: 12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
+{"level":"info","message":"[Finish 2025-09-20T20:08:23.613Z]=>/api/auth/register :: duration: 12ms  12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
+{"level":"info","message":"[Start 2025-09-20T20:09:50.807Z]=>/auth/register 25f1a7f5-5170-46ff-b19c-054922352c1d","timestamp":"2025-09-20 20:09:50"}
+{"level":"info","message":"[Start 2025-09-20T20:09:50.807Z]=>/auth/register 25f1a7f5-5170-46ff-b19c-054922352c1d","timestamp":"2025-09-20 20:09:50"}
+{"level":"info","message":"[Finish 2025-09-20T20:09:50.875Z]=>/auth/register :: duration: 68ms  25f1a7f5-5170-46ff-b19c-054922352c1d","timestamp":"2025-09-20 20:09:50"}
+{"level":"info","message":"[Finish 2025-09-20T20:09:50.875Z]=>/auth/register :: duration: 68ms  25f1a7f5-5170-46ff-b19c-054922352c1d","timestamp":"2025-09-20 20:09:50"}
+{"level":"info","message":"[Start 2025-09-20T20:09:51.730Z]=>/auth/register 5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"info","message":"[Start 2025-09-20T20:09:51.730Z]=>/auth/register 5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"error","message":"Duplicate entry 'user111111@example.com' for key 'users.userName_UNIQUE' reqeustId: 5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"error","message":"Duplicate entry 'user111111@example.com' for key 'users.userName_UNIQUE' reqeustId: 5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"info","message":"[Finish 2025-09-20T20:09:51.767Z]=>/auth/register :: duration: 37ms  5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"info","message":"[Finish 2025-09-20T20:09:51.767Z]=>/auth/register :: duration: 37ms  5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"info","message":"[Start 2025-09-20T20:09:59.112Z]=>/auth/register 04dfd5cd-44af-4298-ab14-718633abe308","timestamp":"2025-09-20 20:09:59"}
+{"level":"info","message":"[Start 2025-09-20T20:09:59.112Z]=>/auth/register 04dfd5cd-44af-4298-ab14-718633abe308","timestamp":"2025-09-20 20:09:59"}
+{"level":"info","message":"[Finish 2025-09-20T20:09:59.139Z]=>/auth/register :: duration: 27ms  04dfd5cd-44af-4298-ab14-718633abe308","timestamp":"2025-09-20 20:09:59"}
+{"level":"info","message":"[Finish 2025-09-20T20:09:59.139Z]=>/auth/register :: duration: 27ms  04dfd5cd-44af-4298-ab14-718633abe308","timestamp":"2025-09-20 20:09:59"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.725Z]=>/api-docs/ bccb47a2-36e8-4657-8079-650c8d8987bc","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.725Z]=>/api-docs/ bccb47a2-36e8-4657-8079-650c8d8987bc","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.735Z]=>/api-docs/ :: duration: 10ms  bccb47a2-36e8-4657-8079-650c8d8987bc","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.735Z]=>/api-docs/ :: duration: 10ms  bccb47a2-36e8-4657-8079-650c8d8987bc","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.757Z]=>/api-docs/swagger-ui-standalone-preset.js fbc296a2-eb30-4107-8510-3d989a4fb7df","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.757Z]=>/api-docs/swagger-ui-standalone-preset.js fbc296a2-eb30-4107-8510-3d989a4fb7df","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.760Z]=>/api-docs/swagger-ui-bundle.js 54518bb2-79a0-4efd-b5c2-fa749f714203","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.761Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 4ms  fbc296a2-eb30-4107-8510-3d989a4fb7df","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.760Z]=>/api-docs/swagger-ui-bundle.js 54518bb2-79a0-4efd-b5c2-fa749f714203","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.761Z]=>/api-docs/swagger-ui-standalone-preset.js :: duration: 4ms  fbc296a2-eb30-4107-8510-3d989a4fb7df","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.762Z]=>/api-docs/swagger-ui-bundle.js :: duration: 2ms  54518bb2-79a0-4efd-b5c2-fa749f714203","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.762Z]=>/api-docs/swagger-ui-bundle.js :: duration: 2ms  54518bb2-79a0-4efd-b5c2-fa749f714203","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.774Z]=>/api-docs/swagger-ui.css ca90c5f6-652c-4016-b8d9-de74f72f95f8","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.774Z]=>/api-docs/swagger-ui.css ca90c5f6-652c-4016-b8d9-de74f72f95f8","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.775Z]=>/api-docs/swagger-ui-init.js 31175219-433a-43e4-bfb2-c3fafe9a4c90","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.776Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  31175219-433a-43e4-bfb2-c3fafe9a4c90","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.776Z]=>/api-docs/swagger-ui.css :: duration: 2ms  ca90c5f6-652c-4016-b8d9-de74f72f95f8","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Start 2025-09-20T20:12:37.775Z]=>/api-docs/swagger-ui-init.js 31175219-433a-43e4-bfb2-c3fafe9a4c90","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.776Z]=>/api-docs/swagger-ui-init.js :: duration: 1ms  31175219-433a-43e4-bfb2-c3fafe9a4c90","timestamp":"2025-09-20 20:12:37"}
+{"level":"info","message":"[Finish 2025-09-20T20:12:37.776Z]=>/api-docs/swagger-ui.css :: duration: 2ms  ca90c5f6-652c-4016-b8d9-de74f72f95f8","timestamp":"2025-09-20 20:12:37"}

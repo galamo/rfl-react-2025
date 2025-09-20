@@ -18,6 +18,7 @@ import addRequestId from "./middleware/addRequestId";
 import cors from "cors";
 import getConnection from "./db";
 import playgroundRouter from "./controllers/playground";
+import setupSwagger from "./swagger";
 getConnection();
 // setTimeout(async () => {
 //     const result = await (await getConnection()).query("select * from customers")
@@ -34,6 +35,9 @@ app.use(addRequestId);
 app.use(requestDuration);
 app.use(apiToken);
 app.use(limiter);
+
+// Setup Swagger
+setupSwagger(app);
 
 app.use(express.static(path.join(__dirname, "public")));
 app.get("/favicon.ico", (req, res) => {
