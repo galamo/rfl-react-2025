@@ -11,6 +11,7 @@ async function getCountriesData() {
         getTotalPopulation
         const regionStats = getRegionStatistics(data)
         const totalPopulation = getTotalPopulation(data)
+        console.log(aggregateByCurrency(data))
         console.log(regionStats, totalPopulation)
     } catch (error) {
         console.log(error.message)
@@ -44,5 +45,24 @@ function getTotalPopulation(data) {
     return data.reduce((totalPopulation, currentCountry) => {
         return totalPopulation + currentCountry.population
     }, 0)
+}
+
+function aggregateByCurrency(data) {
+    if (!Array.isArray(data)) return;
+    const countCurrency = {};
+    data.forEach(currentCountry => {
+        if (currentCountry.currencies && typeof currentCountry.currencies === 'object') {
+
+            // possible take entires / values or both
+            Object.keys(currentCountry?.currencies).forEach(currencyCode => {
+                if (countCurrency.hasOwnProperty(currencyCode)) {
+                    countCurrency[currencyCode]++
+                } else {
+                    countCurrency[currencyCode] = 1
+                }
+            })
+        }
+    })
+    return countCurrency;
 }
 getCountriesData()
