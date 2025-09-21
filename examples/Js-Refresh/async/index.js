@@ -13,4 +13,4 @@ async function getApi2() {
 getApi2()
 getApi1()
 console.log("521")
-
+// 999 > 222 > 111 > 521 > 767 || 555
