@@ -1,0 +1,12 @@
+.buttonAppLight {
+  background-color: rgb(108, 232, 232);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.buttonAppDark {
+  color: white;
+  background-color: black;
+  border: 1px solid red;
+  border-radius: 10px;
+}

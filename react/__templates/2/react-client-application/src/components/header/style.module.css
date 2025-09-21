@@ -1,0 +1,6 @@
+.marginNavs button a {
+  margin: 20px;
+  font-size: 20px;
+  color: white !important;
+  text-decoration: none !important;
+}
