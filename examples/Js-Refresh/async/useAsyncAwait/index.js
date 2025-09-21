@@ -45,5 +45,4 @@ function getTotalPopulation(data) {
         return totalPopulation + currentCountry.population
     }, 0)
 }
-
 getCountriesData()
