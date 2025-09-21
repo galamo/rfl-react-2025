@@ -67,3 +67,8 @@
 {"level":"error","message":"Token not provided!","timestamp":"2025-09-20 20:08:23"}
 {"level":"error","message":"UNAUTH reqeustId: 12d20cd0-2da6-433a-ba9b-d0fa334ceb64","timestamp":"2025-09-20 20:08:23"}
 {"level":"error","message":"Duplicate entry 'user111111@example.com' for key 'users.userName_UNIQUE' reqeustId: 5d1812f9-9198-4503-bd71-8a389395ebc7","timestamp":"2025-09-20 20:09:51"}
+{"level":"error","message":"Duplicate entry 'user@example.com' for key 'users.userName_UNIQUE' reqeustId: a67c9309-6323-43e4-a1b3-92c051f8ca06","timestamp":"2025-09-21 08:20:47"}
+{"level":"error","message":"BAD_REQUEST reqeustId: 756e7858-3c6c-458e-9db5-5a58d23c8efc","timestamp":"2025-09-21 08:23:07"}
+{"level":"error","message":"UNAUTH reqeustId: ba559697-3076-42a6-bd3d-dbe166d8b672","timestamp":"2025-09-21 08:23:07"}
+{"level":"error","message":"BAD_REQUEST reqeustId: 05900844-5604-4991-be89-988cfdb847ab","timestamp":"2025-09-21 08:23:14"}
+{"level":"error","message":"UNAUTH reqeustId: b59eee68-9c3d-42c5-b3b3-157e1c41ccf6","timestamp":"2025-09-21 08:23:14"}
