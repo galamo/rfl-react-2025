@@ -24,6 +24,4 @@ async function init() {
 
 init();
 
-
-
 console.log("End");
