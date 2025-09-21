@@ -1,5 +1,10 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
+const singleCountry_json_1 = __importDefault(require("./singleCountry.json"));
+console.log(singleCountry_json_1.default);
 function aggregateByCurrency(data) {
     if (!Array.isArray(data))
         return;
@@ -15,4 +20,9 @@ aggregateByCurrency([
 // }
 // const user = new User(1, "aa")
 // console.log(user)
-console.log("ttesttt");
+function getUser() {
+    return { name: "galamo" };
+}
+console.log(getUser());
+function getTax(value) {
+}

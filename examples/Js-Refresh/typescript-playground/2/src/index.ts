@@ -1,4 +1,8 @@
 
+import data from "./singleCountry.json"
+console.log(data)
+type SingleCountry = typeof data
+
 type Country = {
     name: string,
     code: string,
@@ -37,5 +41,14 @@ aggregateByCurrency([
 // }
 // const user = new User(1, "aa")
 // console.log(user)
-console.log("ttesttt")
+function getUser() {
+    return { name: "galamo" }
+}
+console.log(getUser())
 
+type AggregateCountry = Pick<SingleCountry, "ccn3" | "currencies" | "flags">
+type AggregateCountry1 = Omit<SingleCountry, "ccn3">
+
+function getTax(value: string | number){
+    
+}
