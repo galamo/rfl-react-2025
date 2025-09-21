@@ -7,6 +7,7 @@ interface ProductFromLib {
   id: number;
   category: string; // change it in a while.
 }
+
 // interface SuperMarketProduct extends ProductFromLib {
 //   expirationDate: Date;
 // }

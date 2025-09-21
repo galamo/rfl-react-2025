@@ -15,28 +15,45 @@ A comprehensive day-by-day curriculum covering essential JavaScript concepts for
 ## Day 1: Async Operations
 
 ### 🎯 Learning Objectives
+
 Master asynchronous programming patterns essential for modern React development.
 
 ### Core Concepts
+
 1. **Callbacks** - Traditional async handling
 2. **Promises** - Modern async operations
 3. **Async/Await** - Syntactic sugar for promises
 
-### 🛠️ Exercise 1: Async/Await Practice
+### 🛠️ Exercise 1: Callback Practice
+
+given the following execution:
+getRFLLatestProduct(printProducts)
+implement `getRFLLatestProduct` & `printProducts`
+
+### 🛠️ Exercise 1.2: Promise Practice
+
+given the following execution:
+getRFLLatestProduct().then(printProducts).catch(printError)
+implement `getRFLLatestProduct` & `printProducts` & `printError`
+
+### 🛠️ Exercise 1.3: Async/Await Practice
 
 Choose one of the following options to practice async operations:
 
 #### Option A: Countries API Integration
+
 **Goal**: Build a countries data analyzer
 
 **API Endpoint**: `http://localhost:2200/countries-rfl`
 
 **Tasks**:
+
 - Fetch and store all country names
 - Create a function to count countries by region
 - Filter countries by population threshold (> 7,275,556)
 
 **Setup**:
+
 ```bash
 mkdir getCountries
 cd getCountries
@@ -45,16 +62,19 @@ npm install axios
 ```
 
 #### Option B: Random Users API
+
 **Goal**: Build a user data processor
 
 **API Endpoint**: `https://randomuser.me/api/?results=10`
 
 **Tasks**:
+
 - Store all usernames in an array
 - Count users by gender
 - Filter users from Canada
 
 **Setup**:
+
 ```bash
 mkdir getUsersApp
 cd getUsersApp
@@ -69,6 +89,7 @@ npm install axios
 ### 🚀 Getting Started
 
 #### Project Setup
+
 ```bash
 # Initialize project
 npm init -y
@@ -88,7 +109,9 @@ tsc --watch
 ```
 
 ### Essential Configuration
+
 Add these scripts to your `package.json`:
+
 ```json
 {
   "scripts": {
@@ -105,26 +128,26 @@ Add these scripts to your `package.json`:
 
 ### 📋 Complete Type Reference
 
-| **Category** | **Type** | **Description** | **Example** |
-|--------------|----------|-----------------|-------------|
-| **Primitives** | `string` | Text data | `let name: string = "John"` |
-| | `number` | Numeric values | `let age: number = 25` |
-| | `boolean` | True/false values | `let active: boolean = true` |
-| | `bigint` | Large integers | `let big: bigint = 123n` |
-| | `symbol` | Unique identifiers | `let key: symbol = Symbol("id")` |
-| **Special** | `null` | Explicit no value | `let empty: null = null` |
-| | `undefined` | Uninitialized | `let notSet: undefined` |
-| | `any` | Any type (avoid) | `let value: any = 42` |
-| | `unknown` | Type-safe any | `let val: unknown = "test"` |
-| | `void` | No return value | `function log(): void {}` |
-| | `never` | Never occurs | `function fail(): never { throw new Error() }` |
-| **Complex** | `array` | List of values | `let nums: number[] = [1, 2, 3]` |
-| | `tuple` | Fixed-length array | `let pair: [string, number] = ["A", 1]` |
-| | `object` | Non-primitive values | `let obj: object = { name: "John" }` |
-| | `enum` | Named constants | `enum Status { Active, Inactive }` |
-| **Advanced** | `union` | Multiple types | `let value: string \| number` |
-| | `intersection` | Combined types | `type User = Name & Age` |
-| | `literal` | Specific values | `let dir: "up" \| "down"` |
+| **Category**   | **Type**       | **Description**      | **Example**                                    |
+| -------------- | -------------- | -------------------- | ---------------------------------------------- |
+| **Primitives** | `string`       | Text data            | `let name: string = "John"`                    |
+|                | `number`       | Numeric values       | `let age: number = 25`                         |
+|                | `boolean`      | True/false values    | `let active: boolean = true`                   |
+|                | `bigint`       | Large integers       | `let big: bigint = 123n`                       |
+|                | `symbol`       | Unique identifiers   | `let key: symbol = Symbol("id")`               |
+| **Special**    | `null`         | Explicit no value    | `let empty: null = null`                       |
+|                | `undefined`    | Uninitialized        | `let notSet: undefined`                        |
+|                | `any`          | Any type (avoid)     | `let value: any = 42`                          |
+|                | `unknown`      | Type-safe any        | `let val: unknown = "test"`                    |
+|                | `void`         | No return value      | `function log(): void {}`                      |
+|                | `never`        | Never occurs         | `function fail(): never { throw new Error() }` |
+| **Complex**    | `array`        | List of values       | `let nums: number[] = [1, 2, 3]`               |
+|                | `tuple`        | Fixed-length array   | `let pair: [string, number] = ["A", 1]`        |
+|                | `object`       | Non-primitive values | `let obj: object = { name: "John" }`           |
+|                | `enum`         | Named constants      | `enum Status { Active, Inactive }`             |
+| **Advanced**   | `union`        | Multiple types       | `let value: string \| number`                  |
+|                | `intersection` | Combined types       | `type User = Name & Age`                       |
+|                | `literal`      | Specific values      | `let dir: "up" \| "down"`                      |
 
 ### 🎯 Exercise: JSON-Based Type Creation
 
@@ -141,7 +164,10 @@ Create comprehensive types for user data:
     "country": "Switzerland",
     "postcode": 1085,
     "coordinates": { "latitude": "-55.9946", "longitude": "128.8545" },
-    "timezone": { "offset": "-7:00", "description": "Mountain Time (US & Canada)" }
+    "timezone": {
+      "offset": "-7:00",
+      "description": "Mountain Time (US & Canada)"
+    }
   },
   "email": "anja.clement@example.com",
   "login": {
@@ -168,6 +194,7 @@ Create comprehensive types for user data:
 ```
 
 **Tasks**:
+
 1. Create `SingleUser` type from the JSON structure
 2. Create `ArrayOfUsers` type for multiple users
 3. Implement proper nesting and optional properties
@@ -179,6 +206,7 @@ Create comprehensive types for user data:
 ### 🔧 Utility Types
 
 #### Partial & Required
+
 ```typescript
 interface User {
   name: string;
@@ -194,20 +222,22 @@ type RequiredUser = Required<User>;
 ```
 
 #### Record, Pick & Omit
+
 ```typescript
 // Create object with specific key-value types
 type UserRecord = Record<string, number>;
 
 // Select specific properties
-type UserName = Pick<User, 'name'>;
+type UserName = Pick<User, "name">;
 
 // Exclude specific properties
-type UserWithoutAge = Omit<User, 'age'>;
+type UserWithoutAge = Omit<User, "age">;
 ```
 
 ### 📐 Interfaces vs Types
 
 #### Interface Benefits
+
 - Declaration merging
 - Extensibility
 - Better error messages
@@ -227,24 +257,25 @@ interface Dog extends Animal {
 ```
 
 ### 🔀 Enums
+
 ```typescript
 // Numeric enum
 enum Status {
-  Pending,    // 0
-  Approved,   // 1
-  Rejected    // 2
+  Pending, // 0
+  Approved, // 1
+  Rejected, // 2
 }
 
 // String enum
 enum Theme {
   Light = "light",
-  Dark = "dark"
+  Dark = "dark",
 }
 
 // Heterogeneous enum
 enum Mixed {
   Yes = 1,
-  No = "NO"
+  No = "NO",
 }
 ```
 
@@ -253,20 +284,23 @@ enum Mixed {
 ## Practical Exercises
 
 ### 💰 Exercise: Tax Calculator
+
 Create a flexible tax calculation function:
 
 ```typescript
 // Handle both numeric and string inputs
-const tax1 = calculateTax({ price: 100, tax: 0.2 });        // 20
-const tax2 = calculateTax({ price: "$200", tax: 0.15 });    // 30
+const tax1 = calculateTax({ price: 100, tax: 0.2 }); // 20
+const tax2 = calculateTax({ price: "$200", tax: 0.15 }); // 30
 ```
 
 **Requirements**:
+
 - Accept `price` as `number` or `string` (with $ prefix)
 - Return calculated tax amount
 - Use proper type narrowing
 
 ### 🔌 Exercise: Connection Overloading
+
 Implement function overloading for database connections:
 
 ```typescript
@@ -283,10 +317,18 @@ function createConnection(url: string, userOrId: string | number): Connection {
 ```
 
 ### 📅 Exercise: Day of Week Function
+
 Create a type-safe day calculator:
 
 ```typescript
-type DayOfWeeks = "Sunday" | "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" | "Saturday";
+type DayOfWeeks =
+  | "Sunday"
+  | "Monday"
+  | "Tuesday"
+  | "Wednesday"
+  | "Thursday"
+  | "Friday"
+  | "Saturday";
 
 function getDayFromDate(date: Date): DayOfWeeks {
   // Your implementation here
@@ -304,6 +346,7 @@ console.log(getDayFromDate(date1)); // "Sunday"
 ### 🧬 Generics
 
 #### Basic Generic Functions
+
 ```typescript
 // Instead of multiple similar functions
 function getSingleUser(users: string[]): string {
@@ -321,6 +364,7 @@ function getSingleItem<T>(items: T[]): T {
 ```
 
 #### Generic Constraints
+
 ```typescript
 // Constrain generic to have specific properties
 function greet<T extends { name: string }>(person: T): string {
@@ -335,18 +379,19 @@ const invalidUser = { age: 30 };
 ```
 
 #### Generic Classes
+
 ```typescript
 class PlayList<T> {
   private list: T[] = [];
-  
+
   add(item: T): void {
     this.list.push(item);
   }
-  
+
   play(): T | undefined {
     return this.list.shift();
   }
-  
+
   getList(): readonly T[] {
     return this.list;
   }
@@ -366,14 +411,16 @@ musicPlaylist.add({ artist: "Artist", title: "Song", duration: 180 });
 ### 🔍 Advanced Type Manipulation
 
 #### Conditional Types
+
 ```typescript
 type StringFromType<T> = T extends string ? string : number;
 
 type StringResult = StringFromType<"hello">; // string
-type NumberResult = StringFromType<42>;      // number
+type NumberResult = StringFromType<42>; // number
 ```
 
 #### keyof Operator
+
 ```typescript
 type ScanResult = {
   numberOfVulnerabilities: number;
@@ -385,29 +432,31 @@ type ScanResult = {
 
 // Exercise: Implement these functions
 function getScanResultStats<K extends keyof ScanResult>(
-  scan: ScanResult, 
+  scan: ScanResult,
   key: K
 ): ScanResult[K] {
   return scan[key];
 }
 
 function filterScans<K extends keyof ScanResult>(
-  scans: ScanResult[], 
-  key: K, 
+  scans: ScanResult[],
+  key: K,
   value: ScanResult[K]
 ): ScanResult[] {
-  return scans.filter(scan => scan[key] === value);
+  return scans.filter((scan) => scan[key] === value);
 }
 ```
 
 ### 📝 Input Validation with Zod
 
 #### Setup
+
 ```bash
 npm install zod
 ```
 
 #### Basic Usage
+
 ```typescript
 import { z } from "zod";
 
@@ -416,7 +465,7 @@ const UserSchema = z.object({
   name: z.string().min(2),
   email: z.string().email(),
   age: z.number().min(18).max(120).optional(),
-  url: z.string().url().min(8)
+  url: z.string().url().min(8),
 });
 
 // Infer TypeScript type from schema
@@ -427,7 +476,7 @@ const userData = {
   name: "Alice",
   email: "alice@example.com",
   age: 25,
-  url: "https://example.com"
+  url: "https://example.com",
 };
 
 // Parsing (throws on invalid data)
@@ -447,11 +496,13 @@ if (result.success) {
 ## 📚 Additional Resources
 
 ### Type Declaration Files (.d.ts)
+
 - Support existing JavaScript libraries with TypeScript definitions
 - Import from `@types/` packages or create custom declarations
 - Use `lib.d.ts` for built-in JavaScript APIs
 
 ### String Literal Types
+
 ```typescript
 type Theme = "light" | "dark" | "auto";
 type ButtonSize = "small" | "medium" | "large";
@@ -465,6 +516,7 @@ setTheme("light"); // ✅ Valid
 ```
 
 ### Best Practices
+
 1. **Start strict**: Enable `strict` mode in `tsconfig.json`
 2. **Avoid `any`**: Use `unknown` when uncertain about types
 3. **Use type assertions carefully**: Prefer type guards
