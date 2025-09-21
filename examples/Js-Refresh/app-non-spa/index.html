@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non-SPA Example - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">Non-SPA Demo</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="a.html">Page A</a></li>
+          <li><a href="b.html">Page B</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Our Non-SPA Example</h1>
+        <p>This is a demonstration of a traditional multi-page website where each page requires a full reload.</p>
+      </div>
+    </section>
+
+    <main class="container">
+      <div class="content">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Coding" class="card-image">
+          <div class="card-content">
+            <h2>Understanding Non-SPA Websites</h2>
+            <p>
+              In a traditional multi-page application (MPA), each page requires a full server request and page reload.
+              This approach has been the standard for web development for many years before Single Page Applications (SPAs) became popular.
+            </p>
+            <p>
+              While SPAs offer smoother user experiences with no page reloads, traditional MPAs still have advantages:
+              better SEO out of the box, simpler development process, and lower initial load time.
+            </p>
+            <div>
+              <a href="a.html" class="btn">Visit Page A</a>
+              <a href="b.html" class="btn btn-secondary">Visit Page B</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Non-SPA Example. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

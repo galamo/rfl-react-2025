@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non-SPA Example - Page A</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">Non-SPA Demo</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="a.html" class="active">Page A</a></li>
+          <li><a href="b.html">Page B</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" style="background-color: var(--secondary-color);">
+      <div class="container">
+        <h1>Page A: Web Development Basics</h1>
+        <p>Learn about the fundamentals of web development and how traditional websites work.</p>
+      </div>
+    </section>
+
+    <main class="container">
+      <div class="content">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="HTML Code" class="card-image">
+          <div class="card-content">
+            <h2>The Building Blocks of the Web</h2>
+            <p>
+              HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript form the core 
+              technologies of the World Wide Web. HTML provides the structure, CSS handles the presentation, 
+              and JavaScript adds interactivity.
+            </p>
+            <p>
+              In traditional web development, each page is a separate HTML file that gets loaded from the server 
+              when a user navigates to it. This approach is simple, reliable, and works well for content-focused websites.
+            </p>
+            <h3>Key Benefits of Traditional Websites:</h3>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+              <li>Better SEO performance out of the box</li>
+              <li>Simpler development process</li>
+              <li>Lower initial load time</li>
+              <li>Works well without JavaScript</li>
+              <li>Easier to implement server-side rendering</li>
+            </ul>
+            <a href="index.html" class="btn">Back to Home</a>
+            <a href="b.html" class="btn btn-secondary">Go to Page B</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Non-SPA Example. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

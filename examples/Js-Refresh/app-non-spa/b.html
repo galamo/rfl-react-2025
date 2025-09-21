@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non-SPA Example - Page B</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">Non-SPA Demo</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="a.html">Page A</a></li>
+          <li><a href="b.html" class="active">Page B</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" style="background-color: var(--accent-color);">
+      <div class="container">
+        <h1>Page B: Modern Web Applications</h1>
+        <p>Discover how modern web applications are built and the evolution from traditional websites.</p>
+      </div>
+    </section>
+
+    <main class="container">
+      <div class="content">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Modern Web Development" class="card-image">
+          <div class="card-content">
+            <h2>The Evolution to Single Page Applications</h2>
+            <p>
+              While traditional multi-page applications have been the standard for decades, modern web development 
+              has evolved toward Single Page Applications (SPAs). SPAs load a single HTML page and dynamically 
+              update content as the user interacts with the app, creating a more fluid user experience.
+            </p>
+            <p>
+              Frameworks like React, Angular, and Vue.js have made SPAs more accessible to developers, 
+              providing powerful tools for building complex, interactive web applications.
+            </p>
+            <h3>Advantages of SPAs:</h3>
+            <ul style="margin-left: 20px; margin-bottom: 20px;">
+              <li>Smoother user experience with no page reloads</li>
+              <li>Faster interactions after initial load</li>
+              <li>Reduced server load</li>
+              <li>Separation of frontend and backend</li>
+              <li>More app-like experience</li>
+            </ul>
+            <p>
+              However, this non-SPA example demonstrates that traditional websites still have their place 
+              in web development, especially for content-focused sites where SEO is a priority.
+            </p>
+            <a href="index.html" class="btn">Back to Home</a>
+            <a href="a.html" class="btn btn-secondary">Go to Page A</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Non-SPA Example. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
