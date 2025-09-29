@@ -50,6 +50,7 @@ function filterScans<K extends keyof ScanResult>(
     return scans.filter(item => item[key] === value)
 }
 
+filterScans(scanErrors, "userScannerId", "aa")
 filterScans(scanErrors, "numberOfVulnerabilities", 1)
 
 type ScanResultKey = keyof Omit<ScanResult, "priorities" | "packages">
@@ -59,5 +60,16 @@ function searchScan(
     key: ScanResultKey,
     value: string | number
 ): Array<ScanResult> | undefined {
-    // implement
+    if (!Array.isArray(data)) return;
+    return data.filter(item => {
+        if (typeof value === "string") {
+            return (item[key] as string).toLowerCase() === value.toLowerCase()
+        } else {
+            return item[key] === value
+        }
+    })
 }
+
+searchScan(scanErrors, "id", 1)
+
+

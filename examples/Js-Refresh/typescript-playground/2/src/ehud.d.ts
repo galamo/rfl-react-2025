@@ -1,0 +1,1 @@
+export declare function thisIsForEhudOnly(user: string): string
