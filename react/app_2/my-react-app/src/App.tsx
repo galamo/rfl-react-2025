@@ -5,6 +5,7 @@ import './App.css'
 import getUsersNumber from './utils'
 import { HeaderApp } from './components/header-app'
 import { CounterTest } from './components/counter-test'
+import { CountriesPage } from './components/pages/countries'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <>
       <button onClick={() => setShow(!show)}> Show/Hide </button>
       {show ? <CounterTest /> : null}
-      <HeaderApp text={`Login App Page `} color='red' />
+      <CountriesPage />
     </>
   )
 }
