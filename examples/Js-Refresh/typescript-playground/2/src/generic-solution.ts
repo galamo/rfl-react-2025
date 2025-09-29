@@ -38,6 +38,8 @@ export type ApiResponse<T> = | {
         error: string,
     };;
 
+
+
 export function requestAdmins(callback: (response: ApiResponse<Admin>) => void) {
     callback({
         status: "success",
