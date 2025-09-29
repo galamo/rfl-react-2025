@@ -363,6 +363,86 @@ function getSingleItem<T>(items: T[]): T {
 }
 ```
 
+#### Example
+
+- code
+- withId
+- class PlayList<T extends>
+-
+
+#### Exercise_Generics_1
+
+- Try to unify AdminsApiResponse and UserApiResponse
+
+```javascript
+interface User {
+  type: "user";
+  name: string;
+  age: number;
+  occupation: string;
+}
+
+interface Admin {
+  type: "admin";
+  name: string;
+  age: number;
+  role: string;
+}
+
+type Person = User | Admin;
+
+const admins: Admin[] = [
+  { type: "admin", name: "Jane Doe", age: 32, role: "Administrator" },
+  { type: "admin", name: "Bruce Willis", age: 64, role: "World saver" },
+];
+
+const users: User[] = [
+  {
+    type: "user",
+    name: "Max Mustermann",
+    age: 25,
+    occupation: "Chimney sweep",
+  },
+  { type: "user", name: "Kate Müller", age: 23, occupation: "Astronaut" },
+];
+
+export type ApiResponse<T> = unknown;
+
+type AdminsApiResponse =
+  | {
+      status: "success",
+      data: Admin[],
+    }
+  | {
+      status: "error",
+      error: string,
+    };
+
+export function requestAdmins(callback: (response: AdminsApiResponse) => void) {
+  callback({
+    status: "success",
+    data: admins,
+  });
+}
+
+type UsersApiResponse =
+  | {
+      status: "success",
+      data: User[],
+    }
+  | {
+      status: "error",
+      error: string,
+    };
+
+export function requestUsers(callback: (response: UsersApiResponse) => void) {
+  callback({
+    status: "success",
+    data: users,
+  });
+}
+```
+
 #### Generic Constraints
 
 ```typescript
@@ -408,6 +488,16 @@ const musicPlaylist = new PlayList<Song>();
 musicPlaylist.add({ artist: "Artist", title: "Song", duration: 180 });
 ```
 
+#### Exercise_Generics_2
+
+- Create MergeFunction, which will merge two objects of the differnt types Song & Video and return the merged object.
+
+```javascript
+function MergeFunction<???>(????): ???? {
+  return { ...obj1, ...obj2 };
+}
+```
+
 ### 🔍 Advanced Type Manipulation
 
 #### Conditional Types
@@ -421,6 +511,52 @@ type NumberResult = StringFromType<42>; // number
 
 #### keyof Operator
 
+```javascript
+
+interface FormData {
+  username: string;
+  password: string;
+  rememberMe: boolean;
+}
+
+type FieldConfig<T> = {
+  [K in keyof T]: {
+    label: string;
+    type: string;
+    required: boolean;
+  };
+};
+
+const formConfig: FieldConfig<FormData> = {
+  username: {
+    label: "Username",
+    type: "text",
+    required: true
+  },
+  password: {
+    label: "Password",
+    type: "password",
+    required: true
+  },
+  rememberMe: {
+    label: "Remember Me",
+    type: "checkbox",
+    required: false
+  }
+};
+
+// Helper to get field configuration
+function getFieldConfig<T, K extends keyof T>(
+  config: FieldConfig<T>,
+  field: K
+): FieldConfig<T>[K] {
+  return config[field];
+}
+
+const usernameConfig = getFieldConfig(formConfig, "username");
+console.log(usernameConfig); // { label: "Username", type: "text", required: true }
+```
+
 ```typescript
 type ScanResult = {
   numberOfVulnerabilities: number;
@@ -429,13 +565,17 @@ type ScanResult = {
   id: string;
   userScannerId: string;
 };
+```
 
-// Exercise: Implement these functions
+#### Exercise: Implement the following functions
+
+```javascript
+
 function getScanResultStats<K extends keyof ScanResult>(
   scan: ScanResult,
   key: K
 ): ScanResult[K] {
-  return scan[key];
+  //implement
 }
 
 function filterScans<K extends keyof ScanResult>(
@@ -443,7 +583,7 @@ function filterScans<K extends keyof ScanResult>(
   key: K,
   value: ScanResult[K]
 ): ScanResult[] {
-  return scans.filter((scan) => scan[key] === value);
+  //implement
 }
 ```
 
