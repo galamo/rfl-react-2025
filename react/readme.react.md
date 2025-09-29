@@ -1155,5 +1155,5 @@ export const useAppState = () => {
 2. Create A UsersPage Component
 3. Show all the users in cards list ( UserCard)
 4. Support A toggle button to show/hide By Gender, Male, Female & All
-4. Support removing a specific user from the state ( Delete user )
-5. Show aggregation per Country, each country and the number of users.
+5. Support removing a specific user from the state ( Delete user )
+6. Show aggregation per Country, each country and the number of users.
