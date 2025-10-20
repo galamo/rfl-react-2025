@@ -1533,4 +1533,6 @@ export const useAppState = () => {
 ### Exercise 4 - Convert to useRef
 
 1. Convert the login Page to use useRef
-2. support `onBlur` event to popup ad error. 
+2. support `onBlur` event to popup an error.
+3. userName - invalid email
+4. password - length is short (<4)
