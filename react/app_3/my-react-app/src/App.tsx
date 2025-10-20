@@ -4,7 +4,7 @@ import { CounterTest } from "./components/counter-test";
 import { CountriesPage } from "./components/pages/countries";
 import { Route, Routes } from "react-router-dom";
 import NavigationHeader from "./components/navigation-header";
-import AsyncDemo from "./components/demo";
+import { CountryPage } from "./components/pages/country";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -20,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<div>Home</div>} />
             <Route path="/countries" element={<CountriesPage />} />
+            <Route path="/country/:countryId" element={<CountryPage />} />
           </Routes>
         </main>
       </div>

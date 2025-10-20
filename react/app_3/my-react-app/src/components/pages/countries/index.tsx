@@ -58,6 +58,7 @@ export function CountriesPage() {
               population={item.population}
               name={item.name.common}
               flag={item?.flags?.png}
+              code={item.cca3}
             />
           );
         })}
