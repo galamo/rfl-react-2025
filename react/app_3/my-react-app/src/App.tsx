@@ -13,8 +13,8 @@ function App() {
       <div>
         <NavigationHeader />
         <div style={{ marginTop: "20px" }}>
-          <button onClick={() => setShow(!show)}> Show/Hide </button>
-          {show ? <CounterTest /> : null}
+          {/* <button onClick={() => setShow(!show)}> Show/Hide </button>
+          {show ? <CounterTest /> : null} */}
         </div>
         <main className="p-6">
           <Routes>

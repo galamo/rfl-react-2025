@@ -6,7 +6,7 @@ import css from "./countries.module.css";
 import { CountryCard } from "./card";
 import axios from "axios";
 
-type SingleCountry = (typeof data)[0];
+export type SingleCountry = (typeof data)[0];
 
 export function CountriesPage() {
   const [filter, setFilter] = useState("");
@@ -20,7 +20,6 @@ export function CountriesPage() {
 
     async function getCountries() {
       try {
-        // temp
         setIsLoadingCountries(true)
         const url = "http://localhost:3000/api/data/countries-rfl"
         const result = await axios.get(url);
