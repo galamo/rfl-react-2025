@@ -1,14 +1,17 @@
 import { useState, type ChangeEvent } from "react";
 import axios from "axios";
 import styles from "./style.module.css";
+import { z } from "zod"
+import { CircularProgress } from "@mui/material";
 
-// const schema = z.object({
-//     userName: z.string().email({ message: "Invalid email" }),
-//     password: z.string().min(6, { message: "Password must be at least 6 characters" }),
-//     age: z.number().int().gte(18, { message: "Must be 18 or older" }),
-//     phone: z.string().regex(/^\d{3}-\d{3}-\d{4}$/, { message: "Invalid phone number" }),
-// });
+const schema = z.object({
+    userName: z.string().email({ message: "Invalid email" }),
+    password: z.string().min(4, { message: "Password must be at least 6 characters" }),
+    age: z.number().int().gte(18, { message: "Must be 18 or older" }),
+    phone: z.string().min(5, { message: "Invalid phone number" }),
+});
 
+type RegisterForm = z.infer<typeof schema>
 export default function RegistrationPage() {
     const [formData, setFormData] = useState({
         userName: "",
@@ -17,7 +20,7 @@ export default function RegistrationPage() {
         phone: "",
     });
 
-    const [errors, setErrors] = useState({});
+    const [errors, setErrors] = useState<any>({});
     const [message, setMessage] = useState("");
     const [isLoadingRegister, setIsLoadingRegister] = useState(false);
 
@@ -28,24 +31,21 @@ export default function RegistrationPage() {
 
     const handleSubmit = async (e: any) => {
         e.preventDefault();
-
-        // // Parse with Zod
-        // const result = schema.safeParse({
-        //     ...formData,
-        //     age: Number(formData.age),
-        // });
-
-        // if (!result.success) {
-        //     const fieldErrors = result.error.flatten().fieldErrors;
-        //     setErrors(fieldErrors);
-        //     setMessage("");
-        //     return;
-        // }
-
-        // setErrors({});
+        const result = schema.safeParse({
+            ...formData,
+            age: Number(formData.age),
+        });
+        if (!result.success) {
+            const fieldErrors = result.error.format();
+            setErrors(fieldErrors);
+            setMessage("");
+            return;
+        }
+        setErrors({});
         try {
             setIsLoadingRegister(true)
-            const response = await axios.post("http://localhost:3000/auth/register", { ...formData, age: Number(formData.age) }); // change age to number
+            const r = await axios.post("http://localhost:3000/auth/register", { ...formData, age: Number(formData.age) }); // change age to number
+            // redirect to login
             setMessage("Successfully registered!");
         } catch (err) {
             setMessage("Failed to register.");
@@ -64,7 +64,7 @@ export default function RegistrationPage() {
                     onChange={handleChange}
                     className={styles.input}
                 />
-                {/* {errors.userName && <p className={styles.error}>{errors.userName[0]}</p>} */}
+                {errors?.userName?._errors[0] && <p className={styles.error}>{errors?.userName?._errors[0]}</p>}
             </div>
 
             <div className={styles.formGroup}>
@@ -76,7 +76,7 @@ export default function RegistrationPage() {
                     onChange={handleChange}
                     className={styles.input}
                 />
-                {/* {errors.password && <p className={styles.error}>{errors.password[0]}</p>} */}
+                {errors?.password?._errors[0] && <p className={styles.error}>{errors?.password?._errors[0]}</p>}
             </div>
 
             <div className={styles.formGroup}>
@@ -88,7 +88,7 @@ export default function RegistrationPage() {
                     onChange={handleChange}
                     className={styles.input}
                 />
-                {/* {errors.age && <p className={styles.error}>{errors.age[0]}</p>} */}
+                {errors?.age?._errors[0] && <p className={styles.error}>{errors?.age?._errors[0]}</p>}
             </div>
 
             <div className={styles.formGroup}>
@@ -99,10 +99,10 @@ export default function RegistrationPage() {
                     onChange={handleChange}
                     className={styles.input}
                 />
-                {/* {errors.phone && <p className={styles.error}>{errors.phone[0]}</p>} */}
+                {errors?.phone?._errors[0] && <p className={styles.error}>{errors?.phone?._errors[0]}</p>}
             </div>
 
-            {isLoadingRegister ? <span> Loading..</span> : <button type="submit" className={styles.button}>Register</button>}
+            {isLoadingRegister ? <CircularProgress /> : <button type="submit" className={styles.button}>Register</button>}
             {message && <p>{message}</p>}
         </form>
     );

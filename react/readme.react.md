@@ -1528,6 +1528,7 @@ export const useAppState = () => {
 2. Support using userName, Password input
 3. Support loading indication, error handling, and more.
 4. Use the http://localhost:3000/api-docs to see POST /login request
+5. ![image](../docs/image.png)
 
 ### Exercise 4 - Convert to useRef
 
