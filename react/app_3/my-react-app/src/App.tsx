@@ -5,6 +5,7 @@ import { CountriesPage } from "./components/pages/countries";
 import { Route, Routes } from "react-router-dom";
 import NavigationHeader from "./components/navigation-header";
 import { CountryPage } from "./components/pages/country";
+import RegistrationPage from "./components/pages/register";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<div>Home</div>} />
             <Route path="/countries" element={<CountriesPage />} />
             <Route path="/country/:countryId" element={<CountryPage />} />
+            <Route path="/register" element={<RegistrationPage />} />
           </Routes>
         </main>
       </div>
