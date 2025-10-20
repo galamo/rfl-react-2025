@@ -2,7 +2,7 @@ import { useRef, useState, type ChangeEvent } from "react";
 import axios from "axios";
 import styles from "./style.module.css";
 import { z } from "zod"
-import { CircularProgress } from "@mui/material";
+import { Button, CircularProgress } from "@mui/material";
 
 // const schema = z.object({
 //     userName: z.string().email({ message: "Invalid email" }),
@@ -12,25 +12,33 @@ import { CircularProgress } from "@mui/material";
 // });
 
 export default function LoginPage() {
-    
+    const [error, setError] = useState("")
     const userNameInputRef = useRef<HTMLInputElement>(null)
     const passwordInputRef = useRef<HTMLInputElement>(null)
     const counterRef = useRef<Number>(0)
     function handleSubmit(e: any) {
         e.preventDefault();
+        // if (error) return;
         console.log(userNameInputRef.current?.value)
     }
-   
+
     return (
         <form className={styles.container} onSubmit={handleSubmit}>
             <div className={styles.formGroup}>
                 <label className={styles.label}>Email</label>
                 <input
-                   
+                    onBlur={() => {
+                        if (userNameInputRef.current && userNameInputRef.current?.value?.length < 5) {
+                            setError("Email too short")
+                        } else {
+                            setError("")
+                        }
+                    }}
                     ref={userNameInputRef}
                     name="userName"
                     className={styles.input}
                 />
+                {error ? <span>{error}</span> : null}
             </div>
 
             <div className={styles.formGroup}>
@@ -44,6 +52,7 @@ export default function LoginPage() {
 
 
             {false ? <CircularProgress /> : <button type="submit" className={styles.button}>Register</button>}
+
         </form>
     );
 }

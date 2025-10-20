@@ -5,6 +5,7 @@ import data from "./dummyData.json";
 import css from "./countries.module.css";
 import { CountryCard } from "./card";
 import axios from "axios";
+import { getCountriesApi, getCountriesByNameApi } from "../../../services/countriesService";
 
 export type SingleCountry = (typeof data)[0];
 
@@ -17,13 +18,15 @@ export function CountriesPage() {
   }
 
   useEffect(() => {
-
+    let submitState = true
     async function getCountries() {
       try {
         setIsLoadingCountries(true)
-        const url = "http://localhost:3000/api/data/countries-rfl"
-        const result = await axios.get(url);
-        setCountries(result.data as Array<SingleCountry>)
+        const result = !filter ? await getCountriesApi() : await getCountriesByNameApi(filter)
+        if (submitState) {
+          console.log(`===== submitState = ${submitState} filter = ${filter} =====`)
+          setCountries(result as Array<SingleCountry>)
+        }
       } catch (ex: any) {
         console.log(ex)
       } finally {
@@ -31,14 +34,19 @@ export function CountriesPage() {
       }
     }
     getCountries()
+    return () => {
+      submitState = false;
+      console.log(`===== submitState = ${submitState} filter = ${filter} =====`)
+      console.log("cleanup...filter?")
+    }
 
-  }, [])
+  }, [filter])
 
-  const filteredCountries = filter
-    ? countries.filter((item: SingleCountry) =>
-      item?.name?.common?.toLowerCase().includes(filter.toLowerCase())
-    )
-    : countries;
+  // const filteredCountries = filter
+  //   ? countries.filter((item: SingleCountry) =>
+  //     item?.name?.common?.toLowerCase().includes(filter.toLowerCase())
+  //   )
+  //   : countries;
   return (
     <>
       <div>
@@ -50,7 +58,7 @@ export function CountriesPage() {
       </div>
       {isLoadingCountries ? <h2> Loading... </h2> : null}
       <div className={css.cardsWrapper}>
-        {filteredCountries.map((item) => {
+        {countries.map((item) => {
           return (
             <CountryCard
               key={item.name.common}

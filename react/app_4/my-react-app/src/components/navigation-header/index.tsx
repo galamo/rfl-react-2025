@@ -9,6 +9,10 @@ export default function NavigationHeader() {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Countries", path: "/countries" },
+    { name: "Reports", path: "/reports" },
+    { name: "Login", path: "/login" },
+    { name: "Register", path: "/register" },
+
   ];
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
@@ -32,9 +36,8 @@ export default function NavigationHeader() {
             <Link
               key={item.path}
               to={item.path}
-              className={`${styles.navLink} ${
-                location.pathname === item.path ? styles.activeLink : ""
-              }`}
+              className={`${styles.navLink} ${location.pathname === item.path ? styles.activeLink : ""
+                }`}
               onClick={() => setMenuOpen(false)}
             >
               {item.name}

@@ -7,6 +7,7 @@ import NavigationHeader from "./components/navigation-header";
 import { CountryPage } from "./components/pages/country";
 import RegistrationPage from "./components/pages/register";
 import LoginPage from "./components/pages/login";
+import CountriesReportsPage from "./components/pages/reports";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -25,7 +26,7 @@ function App() {
             <Route path="/country/:countryId" element={<CountryPage />} />
             <Route path="/register" element={<RegistrationPage />} />
             <Route path="/login" element={<LoginPage />} />
-
+            <Route path="/reports" element={<CountriesReportsPage />} />
           </Routes>
         </main>
       </div>
