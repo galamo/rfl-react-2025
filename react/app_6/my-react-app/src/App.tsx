@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Navigate, Outlet } from "react-router-dom";
 
-import { CounterTest } from "./components/counter-test";
 import { CountriesPage } from "./components/pages/countries";
 import { Route, Routes } from "react-router-dom";
 import NavigationHeader from "./components/navigation-header";
@@ -12,14 +11,54 @@ import LoginPage from "./components/pages/login";
 import CountriesReportsPage from "./components/pages/reports";
 import UseLayoutEffectVsUseEffect from "./components/pages/useLayoutEffect";
 import UseRefRender from "./components/pages/useRefImpactRender";
-import { Expenses } from "./components/pages/expenses";
 import Home from "./components/pages/home";
-
+import axios from "axios";
+import { CircularProgress } from "@mui/material";
 
 function ProtectedRoute() {
   const token = localStorage.getItem("token");
   return token ? <Outlet /> : <Navigate to="/login" replace />;
 }
+function lsHelper() {
+  return localStorage.getItem("token");
+}
+export function AsyncProtectedRoute() {
+  const [isTokenValid, setIsTokenValid] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    async function auth() {
+      try {
+        if (!lsHelper()) {
+          setIsLoading(false);
+          setIsTokenValid(false);
+          return;
+        }
+        await axios.get("http://localhost:3000/auth/token-valid", {
+          headers: {
+            authorization: localStorage.getItem("token"),
+          },
+        });
+        setIsTokenValid(true);
+        setIsLoading(false);
+      } catch (error) {
+        console.log(error);
+        setIsLoading(false);
+        setIsTokenValid(false);
+      }
+    }
+    auth();
+  }, []);
+
+  return isLoading ? (
+    <CircularProgress />
+  ) : isTokenValid ? (
+    <Outlet />
+  ) : (
+    <Navigate to="/login" />
+  );
+}
+
 
 
 
@@ -33,7 +72,7 @@ export default function App() {
         </div>
         <main className="p-6">
           <Routes>
-            <Route element={<ProtectedRoute />}>
+            <Route element={<AsyncProtectedRoute />}>
               <Route path="/countries" element={<CountriesPage />} />
               <Route path="/country/:countryId" element={<CountryPage />} />
               <Route path="/" element={<Home />} />
