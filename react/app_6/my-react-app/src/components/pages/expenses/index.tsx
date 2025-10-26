@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import styles from "./expenses.module.css";
 import { Skeleton } from "@mui/material";
+import SkeletonTable from "./tableSkeleton";
 const dummyExpense = {
     "id": 90,
     "amount": "196.00",
@@ -77,12 +78,6 @@ const ExpensesPage = () => {
                     <h1>Expenses Manager</h1>
                     <p>Track and manage your expenses</p>
                 </div>
-                <Skeleton
-                    sx={{ bgcolor: 'grey.900' }}
-                    variant="rectangular"
-                    width={210}
-                    height={118}
-                />
                 <ExpensesTable data={expensesArray} />
 
                 <div className={styles.summaryBox}>

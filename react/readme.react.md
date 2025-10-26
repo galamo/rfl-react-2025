@@ -1591,3 +1591,8 @@ export const useAppState = () => {
 ### Exercise 10 - Support LoadingComponent
 1. same like protected-component-local
 2. send to the component prop `isLoading`
+
+
+### Exercise 11 - Sum of amount in Expenses
+1. Create a function that summarize all the expenses amounts
+2. Note this is an "heavy" calculation should be wrapped with useMemo 

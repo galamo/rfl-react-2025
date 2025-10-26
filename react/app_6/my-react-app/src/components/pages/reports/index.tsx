@@ -19,11 +19,8 @@ export default function CountriesReportsPage() {
     const countriesInitialState: Array<SingleCountry> = [];
     const [countries, setCountries] = useState<Array<SingleCountry>>(countriesInitialState);
     const [size, setSize] = useState(0);
-
-    const result = useMemo(() => {
-        return calcPopulationPerRegion(countries);
-    }, [countries]);
-
+    
+    const result = calcPopulationPerRegion(countries);
     const adaptedData = adaptDataPieChart(result);
     useEffect(() => {
         async function getCountries() {
