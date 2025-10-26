@@ -1586,3 +1586,8 @@ export const useAppState = () => {
 ```
 
 ![alt text](image.png)
+
+
+### Exercise 10 - Support LoadingComponent
+1. same like protected-component-local
+2. send to the component prop `isLoading`
