@@ -271,15 +271,15 @@ router.post("/register", authInputValidation, async (req, res, next) => {
  *               $ref: '#/components/schemas/Error'
  */
 router.post("/forgat-password", authInputValidation, (req, res, next) => {
-    try {
-        const { userName } = req.body;
+  try {
+    const { userName } = req.body;
 
-        if (userName) return res.json({ message: "password reset!" });
-        else throw new Error(ERRORS.UNAUTH);
-    } catch (error) {
-        console.log(error);
-        return next(new Error((error as Error).message));
-    }
+    if (userName) return res.json({ message: "password reset!" });
+    else throw new Error(ERRORS.UNAUTH);
+  } catch (error) {
+    console.log(error);
+    return next(new Error((error as Error).message));
+  }
 });
 
 /**
@@ -300,9 +300,45 @@ router.post("/forgat-password", authInputValidation, (req, res, next) => {
  */
 // THIS IS NOT PRODUCTION FUNCTION ONLY FOR TESTING
 router.delete("/clean", (req, res, next) => {
-    users = [];
-    console.log("DELETED ", users);
-    res.send("deleted");
+  users = [];
+  console.log("DELETED ", users);
+  res.send("deleted");
+});
+/**
+ * @swagger
+ * /token-valid:
+ *   get:
+ *     summary: Check if a token is valid
+ *     description: Endpoint to verify the validity of a user's token. Returns "valid" if the token is valid.
+ *     tags:
+ *       - Auth
+ *     responses:
+ *       200:
+ *         description: Token is valid
+ *         content:
+ *           text/plain:
+ *             schema:
+ *               type: string
+ *               example: valid
+ *       401:
+ *         description: Unauthorized - token is missing or invalid
+ */
+router.get("/token-valid", (req, res, next) => {
+  const token = req.headers["authorization"];
+  if (token) {
+    jwt.verify(token, "token_rfl", function (err: any, data: any) {
+      if (err) {
+        console.log({ message: "Token is not valid!" });
+        return next(new Error(ERRORS.UNAUTH));
+      } else {
+        res.json({ reuslt: "ok" });
+      }
+    });
+  } else {
+    console.log({ message: "Token not provided!" });
+    return next(new Error(ERRORS.UNAUTH));
+  }
+  res.send("valid");
 });
 
 export default router;

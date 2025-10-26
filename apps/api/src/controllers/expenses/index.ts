@@ -73,7 +73,7 @@ const insertExpenses = `
         VALUES (?, ?, ?, ?, ?)
     `;
 
-router.use(validateAutMiddleware(["admin", "configurator", "owner", "viewer"]));
+// router.use(validateAutMiddleware(["admin", "configurator", "owner", "viewer"]));
 
 /**
  * @swagger
@@ -143,18 +143,18 @@ router.get("/", async (req, res, next) => {
  *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.get(
-    "/categories",
-    validateAutMiddleware(["configurator"]),
-    async (req, res, next) => {
-        try {
-            const result = await getCategories();
+  "/categories",
+  // validateAutMiddleware(["configurator"]),
+  async (req, res, next) => {
+    try {
+      const result = await getCategories();
 
-            return res.json({ data: result });
-        } catch (error) {
-            res.json({ message: `there was an error ${error}` });
-            return res.status(500).json({ message: "Expenses Error" });
-        }
+      return res.json({ data: result });
+    } catch (error) {
+      res.json({ message: `there was an error ${error}` });
+      return res.status(500).json({ message: "Expenses Error" });
     }
+  }
 );
 
 /**
@@ -207,28 +207,28 @@ router.get(
  *               $ref: '#/components/schemas/ErrorResponse'
  */
 router.get("/dates", async (req, res, next) => {
-    try {
-        const from = req.query.from as string;
-        const to = req.query.to as string;
-        if (!from || !to) {
-            return res
-                .status(400)
-                .json({ message: "Missing 'from' or 'to' query parameters" });
-        }
+  try {
+    const from = req.query.from as string;
+    const to = req.query.to as string;
+    if (!from || !to) {
+      return res
+        .status(400)
+        .json({ message: "Missing 'from' or 'to' query parameters" });
+    }
 
-        const conn = await getConnection();
-        const getExpensesBetweenDates = `SELECT *
+    const conn = await getConnection();
+    const getExpensesBetweenDates = `SELECT *
             FROM northwind.expenses
             WHERE date BETWEEN ? AND ?
             ORDER BY date ASC`;
 
-        const rows = await conn?.execute(getExpensesBetweenDates, [from, to]);
+    const rows = await conn?.execute(getExpensesBetweenDates, [from, to]);
 
-        return res.json({ data: Array.isArray(rows) && rows[0] });
-    } catch (error) {
-        res.json({ message: `there was an error ${error}` });
-        return res.status(500).json({ message: "Expenses Error" });
-    }
+    return res.json({ data: Array.isArray(rows) && rows[0] });
+  } catch (error) {
+    res.json({ message: `there was an error ${error}` });
+    return res.status(500).json({ message: "Expenses Error" });
+  }
 });
 
 /**
@@ -297,7 +297,7 @@ router.get("/dates", async (req, res, next) => {
  */
 router.post(
   "/expenses",
-  validateAutMiddleware(["admin", "configurator", "owner"]),
+  // validateAutMiddleware(["admin", "configurator", "owner"]),
   async (req, res, next) => {
     console.log("Start FN  /expenses");
     try {

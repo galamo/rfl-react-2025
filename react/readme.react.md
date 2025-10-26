@@ -1536,3 +1536,53 @@ export const useAppState = () => {
 2. support `onBlur` event to popup an error.
 3. userName - invalid email
 4. password - length is short (<4)
+
+### Exercise 5 - Protect Home component
+
+1. Protect the Home component, if the user has token in his LS use
+
+### Exercise 6 - Protect Home component Using the new Wrapper component
+
+1. use the AuthComponent and protect the relevant component
+
+### Exercise 7 - Protect Home Component uinsg AuthRouter
+
+1. use the Home component using the AuthRouter component
+
+### Exercise 8 - AsyncProtect
+
+1. Using api get /token-valid ( setting the relevant header)
+2. Support Async protection by changing the AuthRouter Component
+
+### Exercise 9 - Implement expenses route
+
+1. Support new Route in Client side `/expenses`
+2. Use Swagger GET `/expenses`request
+3. Create ExpenseList component Based on Table ( choose react material or self designed table)
+4. If you select react material - consider using the following components `<Table>, <TableHead>, <TableBody>, <TableRow>, <TableCell>`
+5. if you select self designed table - consider using the following components
+
+```javascript
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      {data.map((expense, index) => (
+        <tr key={expense.id}>
+          <td> {"RENDER HERE YOUR RELEVANT TD's ITEMS"} </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+```
+
+![alt text](image.png)
