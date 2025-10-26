@@ -326,6 +326,7 @@ router.delete("/clean", (req, res, next) => {
 router.get("/token-valid", (req, res, next) => {
   const token = req.headers["authorization"];
   if (token) {
+    console.log(token)
     jwt.verify(token, "token_rfl", function (err: any, data: any) {
       if (err) {
         console.log({ message: "Token is not valid!" });
@@ -338,7 +339,7 @@ router.get("/token-valid", (req, res, next) => {
     console.log({ message: "Token not provided!" });
     return next(new Error(ERRORS.UNAUTH));
   }
-  res.send("valid");
+
 });
 
 export default router;
