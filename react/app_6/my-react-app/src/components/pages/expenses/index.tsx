@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./expenses.module.css";
 import { Skeleton } from "@mui/material";
 import SkeletonTable from "./tableSkeleton";
@@ -51,11 +51,17 @@ const ExpensesTable = ({ data }: { data: Array<SingleExpense> }) => {
 
 const ExpensesPage = () => {
     const [expensesArray, setExpensesArray] = useState<Array<SingleExpense>>([])
-    // const increment = useCallback(() => {},[])
+    const [isLoading, setIsLoading] = useState(false)
+
+
+    const result = useMemo(() => {
+        return calcTotalExpenses(expensesArray);
+    }, [expensesArray]);
 
     useEffect(() => {
         const fetchExpenses = async () => {
             try {
+                setIsLoading(true)
                 const token = localStorage.getItem("token");
                 const response = await axios.get("http://localhost:3000/api/expenses", {
                     headers: {
@@ -67,6 +73,8 @@ const ExpensesPage = () => {
                 setExpensesArray(response.data.data)
             } catch (error) {
                 console.error("Error fetching expenses:", error);
+            } finally {
+                setIsLoading(false)
             }
         };
         fetchExpenses();
@@ -78,8 +86,10 @@ const ExpensesPage = () => {
                 <div className={styles.header}>
                     <h1>Expenses Manager</h1>
                     <p>Track and manage your expenses</p>
+                    <span> Total Expenses Amount : {result}$ </span>
                 </div>
-                <ExpensesTable data={expensesArray} />
+                {isLoading ? <SkeletonTable /> : <ExpensesTable data={expensesArray} />}
+
 
                 <div className={styles.summaryBox}>
                     <div className={styles.summaryRow}>
@@ -91,5 +101,19 @@ const ExpensesPage = () => {
         </div>
     );
 };
+
+
+function calcTotalExpenses(expensesArray: Array<SingleExpense>) {
+    const result = expensesArray.reduce((total: number, current: SingleExpense) => {
+        if (current.amount) {
+            const n = Number(current.amount)
+            total += n;
+        }
+        return total;
+    }, 0)
+
+
+    return Math.ceil(result);
+}
 
 export default ExpensesPage;
