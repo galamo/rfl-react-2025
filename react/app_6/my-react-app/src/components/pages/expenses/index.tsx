@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import styles from "./expenses.module.css";
 import { Skeleton } from "@mui/material";
 import SkeletonTable from "./tableSkeleton";
@@ -51,6 +51,7 @@ const ExpensesTable = ({ data }: { data: Array<SingleExpense> }) => {
 
 const ExpensesPage = () => {
     const [expensesArray, setExpensesArray] = useState<Array<SingleExpense>>([])
+    // const increment = useCallback(() => {},[])
 
     useEffect(() => {
         const fetchExpenses = async () => {
