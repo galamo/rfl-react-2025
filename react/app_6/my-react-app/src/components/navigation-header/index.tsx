@@ -14,6 +14,8 @@ export default function NavigationHeader() {
     { name: "Login", path: "/login" },
     { name: "Register", path: "/register" },
     { name: "UseRefRender", path: "/UseRefRender" },
+    { name: "expenses", path: "/expenses" },
+
   ];
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
@@ -37,9 +39,8 @@ export default function NavigationHeader() {
             <Link
               key={item.path}
               to={item.path}
-              className={`${styles.navLink} ${
-                location.pathname === item.path ? styles.activeLink : ""
-              }`}
+              className={`${styles.navLink} ${location.pathname === item.path ? styles.activeLink : ""
+                }`}
               onClick={() => setMenuOpen(false)}
             >
               {item.name}

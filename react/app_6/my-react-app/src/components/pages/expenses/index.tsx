@@ -1,93 +1,99 @@
-export function Expenses() {
-  return (
-    <div>
-      <h1> Expenses </h1>
-      <CategoriesDropdown
-        jwt={localStorage.getItem("token") || ""}
-        onChange={() => {}}
-      />
-    </div>
-  );
+import axios from "axios";
+import { useEffect, useState } from "react";
+import styles from "./expenses.module.css";
+import { Skeleton } from "@mui/material";
+const dummyExpense = {
+    "id": 90,
+    "amount": "196.00",
+    "date": "2025-10-10T02:35:19.000Z",
+    "category": "Training",
+    "description": "Auto seed #90"
 }
-
-import React, { useEffect, useState } from "react";
-import {
-  FormControl,
-  InputLabel,
-  Select,
-  MenuItem,
-  CircularProgress,
-} from "@mui/material";
-import PropTypes from "prop-types";
-
-const CategoriesDropdown = ({
-  jwt,
-  onChange,
-}: {
-  jwt: string;
-  onChange: () => void;
-}) => {
-  const [categories, setCategories] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [selected, setSelected] = useState("");
-
-  useEffect(() => {
-    const fetchCategories = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch(
-          "http://localhost:3000/api/expenses/categories",
-          {
-            headers: {
-              Authorization: `${jwt}`,
-              "Content-Type": "application/json",
-            },
-          }
-        );
-        if (!response.ok) {
-          throw new Error(`Error fetching categories: ${response.status}`);
-        }
-        const data = await response.json();
-        setCategories(data.data || []);
-      } catch (error) {
-        console.error(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchCategories();
-  }, [jwt]);
-
-  const handleChange = (event: any) => {
-    setSelected(event.target.value);
-    if (onChange) onChange(event.target.value);
-  };
-
-  if (loading) return <CircularProgress />;
-
-  return (
-    <FormControl fullWidth>
-      <InputLabel id="categories-label">Category</InputLabel>
-      <Select
-        labelId="categories-label"
-        value={selected}
-        label="Category"
-        onChange={handleChange}
-      >
-        {categories.map((cat) => (
-          <MenuItem key={cat} value={cat}>
-            {cat}
-          </MenuItem>
-        ))}
-      </Select>
-    </FormControl>
-  );
+type SingleExpense = typeof dummyExpense
+const ExpensesTable = ({ data }: { data: Array<SingleExpense> }) => {
+    return (
+        <div className={styles.tableContainer}>
+            <table className={styles.table}>
+                <thead className={styles.tableHead}>
+                    <tr>
+                        <th>ID</th>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th className={styles.alignRight}>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {data.map((expense, index) => (
+                        <tr
+                            key={expense.id}
+                            className={`${index % 2 === 0 ? styles.rowEven : styles.rowOdd}`}
+                        >
+                            <td>{expense.id}</td>
+                            <td>{expense.date}</td>
+                            <td>
+                                <span className={styles.categoryBadge}>
+                                    {expense.category}
+                                </span>
+                            </td>
+                            <td>{expense.description}</td>
+                            <td className={styles.alignRight}>
+                                ${expense?.amount}
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
 };
 
-CategoriesDropdown.propTypes = {
-  jwt: PropTypes.string.isRequired,
-  onChange: PropTypes.func,
+const ExpensesPage = () => {
+    const [expensesArray, setExpensesArray] = useState<Array<SingleExpense>>([])
+
+    useEffect(() => {
+        const fetchExpenses = async () => {
+            try {
+                const token = localStorage.getItem("token");
+                const response = await axios.get("http://localhost:3000/api/expenses", {
+                    headers: {
+                        Accept: "application/json",
+                        Authorization: `${token}`,
+                    },
+                });
+                console.log("Expenses Data:", response.data.data);
+                setExpensesArray(response.data.data)
+            } catch (error) {
+                console.error("Error fetching expenses:", error);
+            }
+        };
+        fetchExpenses();
+    }, []);
+
+    return (
+        <div className={styles.page}>
+            <div className={styles.container}>
+                <div className={styles.header}>
+                    <h1>Expenses Manager</h1>
+                    <p>Track and manage your expenses</p>
+                </div>
+                <Skeleton
+                    sx={{ bgcolor: 'grey.900' }}
+                    variant="rectangular"
+                    width={210}
+                    height={118}
+                />
+                <ExpensesTable data={expensesArray} />
+
+                <div className={styles.summaryBox}>
+                    <div className={styles.summaryRow}>
+                        <span>Total Expenses: {expensesArray.length}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 };
 
-export default CategoriesDropdown;
+export default ExpensesPage;

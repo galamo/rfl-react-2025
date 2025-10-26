@@ -14,6 +14,8 @@ import UseRefRender from "./components/pages/useRefImpactRender";
 import Home from "./components/pages/home";
 import axios from "axios";
 import { CircularProgress } from "@mui/material";
+import { Expenses } from "./components/pages/expenses-category";
+import ExpensesPage from "./components/pages/expenses";
 
 function ProtectedRoute() {
   const token = localStorage.getItem("token");
@@ -85,7 +87,7 @@ export default function App() {
               element={<UseLayoutEffectVsUseEffect />}
             />
             <Route path="/UseRefRender" element={<UseRefRender />} />
-            {/* <Route path="/expenses" element={<Expenses />} /> */}
+            <Route path="/expenses" element={<ExpensesPage />} />
             <Route path="*" element={<h1>Not Found</h1>} />
           </Routes>
         </main>
