@@ -56,7 +56,6 @@ export function CountriesPage() {
     };
   }, [filter]);
 
-  if (!localStorage.getItem("token")) return <Navigate to={"/login"} />;
   return (
     <>
       <div>

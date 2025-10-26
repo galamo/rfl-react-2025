@@ -13,7 +13,8 @@ import CountriesReportsPage from "./components/pages/reports";
 import UseLayoutEffectVsUseEffect from "./components/pages/useLayoutEffect";
 import UseRefRender from "./components/pages/useRefImpactRender";
 import { Expenses } from "./components/pages/expenses";
-
+import Home from "./components/pages/home";
+import { ProtectedComponentLocal } from "./components/protected-component-local/index"
 export default function App() {
   const [show, setShow] = useState(true);
   return (
@@ -26,8 +27,8 @@ export default function App() {
         </div>
         <main className="p-6">
           <Routes>
-            <Route path="/" element={<div>Home</div>} />
-            <Route path="/countries" element={<CountriesPage />} />
+            <Route path="/" element={<ProtectedComponentLocal><Home /></ProtectedComponentLocal>} />
+            <Route path="/countries" element={<ProtectedComponentLocal><CountriesPage /></ProtectedComponentLocal>} />
             <Route path="/country/:countryId" element={<CountryPage />} />
             <Route path="/register" element={<RegistrationPage />} />
             <Route path="/login" element={<LoginPage />} />
