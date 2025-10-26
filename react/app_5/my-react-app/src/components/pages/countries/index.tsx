@@ -4,25 +4,26 @@ import { HeaderApp } from "../../header-app";
 import data from "./dummyData.json";
 import css from "./countries.module.css";
 import { CountryCard } from "./card";
-import axios from "axios";
-// import _ from "lodash";
+import _ from "lodash";
+import { Navigate } from "react-router-dom"
 
 import {
   getCountriesApi,
   getCountriesByNameApi,
 } from "../../../services/countriesService";
-import { Navigate } from "react-router-dom";
 
 export type SingleCountry = (typeof data)[0];
 
 export function CountriesPage() {
   const [filter, setFilter] = useState("");
   const [countries, setCountries] = useState<Array<SingleCountry>>([]);
+  const [counter, setCounter] = useState<number>(0);
   const [isLoadingCountries, setIsLoadingCountries] = useState(false);
   function handleFilter(e: ChangeEvent<HTMLInputElement>) {
     setFilter(e.target.value);
   }
 
+  const handleSearchDebounce = _.debounce(handleFilter, 300)
   useEffect(() => {
     let submitState = true;
     async function getCountries() {
@@ -55,15 +56,17 @@ export function CountriesPage() {
     };
   }, [filter]);
 
-  // if (!localStorage.getItem("token")) return <Navigate to={"/login"} />;
+  if (!localStorage.getItem("token")) return <Navigate to={"/login"} />;
   return (
     <>
       <div>
         <div>
-          {" "}
-          <HeaderApp text="Countries" />{" "}
+          <button onClick={() => {
+            setCounter(counter + 1)
+          }}> Counter </button>
+          <HeaderApp text={"Countries " + counter} />{" "}
         </div>
-        <input type="text" onChange={handleFilter} />
+        <input type="text" onChange={handleSearchDebounce} />
       </div>
       {isLoadingCountries ? <h2> Loading... </h2> : null}
       <div className={css.cardsWrapper}>
