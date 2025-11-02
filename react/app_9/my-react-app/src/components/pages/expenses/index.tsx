@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./expenses.module.css";
 import { Skeleton } from "@mui/material";
 import SkeletonTable from "./tableSkeleton";
+import { useSettings } from "../../../context/hook";
 const dummyExpense = {
     "id": 90,
     "amount": "196.00",
@@ -31,7 +32,8 @@ const ExpensesTable = ({ data }: { data: Array<SingleExpense> }) => {
                             className={`${index % 2 === 0 ? styles.rowEven : styles.rowOdd}`}
                         >
                             <td>{expense.id}</td>
-                            <td>{expense.date}</td>
+                            <td><DateAppComponent date={expense.date} />
+                            </td>
                             <td>
                                 <span className={styles.categoryBadge}>
                                     {expense.category}
@@ -48,6 +50,37 @@ const ExpensesTable = ({ data }: { data: Array<SingleExpense> }) => {
         </div>
     );
 };
+
+function DateAppComponent(props: { date: string }) {
+    const date = props.date
+    const { timezone, dateFormat } = useSettings()
+
+    // Format date based on custom format
+    const formatDate = (date: Date, format: string) => {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+
+        return format
+            .replace('YYYY', String(year))
+            .replace('MM', month)
+            .replace('DD', day);
+    };
+    const formatTime = (date: Date) => {
+        const dateStr = formatDate(date, dateFormat);
+        const timeStr = date.toLocaleTimeString();
+
+        if (timezone === "UTC") {
+            const utcDate = new Date(date.toUTCString());
+            const utcDateStr = formatDate(utcDate, dateFormat);
+            return `${utcDateStr} ${utcDate.toUTCString().split(' ')[4]} UTC`;
+        } else {
+            return `${dateStr} ${timeStr}`;
+        }
+    };
+    // const d = timezone === "UTC" ? new Date(date).toISOString() : new Date(date).toLocaleString()
+    return <span> {formatDate(new Date(date), dateFormat)} </span>
+}
 
 const ExpensesPage = () => {
     const [expensesArray, setExpensesArray] = useState<Array<SingleExpense>>([])
