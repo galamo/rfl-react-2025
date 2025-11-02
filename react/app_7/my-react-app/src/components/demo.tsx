@@ -1,5 +1,5 @@
 "use client"; // if using Next.js 13 app directory
-import React, { useState, useTransition } from "react";
+import { useState, useTransition } from "react";
 
 // Simulate a large dataset
 const largeArray = Array.from({ length: 10000 }, (_, i) => `Item ${i + 1}`);

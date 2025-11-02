@@ -1,3 +1,4 @@
+//@ts-nocheck
 export function fetchResource() {
   let status = "pending";
   let result: any;

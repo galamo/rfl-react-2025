@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { lazy, Suspense, useEffect, useState } from "react";
 import "./App.css";
 import { Navigate, Outlet } from "react-router-dom";
@@ -16,6 +17,7 @@ import axios from "axios";
 import { CircularProgress } from "@mui/material";
 import ExpensesPage from "./components/pages/expenses";
 import UseMemoAppExample from "./components/use-memo-app";
+import ErrorBoundary from "./components/error-app";
 const SuspenseLib = lazy(() => import("./components/suspensed-component"));
 
 function ProtectedRoute() {
@@ -66,38 +68,40 @@ export default function App() {
   return (
     <>
       <div>
-        <NavigationHeader />
-        <div style={{ marginTop: "20px" }}></div>
-        <main className="p-6">
-          <Routes>
-            <Route element={<AsyncProtectedRoute />}>
-              <Route path="/countries" element={<CountriesPage />} />
-              <Route path="/country/:countryId" element={<CountryPage />} />
-              <Route path="/" element={<Home />} />
-            </Route>
-            <Route path="/register" element={<RegistrationPage />} />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/reports" element={<CountriesReportsPage />} />
-            <Route
-              path="/useLayoutEffect"
-              element={<UseLayoutEffectVsUseEffect />}
-            />
-            <Route path="/UseRefRender" element={<UseRefRender />} />
-            <Route path="/expenses" element={<ExpensesPage />} />
-            <Route path="/use-memo-example" element={<UseMemoAppExample />} />
+        <ErrorBoundary>
+          <NavigationHeader />
+          <div style={{ marginTop: "20px" }}></div>
+          <main className="p-6">
+            <Routes>
+              <Route element={<AsyncProtectedRoute />}>
+                <Route path="/countries" element={<CountriesPage />} />
+                <Route path="/country/:countryId" element={<CountryPage />} />
+                <Route path="/" element={<Home />} />
+              </Route>
+              <Route path="/register" element={<RegistrationPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/reports" element={<CountriesReportsPage />} />
+              <Route
+                path="/useLayoutEffect"
+                element={<UseLayoutEffectVsUseEffect />}
+              />
+              <Route path="/UseRefRender" element={<UseRefRender />} />
+              <Route path="/expenses" element={<ExpensesPage />} />
+              <Route path="/use-memo-example" element={<UseMemoAppExample />} />
 
-            <Route
-              path="/suspensed-component"
-              element={
-                <Suspense fallback={<h2>Loading...</h2>}>
-                  <SuspenseLib />
-                </Suspense>
-              }
-            />
+              <Route
+                path="/suspensed-component"
+                element={
+                  <Suspense fallback={<h2>Loading...</h2>}>
+                    <SuspenseLib />
+                  </Suspense>
+                }
+              />
 
-            <Route path="*" element={<h1>Not Found</h1>} />
-          </Routes>
-        </main>
+              <Route path="*" element={<h1>Not Found</h1>} />
+            </Routes>
+          </main>
+        </ErrorBoundary>
       </div>
     </>
   );

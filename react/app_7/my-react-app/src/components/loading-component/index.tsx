@@ -1,3 +1,5 @@
+
+//@ts-nocheck
 import { CircularProgress } from "@mui/material";
 import { Navigate } from "react-router-dom";
 

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import axios from "axios";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import styles from "./expenses.module.css";

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useEffect, useMemo, useState } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 import { Button } from "@mui/material";

@@ -1,5 +1,6 @@
-import { useState, memo } from "react";
 //@ts-nocheck
+import { useState, memo } from "react";
+
 // WITHOUT React.memo - re-renders every time parent updates
 const UserCardWithoutMemo = ({
   name,

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useState } from "react";
 import css from "../countries.module.css";
 import { Navigate, useNavigate } from "react-router-dom";

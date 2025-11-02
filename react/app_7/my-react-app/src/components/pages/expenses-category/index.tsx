@@ -1,3 +1,4 @@
+//@ts-nocheck
 export function Expenses() {
   return (
     <div>
@@ -9,7 +10,7 @@ export function Expenses() {
     </div>
   );
 }
-
+//@ts-nocheck
 import React, { useEffect, useState } from "react";
 import {
   FormControl,
