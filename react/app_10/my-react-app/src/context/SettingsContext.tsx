@@ -13,7 +13,8 @@ export interface SettingsState {
 // Action types
 export type SettingsAction =
   | { type: "SET_TIMEZONE"; payload: TimezoneType }
-  | { type: "SET_DATE_FORMAT"; payload: string };
+  | { type: "SET_DATE_FORMAT"; payload: string }
+  | { type: "SET_EXPENSE_LIMIT"; payload: number };
 
 // Context interface
 interface SettingsContextType {
@@ -47,6 +48,8 @@ export function settingsReducer(
       return { ...state, timezone: action.payload };
     case "SET_DATE_FORMAT":
       return { ...state, dateFormat: action.payload };
+    case "SET_EXPENSE_LIMIT":
+      return { ...state, expenseLimit: action.payload };
     default:
       return state;
   }

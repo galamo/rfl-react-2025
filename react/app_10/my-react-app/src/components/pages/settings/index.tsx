@@ -7,6 +7,8 @@ export default function SettingsPage() {
   const { state, dispatch } = useSettings();
   const [customFormat, setCustomFormat] = useState("");
   const [isCustom, setIsCustom] = useState(false);
+  const [customLimit, setCustomLimit] = useState("");
+  const [isCustomLimit, setIsCustomLimit] = useState(false);
 
   const handleTimezoneChange = (newTimezone: TimezoneType) => {
     dispatch({ type: "SET_TIMEZONE", payload: newTimezone });
@@ -30,6 +32,22 @@ export default function SettingsPage() {
       setIsCustom(true);
     }
   };
+
+  const handleExpenseLimitChange = (limit: number) => {
+    dispatch({ type: "SET_EXPENSE_LIMIT", payload: limit });
+    setIsCustomLimit(false);
+    setCustomLimit("");
+  };
+
+  const handleCustomLimitSubmit = () => {
+    const value = parseInt(customLimit, 10);
+    if (!isNaN(value) && value >= 1) {
+      dispatch({ type: "SET_EXPENSE_LIMIT", payload: value });
+      setIsCustomLimit(true);
+    }
+  };
+
+  const expenseLimitPresets = [5, 10, 15, 20, 25, 50];
 
   return (
     <div className={styles.container}>
@@ -140,6 +158,72 @@ export default function SettingsPage() {
         <div className={styles.currentSetting}>
           <strong>Current format:</strong> {state.dateFormat}
           {isCustom && <span className={styles.customBadge}> (Custom)</span>}
+        </div>
+      </div>
+
+      <div className={styles.settingSection}>
+        <h2>Expense Limit Settings</h2>
+        <p className={styles.description}>
+          Set the maximum number of expenses to display in the expenses table.
+        </p>
+
+        <div className={styles.expenseLimitOptions}>
+          {expenseLimitPresets.map((limit) => (
+            <button
+              key={limit}
+              className={`${styles.limitButton} ${
+                state.expenseLimit === limit && !isCustomLimit
+                  ? styles.active
+                  : ""
+              }`}
+              onClick={() => handleExpenseLimitChange(limit)}
+            >
+              <div className={styles.buttonContent}>
+                <span className={styles.buttonTitle}>{limit}</span>
+                <span className={styles.buttonDescription}>
+                  {limit === 1 ? "expense" : "expenses"}
+                </span>
+              </div>
+              {state.expenseLimit === limit && !isCustomLimit && (
+                <span className={styles.checkmark}>✓</span>
+              )}
+            </button>
+          ))}
+        </div>
+
+        <div className={styles.customFormatSection}>
+          <h3>Custom Limit</h3>
+          <p className={styles.customDescription}>
+            Enter a custom expense limit (minimum: 1)
+          </p>
+          <div className={styles.customInputGroup}>
+            <input
+              type="number"
+              min="1"
+              className={styles.customInput}
+              placeholder="Enter custom limit..."
+              value={customLimit}
+              onChange={(e) => setCustomLimit(e.target.value)}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  handleCustomLimitSubmit();
+                }
+              }}
+            />
+            <button
+              className={styles.customSubmitButton}
+              onClick={handleCustomLimitSubmit}
+              disabled={!customLimit.trim() || isNaN(parseInt(customLimit, 10)) || parseInt(customLimit, 10) < 1}
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.currentSetting}>
+          <strong>Current limit:</strong> {state.expenseLimit}{" "}
+          {state.expenseLimit === 1 ? "expense" : "expenses"}
+          {isCustomLimit && <span className={styles.customBadge}> (Custom)</span>}
         </div>
       </div>
     </div>
