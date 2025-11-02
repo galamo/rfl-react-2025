@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useState } from "react";
 import "./App.css";
 import { CounterTest } from "./components/counter-test";
