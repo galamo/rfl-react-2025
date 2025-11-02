@@ -33,7 +33,7 @@ export interface SettingsProviderProps {
 export const initialSettingsState: SettingsState = {
   timezone: "UTC",
   dateFormat: "MM/DD/YYYY",
-  expenseLimit: 10,
+  expenseLimit: 5,
 };
 
 // Reducer function
@@ -41,6 +41,7 @@ export function settingsReducer(
   state: SettingsState,
   action: SettingsAction
 ): SettingsState {
+
   switch (action.type) {
     case "SET_TIMEZONE":
       return { ...state, timezone: action.payload };

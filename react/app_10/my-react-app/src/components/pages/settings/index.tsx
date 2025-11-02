@@ -43,9 +43,8 @@ export default function SettingsPage() {
 
         <div className={styles.timezoneOptions}>
           <button
-            className={`${styles.timezoneButton} ${
-              state.timezone === "UTC" ? styles.active : ""
-            }`}
+            className={`${styles.timezoneButton} ${state.timezone === "UTC" ? styles.active : ""
+              }`}
             onClick={() => handleTimezoneChange("UTC")}
           >
             <div className={styles.buttonContent}>
@@ -60,9 +59,8 @@ export default function SettingsPage() {
           </button>
 
           <button
-            className={`${styles.timezoneButton} ${
-              state.timezone === "Local" ? styles.active : ""
-            }`}
+            className={`${styles.timezoneButton} ${state.timezone === "Local" ? styles.active : ""
+              }`}
             onClick={() => handleTimezoneChange("Local")}
           >
             <div className={styles.buttonContent}>
@@ -92,11 +90,10 @@ export default function SettingsPage() {
           {dateFormatPresets.map((preset) => (
             <button
               key={preset.value}
-              className={`${styles.dateFormatButton} ${
-                state.dateFormat === preset.value && !isCustom
-                  ? styles.active
-                  : ""
-              }`}
+              className={`${styles.dateFormatButton} ${state.dateFormat === preset.value && !isCustom
+                ? styles.active
+                : ""
+                }`}
               onClick={() => handleDateFormatChange(preset.value)}
             >
               <div className={styles.buttonContent}>
