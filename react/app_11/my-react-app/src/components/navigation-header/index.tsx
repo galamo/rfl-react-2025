@@ -1,11 +1,14 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import styles from "./style.module.css";
+import { useDispatch } from "react-redux";
+import { useAppDispatch } from "../../store/hooks";
+import { setExpenseLimit } from "../../store/slices/settingsSlice";
 
 export default function NavigationHeader() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const dispatch = useAppDispatch()
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Countries", path: "/countries" },
@@ -22,7 +25,11 @@ export default function NavigationHeader() {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>My App</div>
-
+        <button onClick={() => {
+          dispatch(setExpenseLimit(10))
+        }}>
+          Reset
+        </button>
         <button
           className={styles.menuButton}
           onClick={toggleMenu}
@@ -37,9 +44,8 @@ export default function NavigationHeader() {
             <Link
               key={item.path}
               to={item.path}
-              className={`${styles.navLink} ${
-                location.pathname === item.path ? styles.activeLink : ""
-              }`}
+              className={`${styles.navLink} ${location.pathname === item.path ? styles.activeLink : ""
+                }`}
               onClick={() => setMenuOpen(false)}
             >
               {item.name}

@@ -14,31 +14,25 @@ export function CountriesPage() {
   const [counter, setCounter] = useState<number>(0);
   const [currentTime, setCurrentTime] = useState(new Date());
   const [localFilter, setLocalFilter] = useState("");
-  
-  const dispatch = useAppDispatch();
-  const settings = useAppSelector((state) => state.settings);
-  const { countries, loading, filter } = useAppSelector((state) => state.countries);
 
+  const dispatch = useAppDispatch();
+  const dateFormat = useAppSelector((state) => state.settings.dateFormat);
+  const timezone = useAppSelector((state) => state.settings.timezone);
+  const { countries, loading, filter } = useAppSelector((state) => state.countries);
+  console.log("Countries render!")
   function handleFilter(e: ChangeEvent<HTMLInputElement>) {
     const value = e.target.value;
     setLocalFilter(value);
   }
 
-  // Update time every second
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentTime(new Date());
-    }, 1000);
 
-    return () => clearInterval(timer);
-  }, []);
 
   // Format date based on custom format
   const formatDate = (date: Date, format: string) => {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
-    
+
     return format
       .replace('YYYY', String(year))
       .replace('MM', month)
@@ -47,12 +41,12 @@ export function CountriesPage() {
 
   // Format time based on timezone setting
   const formatTime = (date: Date) => {
-    const dateStr = formatDate(date, settings.dateFormat);
+    const dateStr = formatDate(date, dateFormat);
     const timeStr = date.toLocaleTimeString();
-    
-    if (settings.timezone === "UTC") {
+
+    if (timezone === "UTC") {
       const utcDate = new Date(date.toUTCString());
-      const utcDateStr = formatDate(utcDate, settings.dateFormat);
+      const utcDateStr = formatDate(utcDate, dateFormat);
       return `${utcDateStr} ${utcDate.toUTCString().split(' ')[4]} UTC`;
     } else {
       return `${dateStr} ${timeStr}`;
@@ -107,7 +101,7 @@ export function CountriesPage() {
             borderRadius: "5px",
           }}
         >
-          <strong>Current Time ({settings.timezone}):</strong> {formatTime(currentTime)}
+          <strong>Current Time ({timezone}):</strong> {formatTime(currentTime)}
         </div>
         <input type="text" onChange={handleFilter} />
       </div>
