@@ -10,10 +10,17 @@ export interface SettingsState {
   expenseLimit: number;
 }
 
+export enum ACTIONS_TYPES {
+  SET_TIMEZONE = "SET_TIMEZONE",
+  SET_DATE_FORMAT = "SET_DATE_FORMAT",
+  SET_EXPENSES_LIMIT = "SET_EXPENSES_LIMIT"
+}
+
 // Action types
 export type SettingsAction =
-  | { type: "SET_TIMEZONE"; payload: TimezoneType }
-  | { type: "SET_DATE_FORMAT"; payload: string };
+  | { type: ACTIONS_TYPES.SET_TIMEZONE; payload: TimezoneType }
+  | { type: ACTIONS_TYPES.SET_DATE_FORMAT; payload: string }
+  | { type: ACTIONS_TYPES.SET_EXPENSES_LIMIT; payload: number };
 
 // Context interface
 interface SettingsContextType {
@@ -47,6 +54,8 @@ export function settingsReducer(
       return { ...state, timezone: action.payload };
     case "SET_DATE_FORMAT":
       return { ...state, dateFormat: action.payload };
+    case ACTIONS_TYPES.SET_EXPENSES_LIMIT:
+      return { ...state, expenseLimit: action.payload };
     default:
       return state;
   }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSettings } from "../../../context/hook";
-import type { TimezoneType } from "../../../context/SettingsContext";
+import { ACTIONS_TYPES, type TimezoneType } from "../../../context/SettingsContext";
 import styles from "./settings.module.css";
 
 export default function SettingsPage() {
@@ -11,7 +11,7 @@ export default function SettingsPage() {
   const handleTimezoneChange = (newTimezone: TimezoneType) => {
     dispatch({ type: "SET_TIMEZONE", payload: newTimezone });
   };
-
+  const expenseLimitPresets = [5, 10, 15, 20, 25, 50];
   const dateFormatPresets = [
     { label: "MM/DD/YYYY", value: "MM/DD/YYYY", example: "12/31/2024" },
     { label: "DD/MM/YYYY", value: "DD/MM/YYYY", example: "31/12/2024" },
@@ -30,6 +30,11 @@ export default function SettingsPage() {
       setIsCustom(true);
     }
   };
+  const handleExpenseLimitChange = (limit: number) => {
+    if (!limit) return;
+    dispatch({ type: ACTIONS_TYPES.SET_EXPENSES_LIMIT, payload: limit })
+  }
+
 
   return (
     <div className={styles.container}>
@@ -102,7 +107,7 @@ export default function SettingsPage() {
                   Example: {preset.example}
                 </span>
               </div>
-              {state.dateFormat === preset.value && !isCustom && (
+              {state.dateFormat === preset.value && (
                 <span className={styles.checkmark}>✓</span>
               )}
             </button>
@@ -140,6 +145,37 @@ export default function SettingsPage() {
         <div className={styles.currentSetting}>
           <strong>Current format:</strong> {state.dateFormat}
           {isCustom && <span className={styles.customBadge}> (Custom)</span>}
+        </div>
+
+        <div className={styles.settingSection}>
+          <h2>Expense Limit Settings</h2>
+          <p className={styles.description}>
+            Set the maximum number of expenses to display in the expenses table.
+          </p>
+
+          <div className={styles.expenseLimitOptions}>
+            {expenseLimitPresets.map((limit) => (
+              <button
+                key={limit}
+                className={`${styles.limitButton} ${state.expenseLimit === limit
+                  ? styles.active
+                  : ""
+                  }`}
+                onClick={() => { handleExpenseLimitChange(limit) }}
+              >
+                <div className={styles.buttonContent}>
+                  <span className={styles.buttonTitle}>{limit}</span>
+                  <span className={styles.buttonDescription}>
+                    {limit === 1 ? "expense" : "expenses"}
+                  </span>
+                </div>
+                {state.expenseLimit === limit && (
+                  <span className={styles.checkmark}>✓</span>
+                )}
+              </button>
+            ))}
+          </div>
+
         </div>
       </div>
     </div>
