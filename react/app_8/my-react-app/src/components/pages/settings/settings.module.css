@@ -1,0 +1,94 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.settingSection {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settingSection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.timezoneOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.timezoneButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.timezoneButton:hover {
+  border-color: #2196f3;
+  background: #f5f5f5;
+}
+
+.timezoneButton.active {
+  border-color: #2196f3;
+  background: #e3f2fd;
+}
+
+.buttonContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.buttonTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.buttonDescription {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.checkmark {
+  font-size: 1.5rem;
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.currentSetting {
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  color: #555;
+}
+
+.currentSetting strong {
+  color: #333;
+}

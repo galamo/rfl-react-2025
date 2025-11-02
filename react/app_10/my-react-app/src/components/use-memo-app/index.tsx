@@ -1,8 +1,13 @@
-```javascript
 import { useState, memo } from "react";
-
+//@ts-nocheck
 // WITHOUT React.memo - re-renders every time parent updates
-const UserCardWithoutMemo = ({ name, email }) => {
+const UserCardWithoutMemo = ({
+  name,
+  email,
+}: {
+  name: string;
+  email: string;
+}) => {
   console.log("UserCardWithoutMemo rendered");
   return (
     <div className="p-4 border border-gray-300 rounded-lg bg-white">
@@ -13,19 +18,21 @@ const UserCardWithoutMemo = ({ name, email }) => {
 };
 
 // WITH React.memo - only re-renders when props change
-const UserCardWithMemo = memo(({ name, email }) => {
-  console.log("UserCardWithMemo rendered");
-  return (
-    <div className="p-4 border border-blue-300 rounded-lg bg-blue-50">
-      <h3 className="font-bold text-lg">{name}</h3>
-      <p className="text-gray-600">{email}</p>
-    </div>
-  );
-});
+const UserCardWithMemo = memo(
+  ({ name, email }: { name: string; email: string }) => {
+    console.log("UserCardWithMemo rendered");
+    return (
+      <div className="p-4 border border-blue-300 rounded-lg bg-blue-50">
+        <h3 className="font-bold text-lg">{name}</h3>
+        <p className="text-gray-600">{email}</p>
+      </div>
+    );
+  }
+);
 
 // WITH React.memo and custom comparison function
 const ExpensiveCard = memo(
-  ({ user, metadata }) => {
+  ({ user }: { user: { id: string; name: string; email: string } }) => {
     console.log("ExpensiveCard rendered");
     return (
       <div className="p-4 border border-green-300 rounded-lg bg-green-50">
@@ -42,16 +49,16 @@ const ExpensiveCard = memo(
   }
 );
 
-export default function App() {
+export default function UseMemoAppExample() {
   const [count, setCount] = useState(0);
   const [userProps] = useState({
-    name: "John Doe",
-    email: "john@example.com",
+    name: "Eliran B",
+    email: "Eliran@RFL.com",
   });
-  const [userObject] = useState({
+  const [userObject, setUserObj] = useState({
     id: 1,
-    name: "Jane Smith",
-    email: "jane@example.com",
+    name: "Yulia A",
+    email: "Yulia@RFL.com",
   });
 
   return (
@@ -60,7 +67,13 @@ export default function App() {
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h1 className="text-2xl font-bold mb-4">React.memo Demo</h1>
           <button
-            onClick={() => setCount(count + 1)}
+            onClick={() => {
+              setCount(count + 1);
+              if (count % 2 === 0) {
+                console.log(count);
+                setUserObj({ ...userObject, id: count });
+              }
+            }}
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
             Increment Counter: {count}
@@ -97,17 +110,7 @@ export default function App() {
             metadata={{ lastUpdated: Date.now() }}
           />
         </div>
-
-        <div className="bg-yellow-50 border border-yellow-200 p-4 rounded">
-          <h3 className="font-bold mb-2">Open your browser console!</h3>
-          <p className="text-sm">
-            Click the counter button and watch the console logs to see which
-            components re-render. Only "UserCardWithoutMemo" should log on each
-            click.
-          </p>
-        </div>
       </div>
     </div>
   );
 }
-```

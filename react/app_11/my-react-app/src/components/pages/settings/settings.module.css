@@ -1,0 +1,236 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.settingSection {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settingSection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.timezoneOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.timezoneButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.timezoneButton:hover {
+  border-color: #2196f3;
+  background: #f5f5f5;
+}
+
+.timezoneButton.active {
+  border-color: #2196f3;
+  background: #e3f2fd;
+}
+
+.buttonContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.buttonTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.buttonDescription {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.checkmark {
+  font-size: 1.5rem;
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.currentSetting {
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  color: #555;
+}
+
+.currentSetting strong {
+  color: #333;
+}
+
+.settingSection + .settingSection {
+  margin-top: 30px;
+}
+
+.dateFormatOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.dateFormatButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.dateFormatButton:hover {
+  border-color: #4caf50;
+  background: #f5f5f5;
+}
+
+.dateFormatButton.active {
+  border-color: #4caf50;
+  background: #e8f5e9;
+}
+
+.customFormatSection {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.customFormatSection h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.customDescription {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.customInputGroup {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.customInput {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.customInput:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.customInput::placeholder {
+  color: #999;
+}
+
+.customSubmitButton {
+  padding: 12px 24px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.customSubmitButton:hover:not(:disabled) {
+  background: #45a049;
+}
+
+.customSubmitButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.customBadge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #4caf50;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-left: 8px;
+}
+
+.expenseLimitOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.limitButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  min-width: 120px;
+}
+
+.limitButton:hover {
+  border-color: #ff9800;
+  background: #f5f5f5;
+}
+
+.limitButton.active {
+  border-color: #ff9800;
+  background: #fff3e0;
+}
+
+.limitButton .checkmark {
+  color: #ff9800;
+}
+

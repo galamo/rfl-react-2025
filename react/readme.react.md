@@ -1587,12 +1587,42 @@ export const useAppState = () => {
 
 ![alt text](image.png)
 
-
 ### Exercise 10 - Support LoadingComponent
+
 1. same like protected-component-local
 2. send to the component prop `isLoading`
 
-
 ### Exercise 11 - Sum of amount in Expenses
+
 1. Create a function that summarize all the expenses amounts
-2. Note this is an "heavy" calculation should be wrapped with useMemo 
+2. Note this is an "heavy" calculation should be wrapped with useMemo
+
+### Exercise 12 - Support LazyComponent Loading
+
+1. Support Lazy on Countries Reports Page
+2. is it possible to wrap the entire tree with Suspense? implement. (suspense=>routes)
+
+### Exercise 13 - Add an error image
+
+1. Instead of the default error message, display an image.
+
+### Exercise 14 - Context
+
+1. Support using the timezone functionality in the expenses table
+2. Add Settings option to support Date format input
+   { label: "MM/DD/YYYY", value: "MM/DD/YYYY", example: "12/31/2024" },
+   { label: "DD/MM/YYYY", value: "DD/MM/YYYY", example: "31/12/2024" },
+   { label: "YYYY-MM-DD", value: "YYYY-MM-DD", example: "2024-12-31" },
+
+### Exercise 15 - useReducer
+
+1.  Add a Setting option to support limiting the number of items(5,10,15) presented in the expenses table - control it client side only.
+
+### Exercise 16 - redux toolkit
+
+1. Create expensesSlice with asyncThinkAction to fetch expenses
+2. Subscribe the expenses component
+3. Add a reducer to handle the expensesSlice
+
+### Issue discussion - component subsciption.
+

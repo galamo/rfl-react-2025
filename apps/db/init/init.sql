@@ -1336,3 +1336,42 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 --  User_1 Gal, Amouyal, galamouyal88@gmail.com Admin
 --  User_2 Tomer, D, tdth@gmail.com User
+
+
+-- MySQL dump 10.13  Distrib 8.0.36, for macos14 (arm64)
+--
+-- Host: 127.0.0.1    Database: northwind
+-- ------------------------------------------------------
+-- Server version	8.4.5
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `expenses`
+--
+
+LOCK TABLES `expenses` WRITE;
+/*!40000 ALTER TABLE `expenses` DISABLE KEYS */;
+INSERT INTO `expenses` VALUES (1,777.77,'2026-09-21 22:32:55','Travel','Auto seed #1'),(2,183.39,'2025-07-30 01:59:06','Travel','Auto seed #2'),(3,140.60,'2025-08-27 06:39:05','Office','Auto seed #3'),(4,192.60,'2025-10-12 17:56:08','Training','Auto seed #4'),(5,329.62,'2025-10-11 14:31:36','Software','Auto seed #5'),(6,199.76,'2025-08-18 22:19:05','Utilities','Auto seed #6'),(7,95.16,'2025-10-16 07:18:51','Other','Auto seed #7'),(8,100.61,'2025-08-14 13:02:26','Shipping','Auto seed #8'),(9,446.84,'2025-08-18 03:35:51','Other','Auto seed #9'),(10,373.68,'2025-07-31 13:22:32','Equipment','Auto seed #10'),(11,68.84,'2025-10-23 07:30:08','Meals','Auto seed #11'),(12,395.13,'2025-07-28 04:11:44','Software','Auto seed #12'),(13,88.67,'2025-10-04 13:22:41','Training','Auto seed #13'),(14,111.45,'2025-07-29 05:38:49','Software','Auto seed #14'),(15,32.72,'2025-09-17 03:57:40','Marketing','Auto seed #15'),(16,96.82,'2025-10-21 21:43:17','Utilities','Auto seed #16'),(17,414.96,'2025-08-02 00:31:37','Equipment','Auto seed #17'),(18,124.97,'2025-10-26 03:51:01','Training','Auto seed #18'),(19,167.93,'2025-09-07 03:47:33','Utilities','Auto seed #19'),(20,75.08,'2025-08-02 08:04:34','Training','Auto seed #20'),(21,310.19,'2025-09-25 08:39:03','Office','Auto seed #21'),(22,183.83,'2025-10-08 08:37:08','Travel','Auto seed #22'),(23,104.96,'2025-08-02 09:15:44','Software','Auto seed #23'),(24,67.80,'2025-09-09 18:48:24','Utilities','Auto seed #24'),(25,135.89,'2025-08-20 15:16:57','Other','Auto seed #25'),(26,389.03,'2025-10-03 03:57:23','Training','Auto seed #26'),(27,235.93,'2025-10-04 16:33:03','Equipment','Auto seed #27'),(28,151.27,'2025-10-03 10:04:25','Marketing','Auto seed #28'),(29,196.46,'2025-09-21 11:04:33','Equipment','Auto seed #29'),(30,63.34,'2025-08-08 16:48:59','Marketing','Auto seed #30'),(31,84.46,'2025-09-14 10:39:47','Equipment','Auto seed #31'),(32,490.47,'2025-07-27 13:11:49','Travel','Auto seed #32'),(33,130.31,'2025-10-25 13:33:07','Equipment','Auto seed #33'),(34,174.80,'2025-10-22 22:54:12','Marketing','Auto seed #34'),(35,133.85,'2025-10-25 21:16:58','Training','Auto seed #35'),(36,397.71,'2025-10-24 06:27:28','Travel','Auto seed #36'),(37,74.35,'2025-09-10 22:37:28','Equipment','Auto seed #37'),(38,118.05,'2025-09-28 21:25:12','Software','Auto seed #38'),(39,127.34,'2025-08-10 05:30:56','Other','Auto seed #39'),(40,94.25,'2025-08-31 22:22:59','Office','Auto seed #40'),(41,89.99,'2025-10-04 04:12:11','Software','Auto seed #41'),(42,267.04,'2025-08-23 18:33:31','Equipment','Auto seed #42'),(43,100.56,'2025-10-13 04:50:53','Travel','Auto seed #43'),(44,230.88,'2025-09-10 04:16:29','Equipment','Auto seed #44'),(45,277.14,'2025-07-26 15:46:34','Travel','Auto seed #45'),(46,455.89,'2025-10-11 22:03:23','Marketing','Auto seed #46'),(47,125.87,'2025-10-20 23:02:00','Office','Auto seed #47'),(48,112.67,'2025-10-16 18:09:43','Shipping','Auto seed #48'),(49,298.14,'2025-08-30 06:30:43','Utilities','Auto seed #49'),(50,170.68,'2025-09-20 20:33:47','Marketing','Auto seed #50'),(51,10.81,'2025-08-17 15:20:18','Training','Auto seed #51'),(52,108.51,'2025-09-16 11:13:40','Office','Auto seed #52'),(53,369.01,'2025-10-05 06:57:32','Equipment','Auto seed #53'),(54,301.85,'2025-10-25 19:17:42','Marketing','Auto seed #54'),(55,58.53,'2025-08-23 06:13:48','Utilities','Auto seed #55'),(56,356.12,'2025-09-05 14:16:46','Training','Auto seed #56'),(57,299.88,'2025-09-26 11:16:55','Meals','Auto seed #57'),(58,75.18,'2025-10-24 05:00:23','Training','Auto seed #58'),(59,51.52,'2025-10-23 03:02:20','Office','Auto seed #59'),(60,346.77,'2025-08-21 23:44:42','Utilities','Auto seed #60'),(61,121.23,'2025-09-14 20:29:36','Equipment','Auto seed #61'),(62,333.49,'2025-09-14 10:08:53','Office','Auto seed #62'),(63,96.68,'2025-08-01 08:39:53','Meals','Auto seed #63'),(64,258.90,'2025-09-14 08:13:24','Training','Auto seed #64'),(65,149.36,'2025-08-13 14:07:43','Travel','Auto seed #65'),(66,179.04,'2025-09-03 21:54:23','Other','Auto seed #66'),(67,365.55,'2025-09-17 00:08:24','Software','Auto seed #67'),(68,201.55,'2025-10-23 21:39:42','Equipment','Auto seed #68'),(69,317.38,'2025-09-14 16:16:56','Office','Auto seed #69'),(70,42.74,'2025-08-09 04:35:13','Other','Auto seed #70'),(71,313.58,'2025-08-10 02:53:05','Equipment','Auto seed #71'),(72,224.56,'2025-09-14 11:24:55','Utilities','Auto seed #72'),(73,241.48,'2025-10-03 02:54:58','Training','Auto seed #73'),(74,52.51,'2025-10-08 12:10:26','Office','Auto seed #74'),(75,443.90,'2025-08-12 06:40:00','Meals','Auto seed #75'),(76,424.09,'2025-10-05 16:36:36','Meals','Auto seed #76'),(77,38.95,'2025-09-26 21:56:43','Utilities','Auto seed #77'),(78,204.97,'2025-10-20 23:55:32','Marketing','Auto seed #78'),(79,210.52,'2025-08-08 22:44:00','Other','Auto seed #79'),(80,300.64,'2025-09-23 07:50:57','Utilities','Auto seed #80'),(81,180.09,'2025-07-26 12:59:16','Travel','Auto seed #81'),(82,340.32,'2025-08-14 20:52:44','Equipment','Auto seed #82'),(83,10.12,'2025-10-19 06:51:09','Utilities','Auto seed #83'),(84,43.76,'2025-07-27 02:26:33','Utilities','Auto seed #84'),(85,147.11,'2025-10-03 06:33:55','Office','Auto seed #85'),(86,397.55,'2025-08-22 10:37:35','Other','Auto seed #86'),(87,204.00,'2025-08-15 08:42:23','Shipping','Auto seed #87'),(88,411.73,'2025-09-04 09:55:24','Equipment','Auto seed #88'),(89,275.86,'2025-08-21 01:45:45','Marketing','Auto seed #89'),(90,437.27,'2025-09-02 07:13:56','Marketing','Auto seed #90'),(91,18.80,'2025-08-15 00:48:44','Travel','Auto seed #91'),(92,140.81,'2025-09-26 18:06:50','Marketing','Auto seed #92'),(93,459.41,'2025-08-01 16:38:25','Marketing','Auto seed #93'),(94,64.34,'2025-10-21 16:57:28','Training','Auto seed #94'),(95,363.32,'2025-08-09 07:17:03','Meals','Auto seed #95'),(96,311.91,'2025-08-16 09:33:56','Meals','Auto seed #96'),(97,112.21,'2025-08-15 10:10:44','Training','Auto seed #97'),(98,178.15,'2025-09-18 10:58:37','Equipment','Auto seed #98'),(99,29.14,'2025-09-10 09:37:58','Software','Auto seed #99'),(100,331.25,'2025-08-27 00:58:15','Equipment','Auto seed #100');
+/*!40000 ALTER TABLE `expenses` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2025-11-02  0:04:55

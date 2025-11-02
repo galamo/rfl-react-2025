@@ -1,10 +1,11 @@
 # Subjects
 
-1. Suspense lazy loading
-2. Context API
-3. State management - global state
-4. MFS
-5. Error Boundry
+- memo - complete
+- Suspense lazy loading ( Code splitting lecture )
+- Error Boundry
+- Context API
+- State management - global state
+- MFS
 
 Hooks
 

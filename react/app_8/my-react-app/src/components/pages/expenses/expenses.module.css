@@ -1,0 +1,120 @@
+/* Layout */
+.page {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    /* gray-100 */
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    /* gray-900 */
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    color: #4b5563;
+    /* gray-600 */
+}
+
+/* Table */
+.tableContainer {
+    overflow-x: auto;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #2563eb;
+    /* blue-600 */
+    color: white;
+    text-align: left;
+}
+
+.table th {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.table td {
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+    color: #111827;
+    /* gray-900 */
+}
+
+/* Row styles */
+.rowEven {
+    background-color: #f9fafb;
+    /* gray-50 */
+}
+
+.rowOdd {
+    background-color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #eff6ff;
+    /* blue-50 */
+    transition: background-color 0.2s ease;
+}
+
+/* Category badge */
+.categoryBadge {
+    display: inline-block;
+    background-color: #dbeafe;
+    /* blue-100 */
+    color: #1e40af;
+    /* blue-800 */
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+}
+
+/* Alignment */
+.alignRight {
+    text-align: right;
+    font-weight: 500;
+}
+
+/* Summary box */
+.summaryBox {
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+}
+
+.summaryRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4b5563;
+    /* gray-600 */
+    font-size: 0.875rem;
+}
+
+.summaryTotal {
+    font-weight: 600;
+    color: #111827;
+    /* gray-900 */
+}
